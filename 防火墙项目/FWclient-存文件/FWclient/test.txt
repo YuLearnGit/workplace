@@ -1,0 +1,16 @@
+*DPI RULES
+sleep sleep
+sleep sleep
+
+*APC RULES
+apc apc apc 
+apc apc apc
+
+*STD RULES
+std std std
+std std std 
+
+*CNC RULES
+cnc cnc cnc
+cnc cnc cnc
+

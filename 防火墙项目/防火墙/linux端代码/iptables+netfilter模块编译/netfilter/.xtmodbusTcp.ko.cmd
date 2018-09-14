@@ -1,0 +1,1 @@
+cmd_/home/hehe/netfilter/xtmodbusTcp.ko := ld -r -m elf_i386 -T ./scripts/module-common.lds --build-id  -o /home/hehe/netfilter/xtmodbusTcp.ko /home/hehe/netfilter/xtmodbusTcp.o /home/hehe/netfilter/xtmodbusTcp.mod.o

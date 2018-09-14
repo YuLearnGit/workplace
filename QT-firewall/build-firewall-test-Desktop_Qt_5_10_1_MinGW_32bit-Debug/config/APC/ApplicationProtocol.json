@@ -1,0 +1,6 @@
+{"applyDevMAC":"hehhehe","protocol":"telnet","status":"ACCEPT"}
+{"applyDevMAC":"hehhehe","protocol":"pop3","status":"ACCEPT"}
+{"applyDevMAC":"hehhehe","protocol":"ftp","status":"ACCEPT"}
+{"applyDevMAC":"hehhehe","protocol":"smtp","status":"ACCEPT"}
+{"applyDevMAC":"hehhehe","protocol":"ssh","status":"ACCEPT"}
+{"applyDevMAC":"hehhehe","protocol":"http","status":"ACCEPT"}

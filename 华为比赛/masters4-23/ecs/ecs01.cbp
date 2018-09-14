@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="ecs01" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/ecs01" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option parameters="C:\Users\于仁飞\Desktop\workplace\华为比赛\masters507-100\ecs\data\TrainData_2015.12.txt C:\Users\于仁飞\Desktop\workplace\华为比赛\masters507-100\ecs\data\input_3hosttypes_5flavors_1week.txt C:\Users\于仁飞\Desktop\workplace\华为比赛\masters507-100\ecs\data\output.txt" />
+				<Compiler>
+					<Add option="-std=c++11" />
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/ecs01" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-std=c++11" />
+			<Add option="-fexceptions" />
+			<Add directory="lib" />
+		</Compiler>
+		<Unit filename="HandleData.cpp" />
+		<Unit filename="HandleData.h" />
+		<Unit filename="PlaceFlavor.h" />
+		<Unit filename="ecs.cpp" />
+		<Unit filename="ecs01.cbp" />
+		<Unit filename="forecast.cpp" />
+		<Unit filename="forecast.h" />
+		<Unit filename="get_data.cpp" />
+		<Unit filename="get_data.h" />
+		<Unit filename="io.cpp" />
+		<Unit filename="lib/lib_io.h" />
+		<Unit filename="lib/lib_time.h" />
+		<Unit filename="predict.cpp" />
+		<Unit filename="predict.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

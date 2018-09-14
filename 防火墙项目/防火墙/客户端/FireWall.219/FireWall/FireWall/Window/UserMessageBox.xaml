@@ -1,0 +1,37 @@
+﻿<Window x:Class="FireWall.UserMessageBox"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FireWall"
+        mc:Ignorable="d"
+        Title="{Binding ElementName=lblTitle,Path=Text}" Height="250" Width="350" WindowStyle="None" ResizeMode="NoResize" x:Name="main" AllowsTransparency="True" WindowStartupLocation="CenterScreen" Topmost="True">
+    <Window.Triggers>
+        <EventTrigger RoutedEvent="Window.Loaded" >
+            <BeginStoryboard>
+                <Storyboard Name="sbOpShow">
+                    <DoubleAnimation Storyboard.TargetName="main" Storyboard.TargetProperty="Opacity" From="0" To="1" Duration="0:0:0.1"/>
+                </Storyboard>
+            </BeginStoryboard>
+        </EventTrigger>
+    </Window.Triggers>
+    <Border BorderBrush="Blue" BorderThickness="0.5">
+        <Canvas Background="{DynamicResource backgroundbrush1}" >
+            <Border Canvas.Top="0" Height="41" Width="{Binding Width, ElementName=main, UpdateSourceTrigger=PropertyChanged}" BorderThickness="0,0,0,1" BorderBrush="#FFEFE2E2">
+                <TextBlock x:Name="lblTitle" Text="test" HorizontalAlignment="Left" Foreground="{DynamicResource FontBrush}" FontSize="18.667" Margin="5,5,0,5" Width="157" Padding="10,1,0,0"/>
+            </Border>
+            <Border Canvas.Top="41" Width="{Binding Width, ElementName=main, UpdateSourceTrigger=PropertyChanged}" Height="155">
+                <TextBlock x:Name="lblMsg" Foreground="{DynamicResource FontBrush}" FontSize="16" TextWrapping="Wrap" Text="test" MaxWidth="300" MaxHeight="100" HorizontalAlignment="Center" Canvas.Left="135" Canvas.Top="74" VerticalAlignment="Center"/>
+            </Border>
+            <Border x:Name="Confirm" Visibility="Collapsed" Height="54" Width="350" Canvas.Top="196">
+                <Canvas>
+                    <Button x:Name="Yes1" Content="确 定" HorizontalAlignment="Left" Height="30" VerticalAlignment="Top" Width="75" Style="{DynamicResource MainButtonStyle}" BorderBrush="{x:Null}" BorderThickness="0" Foreground="{DynamicResource FontBrush}" Background="{DynamicResource buttongroundbrush}" Click="Yes_Click" Canvas.Left="165" Canvas.Top="10" IsDefault="True"/>
+                    <Button x:Name="No" Content="取 消" HorizontalAlignment="Left" Height="30" VerticalAlignment="Top" Width="75" Style="{DynamicResource MainButtonStyle}" BorderBrush="{x:Null}" BorderThickness="0" Foreground="{DynamicResource FontBrush}" Background="{DynamicResource buttongroundbrush}" Click="No_Click" Canvas.Left="260" Canvas.Top="10" IsCancel="True"/>
+                </Canvas>
+            </Border>
+            <Border x:Name="Tip" Visibility="Visible" Height="54" Width="350" Canvas.Top="196">
+                <Button x:Name="Yes2" Content="确 定" HorizontalAlignment="Left" Height="30" Margin="227,10,0,0" VerticalAlignment="Top" Width="75" Style="{DynamicResource MainButtonStyle}" BorderBrush="{x:Null}" BorderThickness="0" Foreground="{DynamicResource FontBrush}" Background="{DynamicResource buttongroundbrush}" Click="Yes_Click" IsDefault="True"/>
+            </Border>
+        </Canvas>
+    </Border>
+</Window>

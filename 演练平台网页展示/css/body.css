@@ -1,0 +1,248 @@
+/*通用设置*/
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	/*width: 1rem;
+	height: 100%;
+	background-image: url(img/background.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;*/
+	background-color: black;
+}
+
+#body {
+	width: 0.995rem;
+	height: 0.51rem;
+}
+
+span,
+p {
+	font-size: 0.014rem;
+	color: white;
+}
+
+#line1,
+#line2,
+#canvasDiv {
+	position: absolute;
+}
+
+#line1,
+#line2,
+#canvasDiv {
+	margin-top: -0.51rem;
+}
+
+#canvasDiv {
+	width: 0.995rem;
+	height: 0.45rem;
+}
+
+#canvas1,
+#canvas2,
+#canvas3,
+#canvas4,
+#canvas5,
+#canvas6 {
+	width: 0.231rem;
+	height: 0.115rem;
+	float: left;
+}
+
+#canvas1,
+#canvas2,
+#canvas3 {
+	margin-top: 0.24rem;
+}
+
+#canvas1 {
+	margin-left: -0.03rem;
+}
+
+#canvas2 {
+	margin-left: -0.04rem;
+}
+
+#canvas4 {
+	margin-top: 0.06rem;
+	margin-left: -0.25rem;
+}
+
+#canvas5 {
+	margin-top: 0.2rem;
+	margin-left: 0.133rem;
+}
+
+#canvas6 {
+	margin-top: 0.05rem;
+	margin-left: 0.133rem;
+}
+
+#font_computer,
+#font_wall,
+#font_plc,
+#font_virus,
+#font_fan,
+#font_led {
+	position: absolute;
+}
+
+#font_computer,
+#font_wall,
+#font_plc {
+	margin-top: 0.27rem;
+}
+
+#font_computer {
+	margin-left: 0.09rem;
+}
+
+#font_wall {
+	margin-left: 0.28rem;
+}
+
+#font_plc {
+	margin-left: 0.513rem;
+}
+
+#font_fan {
+	margin-top: 0.229rem;
+	margin-left: 0.88rem;
+}
+
+#font_led {
+	margin-top: 0.395rem;
+	margin-left: 0.88rem;
+}
+
+#font_virus {
+	margin-top: 0.09rem;
+	margin-left: 0.5rem;
+}
+
+
+/*风机*/
+
+#fan,
+#computer,
+#wall,
+#plc,
+#virus1,
+#virus2,
+#led,
+#button {
+	position: relative;
+}
+
+
+/*风机叶片*/
+
+#img_blade {
+	width: 0.15rem;
+	position: absolute;
+	left: 0.809rem;
+}
+
+
+/*风机杆*/
+
+#img_rod {
+	width: 0.008rem;
+	margin-top: 0.085rem;
+	position: absolute;
+	left: 0.8806rem;
+}
+
+#img_computer,
+#img_wall,
+#img_plc,
+#img_virus,
+#img_led,
+#btn_attack,
+#btn_defense,
+#btn_start {
+	position: absolute;
+}
+
+
+/*电脑*/
+
+#img_computer {
+	width: 0.1rem;
+	margin-top: 0.194rem;
+	margin-left: 0.033rem;
+}
+
+
+/*防火墙*/
+
+#img_wall {
+	width: 0.08rem;
+	margin-top: 0.194rem;
+	margin-left: 0.253rem;
+	/*visibility: hidden;*/
+}
+
+
+/*PLC*/
+
+#img_plc {
+	width: 0.1rem;
+	margin-top: 0.194rem;
+	margin-left: 0.466rem;
+}
+
+
+/*病毒*/
+
+#img_virus {
+	width: 0.05rem;
+	margin-top: 0.077rem;
+	margin-left: 0.422rem;
+}
+
+
+/*LED*/
+
+#img_led {
+	width: 0.09rem;
+	margin-top: 0.303rem;
+	margin-left: 0.832rem;
+}
+
+
+/*按钮*/
+
+#btn_start,
+#btn_attack,
+#btn_defense {
+	width: 0.077rem;
+	height: 0.023rem;
+	background: grey;
+	border: 0.001rem;
+	border: 0.001rem solid grey;
+	border-radius: 0.006rem;
+	box-shadow: 0 0.003rem 0 #375C7F;
+	font-family: "微软雅黑";
+	color: white;
+	text-align: center;
+}
+
+#btn_start {
+	margin-top: 0.466rem;
+	margin-left: 0.155rem;
+}
+
+#btn_attack {
+	margin-top: 0.466rem;
+	margin-left: 0.389rem;
+}
+
+#btn_defense {
+	margin-top: 0.466rem;
+	margin-left: 0.622rem;
+}

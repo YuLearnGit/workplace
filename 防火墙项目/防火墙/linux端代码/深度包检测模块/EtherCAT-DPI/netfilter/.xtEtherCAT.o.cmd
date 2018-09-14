@@ -1,0 +1,1 @@
+cmd_/home/EtherCAT-DPI/netfilter/xtEtherCAT.o := ld -m elf_i386   -r -o /home/EtherCAT-DPI/netfilter/xtEtherCAT.o /home/EtherCAT-DPI/netfilter/xt_EtherCAT.o /home/EtherCAT-DPI/netfilter/EtherCAT_decode.o /home/EtherCAT-DPI/netfilter/general_api.o 

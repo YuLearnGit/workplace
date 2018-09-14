@@ -1,0 +1,34 @@
+cmake version 2.8.12.2
+-- The C compiler identification is GNU 4.8.4
+-- The CXX compiler identification is GNU 4.8.4
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /usr1/udocker/answer/sdk-gcc-master-991c61389b67ab7a39f6471dd2832571728123e9/build
+cmake return: 0
+Scanning dependencies of target ecs
+[ 20%] Building CXX object CMakeFiles/ecs.dir/io.cpp.o
+[ 40%] Building CXX object CMakeFiles/ecs.dir/tools.cpp.o
+[ 60%] Building CXX object CMakeFiles/ecs.dir/ecs.cpp.o
+[ 80%] Building CXX object CMakeFiles/ecs.dir/predict.cpp.o
+[100%] Building CXX object CMakeFiles/ecs.dir/handle_trainData.cpp.o
+Linking CXX executable /usr1/udocker/answer/sdk-gcc-master-991c61389b67ab7a39f6471dd2832571728123e9/bin/ecs
+[100%] Built target ecs
+make return: 0
+
+
+#### ANSWER RUNTIME EXCEPTION ####
+
+[preliminariesL1usecase01]: "answer exit abnormal
+Missing output file."
+[preliminariesL1usecase02]: "answer exit abnormal
+Missing output file."
+[preliminariesL2usecase01]: "The format of the output file is invalid. error info: fail to get the vm placement in host"
+[preliminariesL2usecase02]: "The format of the output file is invalid. error info: fail to get the vm placement in host"

@@ -1,0 +1,1 @@
+cmd_/home/modbustcp/netfilter/xtmodbusTcp.o := ld -m elf_i386   -r -o /home/modbustcp/netfilter/xtmodbusTcp.o /home/modbustcp/netfilter/xt_modbusTcp.o /home/modbustcp/netfilter/modbus_decode.o /home/modbustcp/netfilter/general_api.o 

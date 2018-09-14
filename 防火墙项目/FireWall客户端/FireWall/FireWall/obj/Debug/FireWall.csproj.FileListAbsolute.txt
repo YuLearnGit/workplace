@@ -1,0 +1,1031 @@
+C:\Users\JIE\Desktop\FireWall\FireWall\bin\Debug\FireWall.exe.config
+C:\Users\JIE\Desktop\FireWall\FireWall\obj\Debug\App.g.cs
+C:\Users\JIE\Desktop\FireWall\FireWall\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\JIE\Desktop\FireWall\FireWall\obj\Debug\FireWall_MarkupCompile.cache
+C:\Users\JIE\Desktop\FireWall\FireWall\obj\Debug\FireWall_MarkupCompile.lref
+C:\Users\JIE\Desktop\FireWall\FireWall\bin\Debug\FireWall.exe
+C:\Users\JIE\Desktop\FireWall\FireWall\bin\Debug\FireWall.pdb
+C:\Users\JIE\Desktop\FireWall\FireWall\bin\Debug\DevExpress.Charts.v15.1.Core.dll
+C:\Users\JIE\Desktop\FireWall\FireWall\bin\Debug\DevExpress.Data.v15.1.dll
+C:\Users\JIE\Desktop\FireWall\FireWall\bin\Debug\DevExpress.Mvvm.v15.1.dll
+C:\Users\JIE\Desktop\FireWall\FireWall\bin\Debug\DevExpress.Printing.v15.1.Core.dll
+C:\Users\JIE\Desktop\FireWall\FireWall\bin\Debug\DevExpress.Xpf.Charts.v15.1.dll
+C:\Users\JIE\Desktop\FireWall\FireWall\bin\Debug\DevExpress.Xpf.Core.v15.1.dll
+C:\Users\JIE\Desktop\FireWall\FireWall\bin\Debug\DevExpress.Xpf.Gauges.v15.1.dll
+C:\Users\JIE\Desktop\FireWall\FireWall\bin\Debug\DevExpress.Xpf.Grid.v15.1.Core.dll
+C:\Users\JIE\Desktop\FireWall\FireWall\bin\Debug\DevExpress.Xpf.Grid.v15.1.dll
+C:\Users\JIE\Desktop\FireWall\FireWall\bin\Debug\DevExpress.Xpf.Printing.v15.1.dll
+C:\Users\JIE\Desktop\FireWall\FireWall\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\JIE\Desktop\FireWall\FireWall\bin\Debug\DevExpress.Xpf.Ribbon.v15.1.dll
+C:\Users\JIE\Desktop\FireWall\FireWall\bin\Debug\DevExpress.Xpf.DocumentViewer.v15.1.Core.dll
+C:\Users\JIE\Desktop\FireWall\FireWall\bin\Debug\DevExpress.Xpf.Docking.v15.1.dll
+C:\Users\JIE\Desktop\FireWall\FireWall\bin\Debug\DevExpress.RichEdit.v15.1.Core.dll
+C:\Users\JIE\Desktop\FireWall\FireWall\bin\Debug\DevExpress.Xpf.Layout.v15.1.Core.dll
+C:\Users\JIE\Desktop\FireWall\FireWall\bin\Debug\DevExpress.Office.v15.1.Core.dll
+C:\Users\JIE\Desktop\FireWall\FireWall\bin\Debug\DevExpress.Data.v15.1.xml
+C:\Users\JIE\Desktop\FireWall\FireWall\bin\Debug\DevExpress.Mvvm.v15.1.xml
+C:\Users\JIE\Desktop\FireWall\FireWall\bin\Debug\DevExpress.Printing.v15.1.Core.xml
+C:\Users\JIE\Desktop\FireWall\FireWall\bin\Debug\DevExpress.Xpf.Charts.v15.1.xml
+C:\Users\JIE\Desktop\FireWall\FireWall\bin\Debug\DevExpress.Xpf.Core.v15.1.xml
+C:\Users\JIE\Desktop\FireWall\FireWall\bin\Debug\DevExpress.Xpf.Gauges.v15.1.xml
+C:\Users\JIE\Desktop\FireWall\FireWall\bin\Debug\DevExpress.Xpf.Grid.v15.1.xml
+C:\Users\JIE\Desktop\FireWall\FireWall\bin\Debug\DevExpress.Xpf.Grid.v15.1.Core.xml
+C:\Users\JIE\Desktop\FireWall\FireWall\bin\Debug\DevExpress.Xpf.Printing.v15.1.xml
+C:\Users\JIE\Desktop\FireWall\FireWall\bin\Debug\System.Windows.Interactivity.xml
+C:\Users\JIE\Desktop\FireWall\FireWall\bin\Debug\DevExpress.Xpf.Ribbon.v15.1.xml
+C:\Users\JIE\Desktop\FireWall\FireWall\bin\Debug\DevExpress.Xpf.Docking.v15.1.xml
+C:\Users\JIE\Desktop\FireWall\FireWall\bin\Debug\DevExpress.RichEdit.v15.1.Core.xml
+C:\Users\JIE\Desktop\FireWall\FireWall\bin\Debug\DevExpress.Xpf.Layout.v15.1.Core.xml
+C:\Users\JIE\Desktop\FireWall\FireWall\bin\Debug\DevExpress.Office.v15.1.Core.xml
+C:\Users\JIE\Desktop\FireWall\FireWall\bin\Debug\de\DevExpress.Data.v15.1.resources.dll
+C:\Users\JIE\Desktop\FireWall\FireWall\bin\Debug\es\DevExpress.Data.v15.1.resources.dll
+C:\Users\JIE\Desktop\FireWall\FireWall\bin\Debug\ja\DevExpress.Data.v15.1.resources.dll
+C:\Users\JIE\Desktop\FireWall\FireWall\bin\Debug\ru\DevExpress.Data.v15.1.resources.dll
+C:\Users\JIE\Desktop\FireWall\FireWall\bin\Debug\zh-Hans\DevExpress.Data.v15.1.resources.dll
+C:\Users\JIE\Desktop\FireWall\FireWall\bin\Debug\de\DevExpress.Printing.v15.1.Core.resources.dll
+C:\Users\JIE\Desktop\FireWall\FireWall\bin\Debug\es\DevExpress.Printing.v15.1.Core.resources.dll
+C:\Users\JIE\Desktop\FireWall\FireWall\bin\Debug\ja\DevExpress.Printing.v15.1.Core.resources.dll
+C:\Users\JIE\Desktop\FireWall\FireWall\bin\Debug\ru\DevExpress.Printing.v15.1.Core.resources.dll
+C:\Users\JIE\Desktop\FireWall\FireWall\bin\Debug\zh-Hans\DevExpress.Printing.v15.1.Core.resources.dll
+C:\Users\JIE\Desktop\FireWall\FireWall\bin\Debug\de\DevExpress.Xpf.Charts.v15.1.resources.dll
+C:\Users\JIE\Desktop\FireWall\FireWall\bin\Debug\es\DevExpress.Xpf.Charts.v15.1.resources.dll
+C:\Users\JIE\Desktop\FireWall\FireWall\bin\Debug\ja\DevExpress.Xpf.Charts.v15.1.resources.dll
+C:\Users\JIE\Desktop\FireWall\FireWall\bin\Debug\ru\DevExpress.Xpf.Charts.v15.1.resources.dll
+C:\Users\JIE\Desktop\FireWall\FireWall\bin\Debug\zh-Hans\DevExpress.Xpf.Charts.v15.1.resources.dll
+C:\Users\JIE\Desktop\FireWall\FireWall\bin\Debug\de\DevExpress.Xpf.Core.v15.1.resources.dll
+C:\Users\JIE\Desktop\FireWall\FireWall\bin\Debug\es\DevExpress.Xpf.Core.v15.1.resources.dll
+C:\Users\JIE\Desktop\FireWall\FireWall\bin\Debug\ja\DevExpress.Xpf.Core.v15.1.resources.dll
+C:\Users\JIE\Desktop\FireWall\FireWall\bin\Debug\ru\DevExpress.Xpf.Core.v15.1.resources.dll
+C:\Users\JIE\Desktop\FireWall\FireWall\bin\Debug\zh-Hans\DevExpress.Xpf.Core.v15.1.resources.dll
+C:\Users\JIE\Desktop\FireWall\FireWall\bin\Debug\de\DevExpress.Xpf.Gauges.v15.1.resources.dll
+C:\Users\JIE\Desktop\FireWall\FireWall\bin\Debug\es\DevExpress.Xpf.Gauges.v15.1.resources.dll
+C:\Users\JIE\Desktop\FireWall\FireWall\bin\Debug\ja\DevExpress.Xpf.Gauges.v15.1.resources.dll
+C:\Users\JIE\Desktop\FireWall\FireWall\bin\Debug\ru\DevExpress.Xpf.Gauges.v15.1.resources.dll
+C:\Users\JIE\Desktop\FireWall\FireWall\bin\Debug\zh-Hans\DevExpress.Xpf.Gauges.v15.1.resources.dll
+C:\Users\JIE\Desktop\FireWall\FireWall\bin\Debug\de\DevExpress.Xpf.Grid.v15.1.Core.resources.dll
+C:\Users\JIE\Desktop\FireWall\FireWall\bin\Debug\es\DevExpress.Xpf.Grid.v15.1.Core.resources.dll
+C:\Users\JIE\Desktop\FireWall\FireWall\bin\Debug\ja\DevExpress.Xpf.Grid.v15.1.Core.resources.dll
+C:\Users\JIE\Desktop\FireWall\FireWall\bin\Debug\ru\DevExpress.Xpf.Grid.v15.1.Core.resources.dll
+C:\Users\JIE\Desktop\FireWall\FireWall\bin\Debug\zh-Hans\DevExpress.Xpf.Grid.v15.1.Core.resources.dll
+C:\Users\JIE\Desktop\FireWall\FireWall\bin\Debug\de\DevExpress.Xpf.Printing.v15.1.resources.dll
+C:\Users\JIE\Desktop\FireWall\FireWall\bin\Debug\es\DevExpress.Xpf.Printing.v15.1.resources.dll
+C:\Users\JIE\Desktop\FireWall\FireWall\bin\Debug\ja\DevExpress.Xpf.Printing.v15.1.resources.dll
+C:\Users\JIE\Desktop\FireWall\FireWall\bin\Debug\ru\DevExpress.Xpf.Printing.v15.1.resources.dll
+C:\Users\JIE\Desktop\FireWall\FireWall\bin\Debug\zh-Hans\DevExpress.Xpf.Printing.v15.1.resources.dll
+C:\Users\JIE\Desktop\FireWall\FireWall\bin\Debug\de\System.Windows.Interactivity.resources.dll
+C:\Users\JIE\Desktop\FireWall\FireWall\bin\Debug\en\System.Windows.Interactivity.resources.dll
+C:\Users\JIE\Desktop\FireWall\FireWall\bin\Debug\es\System.Windows.Interactivity.resources.dll
+C:\Users\JIE\Desktop\FireWall\FireWall\bin\Debug\fr\System.Windows.Interactivity.resources.dll
+C:\Users\JIE\Desktop\FireWall\FireWall\bin\Debug\it\System.Windows.Interactivity.resources.dll
+C:\Users\JIE\Desktop\FireWall\FireWall\bin\Debug\ja\System.Windows.Interactivity.resources.dll
+C:\Users\JIE\Desktop\FireWall\FireWall\bin\Debug\ko\System.Windows.Interactivity.resources.dll
+C:\Users\JIE\Desktop\FireWall\FireWall\bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+C:\Users\JIE\Desktop\FireWall\FireWall\bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+C:\Users\JIE\Desktop\FireWall\FireWall\bin\Debug\de\DevExpress.Xpf.Ribbon.v15.1.resources.dll
+C:\Users\JIE\Desktop\FireWall\FireWall\bin\Debug\es\DevExpress.Xpf.Ribbon.v15.1.resources.dll
+C:\Users\JIE\Desktop\FireWall\FireWall\bin\Debug\ja\DevExpress.Xpf.Ribbon.v15.1.resources.dll
+C:\Users\JIE\Desktop\FireWall\FireWall\bin\Debug\ru\DevExpress.Xpf.Ribbon.v15.1.resources.dll
+C:\Users\JIE\Desktop\FireWall\FireWall\bin\Debug\zh-Hans\DevExpress.Xpf.Ribbon.v15.1.resources.dll
+C:\Users\JIE\Desktop\FireWall\FireWall\bin\Debug\de\DevExpress.Xpf.DocumentViewer.v15.1.Core.resources.dll
+C:\Users\JIE\Desktop\FireWall\FireWall\bin\Debug\es\DevExpress.Xpf.DocumentViewer.v15.1.Core.resources.dll
+C:\Users\JIE\Desktop\FireWall\FireWall\bin\Debug\ja\DevExpress.Xpf.DocumentViewer.v15.1.Core.resources.dll
+C:\Users\JIE\Desktop\FireWall\FireWall\bin\Debug\ru\DevExpress.Xpf.DocumentViewer.v15.1.Core.resources.dll
+C:\Users\JIE\Desktop\FireWall\FireWall\bin\Debug\de\DevExpress.Xpf.Docking.v15.1.resources.dll
+C:\Users\JIE\Desktop\FireWall\FireWall\bin\Debug\es\DevExpress.Xpf.Docking.v15.1.resources.dll
+C:\Users\JIE\Desktop\FireWall\FireWall\bin\Debug\ja\DevExpress.Xpf.Docking.v15.1.resources.dll
+C:\Users\JIE\Desktop\FireWall\FireWall\bin\Debug\ru\DevExpress.Xpf.Docking.v15.1.resources.dll
+C:\Users\JIE\Desktop\FireWall\FireWall\bin\Debug\zh-Hans\DevExpress.Xpf.Docking.v15.1.resources.dll
+C:\Users\JIE\Desktop\FireWall\FireWall\bin\Debug\de\DevExpress.RichEdit.v15.1.Core.resources.dll
+C:\Users\JIE\Desktop\FireWall\FireWall\bin\Debug\es\DevExpress.RichEdit.v15.1.Core.resources.dll
+C:\Users\JIE\Desktop\FireWall\FireWall\bin\Debug\ja\DevExpress.RichEdit.v15.1.Core.resources.dll
+C:\Users\JIE\Desktop\FireWall\FireWall\bin\Debug\ru\DevExpress.RichEdit.v15.1.Core.resources.dll
+C:\Users\JIE\Desktop\FireWall\FireWall\bin\Debug\zh-Hans\DevExpress.RichEdit.v15.1.Core.resources.dll
+C:\Users\JIE\Desktop\FireWall\FireWall\bin\Debug\de\DevExpress.Office.v15.1.Core.resources.dll
+C:\Users\JIE\Desktop\FireWall\FireWall\bin\Debug\es\DevExpress.Office.v15.1.Core.resources.dll
+C:\Users\JIE\Desktop\FireWall\FireWall\bin\Debug\ja\DevExpress.Office.v15.1.Core.resources.dll
+C:\Users\JIE\Desktop\FireWall\FireWall\bin\Debug\ru\DevExpress.Office.v15.1.Core.resources.dll
+C:\Users\JIE\Desktop\FireWall\FireWall\bin\Debug\zh-Hans\DevExpress.Office.v15.1.Core.resources.dll
+C:\Users\JIE\Desktop\FireWall\FireWall\obj\Debug\App.baml
+C:\Users\JIE\Desktop\FireWall\FireWall\obj\Debug\styles\Simple Styles.baml
+C:\Users\JIE\Desktop\FireWall\FireWall\obj\Debug\styles\DataGridStyle.baml
+C:\Users\JIE\Desktop\FireWall\FireWall\obj\Debug\Themes\Generic.baml
+C:\Users\JIE\Desktop\FireWall\FireWall\obj\Debug\FireWall.g.resources
+C:\Users\JIE\Desktop\FireWall\FireWall\obj\Debug\FireWall.Properties.Resources.resources
+C:\Users\JIE\Desktop\FireWall\FireWall\obj\Debug\FireWall.csproj.GenerateResource.Cache
+C:\Users\JIE\Desktop\FireWall\FireWall\obj\Debug\FireWall.exe.licenses
+C:\Users\JIE\Desktop\FireWall\FireWall\obj\Debug\FireWall.exe
+C:\Users\JIE\Desktop\FireWall\FireWall\obj\Debug\FireWall.pdb
+C:\Users\JIE\Desktop\FireWall\FireWall\obj\Debug\styles\ProgressbarStyle.baml
+C:\Users\JIE\Desktop\FireWall\FireWall\obj\Debug\Window\AddUser.g.cs
+C:\Users\JIE\Desktop\FireWall\FireWall\obj\Debug\Window\DataBaseSettingWindow.g.cs
+C:\Users\JIE\Desktop\FireWall\FireWall\obj\Debug\Window\FireWallConfigurationApply.g.cs
+C:\Users\JIE\Desktop\FireWall\FireWall\obj\Debug\Window\FireWallConfigurationDetail.g.cs
+C:\Users\JIE\Desktop\FireWall\FireWall\obj\Debug\Page\LogControl.g.cs
+C:\Users\JIE\Desktop\FireWall\FireWall\obj\Debug\Window\LoginWindow.g.cs
+C:\Users\JIE\Desktop\FireWall\FireWall\obj\Debug\Page\MainContentControl.g.cs
+C:\Users\JIE\Desktop\FireWall\FireWall\obj\Debug\Window\MainWindow.g.cs
+C:\Users\JIE\Desktop\FireWall\FireWall\obj\Debug\Page\RealTimeData.g.cs
+C:\Users\JIE\Desktop\FireWall\FireWall\obj\Debug\Window\SetPasswordWindow.g.cs
+C:\Users\JIE\Desktop\FireWall\FireWall\obj\Debug\Page\SystemSettingControl.g.cs
+C:\Users\JIE\Desktop\FireWall\FireWall\obj\Debug\Page\UserManagementControl.g.cs
+C:\Users\JIE\Desktop\FireWall\FireWall\obj\Debug\Window\UserMessageBox.g.cs
+C:\Users\JIE\Desktop\FireWall\FireWall\obj\Debug\Window\AddUser.baml
+C:\Users\JIE\Desktop\FireWall\FireWall\obj\Debug\Window\DataBaseSettingWindow.baml
+C:\Users\JIE\Desktop\FireWall\FireWall\obj\Debug\Window\FireWallConfigurationApply.baml
+C:\Users\JIE\Desktop\FireWall\FireWall\obj\Debug\Window\FireWallConfigurationDetail.baml
+C:\Users\JIE\Desktop\FireWall\FireWall\obj\Debug\Page\LogControl.baml
+C:\Users\JIE\Desktop\FireWall\FireWall\obj\Debug\Window\LoginWindow.baml
+C:\Users\JIE\Desktop\FireWall\FireWall\obj\Debug\Page\MainContentControl.baml
+C:\Users\JIE\Desktop\FireWall\FireWall\obj\Debug\Window\MainWindow.baml
+C:\Users\JIE\Desktop\FireWall\FireWall\obj\Debug\Page\RealTimeData.baml
+C:\Users\JIE\Desktop\FireWall\FireWall\obj\Debug\Window\SetPasswordWindow.baml
+C:\Users\JIE\Desktop\FireWall\FireWall\obj\Debug\Page\SystemSettingControl.baml
+C:\Users\JIE\Desktop\FireWall\FireWall\obj\Debug\Page\UserManagementControl.baml
+C:\Users\JIE\Desktop\FireWall\FireWall\obj\Debug\Window\UserMessageBox.baml
+C:\Users\JIE\Desktop\FireWall\FireWall\obj\Debug\Window\RenameWindow.g.cs
+C:\Users\JIE\Desktop\FireWall\FireWall\obj\Debug\Window\RenameWindow.baml
+C:\Users\JIE\Desktop\FireWall\FireWall\obj\Debug\Page\StatisticsControl.g.cs
+C:\Users\JIE\Desktop\FireWall\FireWall\obj\Debug\Page\StatisticsControl.baml
+C:\Users\JIE\Desktop\FireWall\FireWall\obj\Debug\FireWall.csprojResolveAssemblyReference.cache
+E:\date bank\教研室\FireWall\FireWall\bin\Debug\FireWall.exe.config
+E:\date bank\教研室\FireWall\FireWall\obj\Debug\FireWall.exe
+E:\date bank\教研室\FireWall\FireWall\obj\Debug\FireWall.pdb
+E:\date bank\教研室\FireWall\FireWall\bin\Debug\FireWall.exe
+E:\date bank\教研室\FireWall\FireWall\bin\Debug\FireWall.pdb
+E:\date bank\教研室\FireWall\FireWall\bin\Debug\DevExpress.Charts.v15.1.Core.dll
+E:\date bank\教研室\FireWall\FireWall\bin\Debug\DevExpress.Data.v15.1.dll
+E:\date bank\教研室\FireWall\FireWall\bin\Debug\DevExpress.Mvvm.v15.1.dll
+E:\date bank\教研室\FireWall\FireWall\bin\Debug\DevExpress.Printing.v15.1.Core.dll
+E:\date bank\教研室\FireWall\FireWall\bin\Debug\DevExpress.Xpf.Charts.v15.1.dll
+E:\date bank\教研室\FireWall\FireWall\bin\Debug\DevExpress.Xpf.Core.v15.1.dll
+E:\date bank\教研室\FireWall\FireWall\bin\Debug\DevExpress.Xpf.Gauges.v15.1.dll
+E:\date bank\教研室\FireWall\FireWall\bin\Debug\DevExpress.Xpf.Grid.v15.1.Core.dll
+E:\date bank\教研室\FireWall\FireWall\bin\Debug\DevExpress.Xpf.Grid.v15.1.dll
+E:\date bank\教研室\FireWall\FireWall\bin\Debug\DevExpress.Xpf.Printing.v15.1.dll
+E:\date bank\教研室\FireWall\FireWall\bin\Debug\System.Windows.Interactivity.dll
+E:\date bank\教研室\FireWall\FireWall\bin\Debug\DevExpress.Xpf.Ribbon.v15.1.dll
+E:\date bank\教研室\FireWall\FireWall\bin\Debug\DevExpress.Xpf.DocumentViewer.v15.1.Core.dll
+E:\date bank\教研室\FireWall\FireWall\bin\Debug\DevExpress.Xpf.Docking.v15.1.dll
+E:\date bank\教研室\FireWall\FireWall\bin\Debug\DevExpress.RichEdit.v15.1.Core.dll
+E:\date bank\教研室\FireWall\FireWall\bin\Debug\DevExpress.Xpf.Layout.v15.1.Core.dll
+E:\date bank\教研室\FireWall\FireWall\bin\Debug\DevExpress.Office.v15.1.Core.dll
+E:\date bank\教研室\FireWall\FireWall\bin\Debug\DevExpress.Data.v15.1.xml
+E:\date bank\教研室\FireWall\FireWall\bin\Debug\DevExpress.Mvvm.v15.1.xml
+E:\date bank\教研室\FireWall\FireWall\bin\Debug\DevExpress.Printing.v15.1.Core.xml
+E:\date bank\教研室\FireWall\FireWall\bin\Debug\DevExpress.Xpf.Charts.v15.1.xml
+E:\date bank\教研室\FireWall\FireWall\bin\Debug\DevExpress.Xpf.Core.v15.1.xml
+E:\date bank\教研室\FireWall\FireWall\bin\Debug\DevExpress.Xpf.Gauges.v15.1.xml
+E:\date bank\教研室\FireWall\FireWall\bin\Debug\DevExpress.Xpf.Grid.v15.1.xml
+E:\date bank\教研室\FireWall\FireWall\bin\Debug\DevExpress.Xpf.Grid.v15.1.Core.xml
+E:\date bank\教研室\FireWall\FireWall\bin\Debug\DevExpress.Xpf.Printing.v15.1.xml
+E:\date bank\教研室\FireWall\FireWall\bin\Debug\System.Windows.Interactivity.xml
+E:\date bank\教研室\FireWall\FireWall\bin\Debug\DevExpress.Xpf.Ribbon.v15.1.xml
+E:\date bank\教研室\FireWall\FireWall\bin\Debug\DevExpress.Xpf.Docking.v15.1.xml
+E:\date bank\教研室\FireWall\FireWall\bin\Debug\DevExpress.RichEdit.v15.1.Core.xml
+E:\date bank\教研室\FireWall\FireWall\bin\Debug\DevExpress.Xpf.Layout.v15.1.Core.xml
+E:\date bank\教研室\FireWall\FireWall\bin\Debug\DevExpress.Office.v15.1.Core.xml
+E:\date bank\教研室\FireWall\FireWall\bin\Debug\de\DevExpress.Data.v15.1.resources.dll
+E:\date bank\教研室\FireWall\FireWall\bin\Debug\es\DevExpress.Data.v15.1.resources.dll
+E:\date bank\教研室\FireWall\FireWall\bin\Debug\ja\DevExpress.Data.v15.1.resources.dll
+E:\date bank\教研室\FireWall\FireWall\bin\Debug\ru\DevExpress.Data.v15.1.resources.dll
+E:\date bank\教研室\FireWall\FireWall\bin\Debug\de\DevExpress.Printing.v15.1.Core.resources.dll
+E:\date bank\教研室\FireWall\FireWall\bin\Debug\es\DevExpress.Printing.v15.1.Core.resources.dll
+E:\date bank\教研室\FireWall\FireWall\bin\Debug\ja\DevExpress.Printing.v15.1.Core.resources.dll
+E:\date bank\教研室\FireWall\FireWall\bin\Debug\ru\DevExpress.Printing.v15.1.Core.resources.dll
+E:\date bank\教研室\FireWall\FireWall\bin\Debug\de\DevExpress.Xpf.Charts.v15.1.resources.dll
+E:\date bank\教研室\FireWall\FireWall\bin\Debug\es\DevExpress.Xpf.Charts.v15.1.resources.dll
+E:\date bank\教研室\FireWall\FireWall\bin\Debug\ja\DevExpress.Xpf.Charts.v15.1.resources.dll
+E:\date bank\教研室\FireWall\FireWall\bin\Debug\ru\DevExpress.Xpf.Charts.v15.1.resources.dll
+E:\date bank\教研室\FireWall\FireWall\bin\Debug\de\DevExpress.Xpf.Core.v15.1.resources.dll
+E:\date bank\教研室\FireWall\FireWall\bin\Debug\es\DevExpress.Xpf.Core.v15.1.resources.dll
+E:\date bank\教研室\FireWall\FireWall\bin\Debug\ja\DevExpress.Xpf.Core.v15.1.resources.dll
+E:\date bank\教研室\FireWall\FireWall\bin\Debug\ru\DevExpress.Xpf.Core.v15.1.resources.dll
+E:\date bank\教研室\FireWall\FireWall\bin\Debug\de\DevExpress.Xpf.Gauges.v15.1.resources.dll
+E:\date bank\教研室\FireWall\FireWall\bin\Debug\es\DevExpress.Xpf.Gauges.v15.1.resources.dll
+E:\date bank\教研室\FireWall\FireWall\bin\Debug\ja\DevExpress.Xpf.Gauges.v15.1.resources.dll
+E:\date bank\教研室\FireWall\FireWall\bin\Debug\ru\DevExpress.Xpf.Gauges.v15.1.resources.dll
+E:\date bank\教研室\FireWall\FireWall\bin\Debug\de\DevExpress.Xpf.Grid.v15.1.Core.resources.dll
+E:\date bank\教研室\FireWall\FireWall\bin\Debug\es\DevExpress.Xpf.Grid.v15.1.Core.resources.dll
+E:\date bank\教研室\FireWall\FireWall\bin\Debug\ja\DevExpress.Xpf.Grid.v15.1.Core.resources.dll
+E:\date bank\教研室\FireWall\FireWall\bin\Debug\ru\DevExpress.Xpf.Grid.v15.1.Core.resources.dll
+E:\date bank\教研室\FireWall\FireWall\bin\Debug\de\DevExpress.Xpf.Printing.v15.1.resources.dll
+E:\date bank\教研室\FireWall\FireWall\bin\Debug\es\DevExpress.Xpf.Printing.v15.1.resources.dll
+E:\date bank\教研室\FireWall\FireWall\bin\Debug\ja\DevExpress.Xpf.Printing.v15.1.resources.dll
+E:\date bank\教研室\FireWall\FireWall\bin\Debug\ru\DevExpress.Xpf.Printing.v15.1.resources.dll
+E:\date bank\教研室\FireWall\FireWall\bin\Debug\de\System.Windows.Interactivity.resources.dll
+E:\date bank\教研室\FireWall\FireWall\bin\Debug\en\System.Windows.Interactivity.resources.dll
+E:\date bank\教研室\FireWall\FireWall\bin\Debug\es\System.Windows.Interactivity.resources.dll
+E:\date bank\教研室\FireWall\FireWall\bin\Debug\fr\System.Windows.Interactivity.resources.dll
+E:\date bank\教研室\FireWall\FireWall\bin\Debug\it\System.Windows.Interactivity.resources.dll
+E:\date bank\教研室\FireWall\FireWall\bin\Debug\ja\System.Windows.Interactivity.resources.dll
+E:\date bank\教研室\FireWall\FireWall\bin\Debug\ko\System.Windows.Interactivity.resources.dll
+E:\date bank\教研室\FireWall\FireWall\bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+E:\date bank\教研室\FireWall\FireWall\bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+E:\date bank\教研室\FireWall\FireWall\bin\Debug\de\DevExpress.Xpf.Ribbon.v15.1.resources.dll
+E:\date bank\教研室\FireWall\FireWall\bin\Debug\es\DevExpress.Xpf.Ribbon.v15.1.resources.dll
+E:\date bank\教研室\FireWall\FireWall\bin\Debug\ja\DevExpress.Xpf.Ribbon.v15.1.resources.dll
+E:\date bank\教研室\FireWall\FireWall\bin\Debug\ru\DevExpress.Xpf.Ribbon.v15.1.resources.dll
+E:\date bank\教研室\FireWall\FireWall\bin\Debug\de\DevExpress.Xpf.DocumentViewer.v15.1.Core.resources.dll
+E:\date bank\教研室\FireWall\FireWall\bin\Debug\es\DevExpress.Xpf.DocumentViewer.v15.1.Core.resources.dll
+E:\date bank\教研室\FireWall\FireWall\bin\Debug\ja\DevExpress.Xpf.DocumentViewer.v15.1.Core.resources.dll
+E:\date bank\教研室\FireWall\FireWall\bin\Debug\ru\DevExpress.Xpf.DocumentViewer.v15.1.Core.resources.dll
+E:\date bank\教研室\FireWall\FireWall\bin\Debug\de\DevExpress.Xpf.Docking.v15.1.resources.dll
+E:\date bank\教研室\FireWall\FireWall\bin\Debug\es\DevExpress.Xpf.Docking.v15.1.resources.dll
+E:\date bank\教研室\FireWall\FireWall\bin\Debug\ja\DevExpress.Xpf.Docking.v15.1.resources.dll
+E:\date bank\教研室\FireWall\FireWall\bin\Debug\ru\DevExpress.Xpf.Docking.v15.1.resources.dll
+E:\date bank\教研室\FireWall\FireWall\bin\Debug\de\DevExpress.RichEdit.v15.1.Core.resources.dll
+E:\date bank\教研室\FireWall\FireWall\bin\Debug\es\DevExpress.RichEdit.v15.1.Core.resources.dll
+E:\date bank\教研室\FireWall\FireWall\bin\Debug\ja\DevExpress.RichEdit.v15.1.Core.resources.dll
+E:\date bank\教研室\FireWall\FireWall\bin\Debug\ru\DevExpress.RichEdit.v15.1.Core.resources.dll
+E:\date bank\教研室\FireWall\FireWall\bin\Debug\de\DevExpress.Office.v15.1.Core.resources.dll
+E:\date bank\教研室\FireWall\FireWall\bin\Debug\es\DevExpress.Office.v15.1.Core.resources.dll
+E:\date bank\教研室\FireWall\FireWall\bin\Debug\ja\DevExpress.Office.v15.1.Core.resources.dll
+E:\date bank\教研室\FireWall\FireWall\bin\Debug\ru\DevExpress.Office.v15.1.Core.resources.dll
+E:\date bank\教研室\FireWall\FireWall\obj\Debug\FireWall.csprojResolveAssemblyReference.cache
+E:\date bank\教研室\FireWall\FireWall\obj\Debug\Page\StatisticsControl.g.cs
+E:\date bank\教研室\FireWall\FireWall\obj\Debug\Window\AddUser.g.cs
+E:\date bank\教研室\FireWall\FireWall\obj\Debug\Window\DataBaseSettingWindow.g.cs
+E:\date bank\教研室\FireWall\FireWall\obj\Debug\Window\FireWallConfigurationApply.g.cs
+E:\date bank\教研室\FireWall\FireWall\obj\Debug\Window\FireWallConfigurationDetail.g.cs
+E:\date bank\教研室\FireWall\FireWall\obj\Debug\Page\LogControl.g.cs
+E:\date bank\教研室\FireWall\FireWall\obj\Debug\Window\LoginWindow.g.cs
+E:\date bank\教研室\FireWall\FireWall\obj\Debug\Page\MainContentControl.g.cs
+E:\date bank\教研室\FireWall\FireWall\obj\Debug\Window\MainWindow.g.cs
+E:\date bank\教研室\FireWall\FireWall\obj\Debug\Page\RealTimeData.g.cs
+E:\date bank\教研室\FireWall\FireWall\obj\Debug\Window\RenameWindow.g.cs
+E:\date bank\教研室\FireWall\FireWall\obj\Debug\Window\SetPasswordWindow.g.cs
+E:\date bank\教研室\FireWall\FireWall\obj\Debug\Page\SystemSettingControl.g.cs
+E:\date bank\教研室\FireWall\FireWall\obj\Debug\Page\UserManagementControl.g.cs
+E:\date bank\教研室\FireWall\FireWall\obj\Debug\Window\UserMessageBox.g.cs
+E:\date bank\教研室\FireWall\FireWall\obj\Debug\App.g.cs
+E:\date bank\教研室\FireWall\FireWall\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\date bank\教研室\FireWall\FireWall\obj\Debug\FireWall_MarkupCompile.cache
+E:\date bank\教研室\FireWall\FireWall\obj\Debug\FireWall_MarkupCompile.lref
+E:\date bank\教研室\FireWall\FireWall\obj\Debug\App.baml
+E:\date bank\教研室\FireWall\FireWall\obj\Debug\Page\StatisticsControl.baml
+E:\date bank\教研室\FireWall\FireWall\obj\Debug\Window\AddUser.baml
+E:\date bank\教研室\FireWall\FireWall\obj\Debug\Window\DataBaseSettingWindow.baml
+E:\date bank\教研室\FireWall\FireWall\obj\Debug\Window\FireWallConfigurationApply.baml
+E:\date bank\教研室\FireWall\FireWall\obj\Debug\Window\FireWallConfigurationDetail.baml
+E:\date bank\教研室\FireWall\FireWall\obj\Debug\Page\LogControl.baml
+E:\date bank\教研室\FireWall\FireWall\obj\Debug\Window\LoginWindow.baml
+E:\date bank\教研室\FireWall\FireWall\obj\Debug\Page\MainContentControl.baml
+E:\date bank\教研室\FireWall\FireWall\obj\Debug\Window\MainWindow.baml
+E:\date bank\教研室\FireWall\FireWall\obj\Debug\Page\RealTimeData.baml
+E:\date bank\教研室\FireWall\FireWall\obj\Debug\Window\RenameWindow.baml
+E:\date bank\教研室\FireWall\FireWall\obj\Debug\Window\SetPasswordWindow.baml
+E:\date bank\教研室\FireWall\FireWall\obj\Debug\styles\ProgressbarStyle.baml
+E:\date bank\教研室\FireWall\FireWall\obj\Debug\styles\Simple Styles.baml
+E:\date bank\教研室\FireWall\FireWall\obj\Debug\styles\DataGridStyle.baml
+E:\date bank\教研室\FireWall\FireWall\obj\Debug\Page\SystemSettingControl.baml
+E:\date bank\教研室\FireWall\FireWall\obj\Debug\Themes\Generic.baml
+E:\date bank\教研室\FireWall\FireWall\obj\Debug\Page\UserManagementControl.baml
+E:\date bank\教研室\FireWall\FireWall\obj\Debug\Window\UserMessageBox.baml
+E:\date bank\教研室\FireWall\FireWall\obj\Debug\FireWall.g.resources
+E:\date bank\教研室\FireWall\FireWall\obj\Debug\FireWall.Properties.Resources.resources
+E:\date bank\教研室\FireWall\FireWall\obj\Debug\FireWall.csproj.GenerateResource.Cache
+E:\date bank\教研室\FireWall\FireWall\obj\Debug\FireWall.exe.licenses
+E:\date bank\教研室\FireWall.219\FireWall\bin\Debug\FireWall.exe.config
+E:\date bank\教研室\FireWall.219\FireWall\obj\Debug\FireWall.exe
+E:\date bank\教研室\FireWall.219\FireWall\obj\Debug\FireWall.pdb
+E:\date bank\教研室\FireWall.219\FireWall\obj\Debug\FireWall.csprojResolveAssemblyReference.cache
+E:\date bank\教研室\FireWall.219\FireWall\obj\Debug\Page\StatisticsControl.g.cs
+E:\date bank\教研室\FireWall.219\FireWall\obj\Debug\Window\AddUser.g.cs
+E:\date bank\教研室\FireWall.219\FireWall\obj\Debug\Window\DataBaseSettingWindow.g.cs
+E:\date bank\教研室\FireWall.219\FireWall\obj\Debug\Window\FireWallConfigurationApply.g.cs
+E:\date bank\教研室\FireWall.219\FireWall\obj\Debug\Window\FireWallConfigurationDetail.g.cs
+E:\date bank\教研室\FireWall.219\FireWall\obj\Debug\Page\LogControl.g.cs
+E:\date bank\教研室\FireWall.219\FireWall\obj\Debug\Window\LoginWindow.g.cs
+E:\date bank\教研室\FireWall.219\FireWall\obj\Debug\Page\MainContentControl.g.cs
+E:\date bank\教研室\FireWall.219\FireWall\obj\Debug\Window\MainWindow.g.cs
+E:\date bank\教研室\FireWall.219\FireWall\obj\Debug\Page\RealTimeData.g.cs
+E:\date bank\教研室\FireWall.219\FireWall\obj\Debug\Window\RenameWindow.g.cs
+E:\date bank\教研室\FireWall.219\FireWall\obj\Debug\Window\SetPasswordWindow.g.cs
+E:\date bank\教研室\FireWall.219\FireWall\obj\Debug\Page\SystemSettingControl.g.cs
+E:\date bank\教研室\FireWall.219\FireWall\obj\Debug\Page\UserManagementControl.g.cs
+E:\date bank\教研室\FireWall.219\FireWall\obj\Debug\Window\UserMessageBox.g.cs
+E:\date bank\教研室\FireWall.219\FireWall\obj\Debug\App.g.cs
+E:\date bank\教研室\FireWall.219\FireWall\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\date bank\教研室\FireWall.219\FireWall\obj\Debug\FireWall_MarkupCompile.cache
+E:\date bank\教研室\FireWall.219\FireWall\obj\Debug\FireWall_MarkupCompile.lref
+E:\date bank\教研室\FireWall.219\FireWall\bin\Debug\FireWall.exe
+E:\date bank\教研室\FireWall.219\FireWall\bin\Debug\FireWall.pdb
+E:\date bank\教研室\FireWall.219\FireWall\bin\Debug\DevExpress.Charts.v15.1.Core.dll
+E:\date bank\教研室\FireWall.219\FireWall\bin\Debug\DevExpress.Data.v15.1.dll
+E:\date bank\教研室\FireWall.219\FireWall\bin\Debug\DevExpress.Mvvm.v15.1.dll
+E:\date bank\教研室\FireWall.219\FireWall\bin\Debug\DevExpress.Printing.v15.1.Core.dll
+E:\date bank\教研室\FireWall.219\FireWall\bin\Debug\DevExpress.Xpf.Charts.v15.1.dll
+E:\date bank\教研室\FireWall.219\FireWall\bin\Debug\DevExpress.Xpf.Core.v15.1.dll
+E:\date bank\教研室\FireWall.219\FireWall\bin\Debug\DevExpress.Xpf.Gauges.v15.1.dll
+E:\date bank\教研室\FireWall.219\FireWall\bin\Debug\DevExpress.Xpf.Grid.v15.1.Core.dll
+E:\date bank\教研室\FireWall.219\FireWall\bin\Debug\DevExpress.Xpf.Grid.v15.1.dll
+E:\date bank\教研室\FireWall.219\FireWall\bin\Debug\DevExpress.Xpf.Printing.v15.1.dll
+E:\date bank\教研室\FireWall.219\FireWall\bin\Debug\System.Windows.Interactivity.dll
+E:\date bank\教研室\FireWall.219\FireWall\bin\Debug\DevExpress.Xpf.Ribbon.v15.1.dll
+E:\date bank\教研室\FireWall.219\FireWall\bin\Debug\DevExpress.Xpf.DocumentViewer.v15.1.Core.dll
+E:\date bank\教研室\FireWall.219\FireWall\bin\Debug\DevExpress.Xpf.Docking.v15.1.dll
+E:\date bank\教研室\FireWall.219\FireWall\bin\Debug\DevExpress.RichEdit.v15.1.Core.dll
+E:\date bank\教研室\FireWall.219\FireWall\bin\Debug\DevExpress.Xpf.Layout.v15.1.Core.dll
+E:\date bank\教研室\FireWall.219\FireWall\bin\Debug\DevExpress.Office.v15.1.Core.dll
+E:\date bank\教研室\FireWall.219\FireWall\bin\Debug\DevExpress.Data.v15.1.xml
+E:\date bank\教研室\FireWall.219\FireWall\bin\Debug\DevExpress.Mvvm.v15.1.xml
+E:\date bank\教研室\FireWall.219\FireWall\bin\Debug\DevExpress.Printing.v15.1.Core.xml
+E:\date bank\教研室\FireWall.219\FireWall\bin\Debug\DevExpress.Xpf.Charts.v15.1.xml
+E:\date bank\教研室\FireWall.219\FireWall\bin\Debug\DevExpress.Xpf.Core.v15.1.xml
+E:\date bank\教研室\FireWall.219\FireWall\bin\Debug\DevExpress.Xpf.Gauges.v15.1.xml
+E:\date bank\教研室\FireWall.219\FireWall\bin\Debug\DevExpress.Xpf.Grid.v15.1.xml
+E:\date bank\教研室\FireWall.219\FireWall\bin\Debug\DevExpress.Xpf.Grid.v15.1.Core.xml
+E:\date bank\教研室\FireWall.219\FireWall\bin\Debug\DevExpress.Xpf.Printing.v15.1.xml
+E:\date bank\教研室\FireWall.219\FireWall\bin\Debug\System.Windows.Interactivity.xml
+E:\date bank\教研室\FireWall.219\FireWall\bin\Debug\DevExpress.Xpf.Ribbon.v15.1.xml
+E:\date bank\教研室\FireWall.219\FireWall\bin\Debug\DevExpress.Xpf.Docking.v15.1.xml
+E:\date bank\教研室\FireWall.219\FireWall\bin\Debug\DevExpress.RichEdit.v15.1.Core.xml
+E:\date bank\教研室\FireWall.219\FireWall\bin\Debug\DevExpress.Xpf.Layout.v15.1.Core.xml
+E:\date bank\教研室\FireWall.219\FireWall\bin\Debug\DevExpress.Office.v15.1.Core.xml
+E:\date bank\教研室\FireWall.219\FireWall\bin\Debug\de\DevExpress.Data.v15.1.resources.dll
+E:\date bank\教研室\FireWall.219\FireWall\bin\Debug\es\DevExpress.Data.v15.1.resources.dll
+E:\date bank\教研室\FireWall.219\FireWall\bin\Debug\ja\DevExpress.Data.v15.1.resources.dll
+E:\date bank\教研室\FireWall.219\FireWall\bin\Debug\ru\DevExpress.Data.v15.1.resources.dll
+E:\date bank\教研室\FireWall.219\FireWall\bin\Debug\de\DevExpress.Printing.v15.1.Core.resources.dll
+E:\date bank\教研室\FireWall.219\FireWall\bin\Debug\es\DevExpress.Printing.v15.1.Core.resources.dll
+E:\date bank\教研室\FireWall.219\FireWall\bin\Debug\ja\DevExpress.Printing.v15.1.Core.resources.dll
+E:\date bank\教研室\FireWall.219\FireWall\bin\Debug\ru\DevExpress.Printing.v15.1.Core.resources.dll
+E:\date bank\教研室\FireWall.219\FireWall\bin\Debug\de\DevExpress.Xpf.Charts.v15.1.resources.dll
+E:\date bank\教研室\FireWall.219\FireWall\bin\Debug\es\DevExpress.Xpf.Charts.v15.1.resources.dll
+E:\date bank\教研室\FireWall.219\FireWall\bin\Debug\ja\DevExpress.Xpf.Charts.v15.1.resources.dll
+E:\date bank\教研室\FireWall.219\FireWall\bin\Debug\ru\DevExpress.Xpf.Charts.v15.1.resources.dll
+E:\date bank\教研室\FireWall.219\FireWall\bin\Debug\de\DevExpress.Xpf.Core.v15.1.resources.dll
+E:\date bank\教研室\FireWall.219\FireWall\bin\Debug\es\DevExpress.Xpf.Core.v15.1.resources.dll
+E:\date bank\教研室\FireWall.219\FireWall\bin\Debug\ja\DevExpress.Xpf.Core.v15.1.resources.dll
+E:\date bank\教研室\FireWall.219\FireWall\bin\Debug\ru\DevExpress.Xpf.Core.v15.1.resources.dll
+E:\date bank\教研室\FireWall.219\FireWall\bin\Debug\de\DevExpress.Xpf.Gauges.v15.1.resources.dll
+E:\date bank\教研室\FireWall.219\FireWall\bin\Debug\es\DevExpress.Xpf.Gauges.v15.1.resources.dll
+E:\date bank\教研室\FireWall.219\FireWall\bin\Debug\ja\DevExpress.Xpf.Gauges.v15.1.resources.dll
+E:\date bank\教研室\FireWall.219\FireWall\bin\Debug\ru\DevExpress.Xpf.Gauges.v15.1.resources.dll
+E:\date bank\教研室\FireWall.219\FireWall\bin\Debug\de\DevExpress.Xpf.Grid.v15.1.Core.resources.dll
+E:\date bank\教研室\FireWall.219\FireWall\bin\Debug\es\DevExpress.Xpf.Grid.v15.1.Core.resources.dll
+E:\date bank\教研室\FireWall.219\FireWall\bin\Debug\ja\DevExpress.Xpf.Grid.v15.1.Core.resources.dll
+E:\date bank\教研室\FireWall.219\FireWall\bin\Debug\ru\DevExpress.Xpf.Grid.v15.1.Core.resources.dll
+E:\date bank\教研室\FireWall.219\FireWall\bin\Debug\de\DevExpress.Xpf.Printing.v15.1.resources.dll
+E:\date bank\教研室\FireWall.219\FireWall\bin\Debug\es\DevExpress.Xpf.Printing.v15.1.resources.dll
+E:\date bank\教研室\FireWall.219\FireWall\bin\Debug\ja\DevExpress.Xpf.Printing.v15.1.resources.dll
+E:\date bank\教研室\FireWall.219\FireWall\bin\Debug\ru\DevExpress.Xpf.Printing.v15.1.resources.dll
+E:\date bank\教研室\FireWall.219\FireWall\bin\Debug\de\System.Windows.Interactivity.resources.dll
+E:\date bank\教研室\FireWall.219\FireWall\bin\Debug\en\System.Windows.Interactivity.resources.dll
+E:\date bank\教研室\FireWall.219\FireWall\bin\Debug\es\System.Windows.Interactivity.resources.dll
+E:\date bank\教研室\FireWall.219\FireWall\bin\Debug\fr\System.Windows.Interactivity.resources.dll
+E:\date bank\教研室\FireWall.219\FireWall\bin\Debug\it\System.Windows.Interactivity.resources.dll
+E:\date bank\教研室\FireWall.219\FireWall\bin\Debug\ja\System.Windows.Interactivity.resources.dll
+E:\date bank\教研室\FireWall.219\FireWall\bin\Debug\ko\System.Windows.Interactivity.resources.dll
+E:\date bank\教研室\FireWall.219\FireWall\bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+E:\date bank\教研室\FireWall.219\FireWall\bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+E:\date bank\教研室\FireWall.219\FireWall\bin\Debug\de\DevExpress.Xpf.Ribbon.v15.1.resources.dll
+E:\date bank\教研室\FireWall.219\FireWall\bin\Debug\es\DevExpress.Xpf.Ribbon.v15.1.resources.dll
+E:\date bank\教研室\FireWall.219\FireWall\bin\Debug\ja\DevExpress.Xpf.Ribbon.v15.1.resources.dll
+E:\date bank\教研室\FireWall.219\FireWall\bin\Debug\ru\DevExpress.Xpf.Ribbon.v15.1.resources.dll
+E:\date bank\教研室\FireWall.219\FireWall\bin\Debug\de\DevExpress.Xpf.DocumentViewer.v15.1.Core.resources.dll
+E:\date bank\教研室\FireWall.219\FireWall\bin\Debug\es\DevExpress.Xpf.DocumentViewer.v15.1.Core.resources.dll
+E:\date bank\教研室\FireWall.219\FireWall\bin\Debug\ja\DevExpress.Xpf.DocumentViewer.v15.1.Core.resources.dll
+E:\date bank\教研室\FireWall.219\FireWall\bin\Debug\ru\DevExpress.Xpf.DocumentViewer.v15.1.Core.resources.dll
+E:\date bank\教研室\FireWall.219\FireWall\bin\Debug\de\DevExpress.Xpf.Docking.v15.1.resources.dll
+E:\date bank\教研室\FireWall.219\FireWall\bin\Debug\es\DevExpress.Xpf.Docking.v15.1.resources.dll
+E:\date bank\教研室\FireWall.219\FireWall\bin\Debug\ja\DevExpress.Xpf.Docking.v15.1.resources.dll
+E:\date bank\教研室\FireWall.219\FireWall\bin\Debug\ru\DevExpress.Xpf.Docking.v15.1.resources.dll
+E:\date bank\教研室\FireWall.219\FireWall\bin\Debug\de\DevExpress.RichEdit.v15.1.Core.resources.dll
+E:\date bank\教研室\FireWall.219\FireWall\bin\Debug\es\DevExpress.RichEdit.v15.1.Core.resources.dll
+E:\date bank\教研室\FireWall.219\FireWall\bin\Debug\ja\DevExpress.RichEdit.v15.1.Core.resources.dll
+E:\date bank\教研室\FireWall.219\FireWall\bin\Debug\ru\DevExpress.RichEdit.v15.1.Core.resources.dll
+E:\date bank\教研室\FireWall.219\FireWall\bin\Debug\de\DevExpress.Office.v15.1.Core.resources.dll
+E:\date bank\教研室\FireWall.219\FireWall\bin\Debug\es\DevExpress.Office.v15.1.Core.resources.dll
+E:\date bank\教研室\FireWall.219\FireWall\bin\Debug\ja\DevExpress.Office.v15.1.Core.resources.dll
+E:\date bank\教研室\FireWall.219\FireWall\bin\Debug\ru\DevExpress.Office.v15.1.Core.resources.dll
+E:\date bank\教研室\FireWall.219\FireWall\obj\Debug\App.baml
+E:\date bank\教研室\FireWall.219\FireWall\obj\Debug\Page\StatisticsControl.baml
+E:\date bank\教研室\FireWall.219\FireWall\obj\Debug\Window\AddUser.baml
+E:\date bank\教研室\FireWall.219\FireWall\obj\Debug\Window\DataBaseSettingWindow.baml
+E:\date bank\教研室\FireWall.219\FireWall\obj\Debug\Window\FireWallConfigurationApply.baml
+E:\date bank\教研室\FireWall.219\FireWall\obj\Debug\Window\FireWallConfigurationDetail.baml
+E:\date bank\教研室\FireWall.219\FireWall\obj\Debug\Page\LogControl.baml
+E:\date bank\教研室\FireWall.219\FireWall\obj\Debug\Window\LoginWindow.baml
+E:\date bank\教研室\FireWall.219\FireWall\obj\Debug\Page\MainContentControl.baml
+E:\date bank\教研室\FireWall.219\FireWall\obj\Debug\Window\MainWindow.baml
+E:\date bank\教研室\FireWall.219\FireWall\obj\Debug\Page\RealTimeData.baml
+E:\date bank\教研室\FireWall.219\FireWall\obj\Debug\Window\RenameWindow.baml
+E:\date bank\教研室\FireWall.219\FireWall\obj\Debug\Window\SetPasswordWindow.baml
+E:\date bank\教研室\FireWall.219\FireWall\obj\Debug\styles\ProgressbarStyle.baml
+E:\date bank\教研室\FireWall.219\FireWall\obj\Debug\styles\Simple Styles.baml
+E:\date bank\教研室\FireWall.219\FireWall\obj\Debug\styles\DataGridStyle.baml
+E:\date bank\教研室\FireWall.219\FireWall\obj\Debug\Page\SystemSettingControl.baml
+E:\date bank\教研室\FireWall.219\FireWall\obj\Debug\Themes\Generic.baml
+E:\date bank\教研室\FireWall.219\FireWall\obj\Debug\Page\UserManagementControl.baml
+E:\date bank\教研室\FireWall.219\FireWall\obj\Debug\Window\UserMessageBox.baml
+E:\date bank\教研室\FireWall.219\FireWall\obj\Debug\FireWall.g.resources
+E:\date bank\教研室\FireWall.219\FireWall\obj\Debug\FireWall.Properties.Resources.resources
+E:\date bank\教研室\FireWall.219\FireWall\obj\Debug\FireWall.csproj.GenerateResource.Cache
+E:\date bank\教研室\FireWall.219\FireWall\obj\Debug\FireWall.exe.licenses
+F:\QQ-DOWNLOAD\905838939\FileRecv\FireWall.219\FireWall\bin\Debug\FireWall.exe.config
+F:\QQ-DOWNLOAD\905838939\FileRecv\FireWall.219\FireWall\obj\Debug\FireWall.exe
+F:\QQ-DOWNLOAD\905838939\FileRecv\FireWall.219\FireWall\obj\Debug\FireWall.pdb
+F:\QQ-DOWNLOAD\905838939\FileRecv\FireWall.219\FireWall\bin\Debug\FireWall.exe
+F:\QQ-DOWNLOAD\905838939\FileRecv\FireWall.219\FireWall\bin\Debug\FireWall.pdb
+F:\QQ-DOWNLOAD\905838939\FileRecv\FireWall.219\FireWall\bin\Debug\DevExpress.Charts.v15.1.Core.dll
+F:\QQ-DOWNLOAD\905838939\FileRecv\FireWall.219\FireWall\bin\Debug\DevExpress.Data.v15.1.dll
+F:\QQ-DOWNLOAD\905838939\FileRecv\FireWall.219\FireWall\bin\Debug\DevExpress.Mvvm.v15.1.dll
+F:\QQ-DOWNLOAD\905838939\FileRecv\FireWall.219\FireWall\bin\Debug\DevExpress.Printing.v15.1.Core.dll
+F:\QQ-DOWNLOAD\905838939\FileRecv\FireWall.219\FireWall\bin\Debug\DevExpress.Xpf.Charts.v15.1.dll
+F:\QQ-DOWNLOAD\905838939\FileRecv\FireWall.219\FireWall\bin\Debug\DevExpress.Xpf.Core.v15.1.dll
+F:\QQ-DOWNLOAD\905838939\FileRecv\FireWall.219\FireWall\bin\Debug\DevExpress.Xpf.Gauges.v15.1.dll
+F:\QQ-DOWNLOAD\905838939\FileRecv\FireWall.219\FireWall\bin\Debug\DevExpress.Xpf.Grid.v15.1.Core.dll
+F:\QQ-DOWNLOAD\905838939\FileRecv\FireWall.219\FireWall\bin\Debug\DevExpress.Xpf.Grid.v15.1.dll
+F:\QQ-DOWNLOAD\905838939\FileRecv\FireWall.219\FireWall\bin\Debug\DevExpress.Xpf.Printing.v15.1.dll
+F:\QQ-DOWNLOAD\905838939\FileRecv\FireWall.219\FireWall\bin\Debug\System.Windows.Interactivity.dll
+F:\QQ-DOWNLOAD\905838939\FileRecv\FireWall.219\FireWall\bin\Debug\DevExpress.Xpf.Ribbon.v15.1.dll
+F:\QQ-DOWNLOAD\905838939\FileRecv\FireWall.219\FireWall\bin\Debug\DevExpress.Xpf.DocumentViewer.v15.1.Core.dll
+F:\QQ-DOWNLOAD\905838939\FileRecv\FireWall.219\FireWall\bin\Debug\DevExpress.Xpf.Docking.v15.1.dll
+F:\QQ-DOWNLOAD\905838939\FileRecv\FireWall.219\FireWall\bin\Debug\DevExpress.RichEdit.v15.1.Core.dll
+F:\QQ-DOWNLOAD\905838939\FileRecv\FireWall.219\FireWall\bin\Debug\DevExpress.Xpf.Layout.v15.1.Core.dll
+F:\QQ-DOWNLOAD\905838939\FileRecv\FireWall.219\FireWall\bin\Debug\DevExpress.Office.v15.1.Core.dll
+F:\QQ-DOWNLOAD\905838939\FileRecv\FireWall.219\FireWall\bin\Debug\DevExpress.Data.v15.1.xml
+F:\QQ-DOWNLOAD\905838939\FileRecv\FireWall.219\FireWall\bin\Debug\DevExpress.Mvvm.v15.1.xml
+F:\QQ-DOWNLOAD\905838939\FileRecv\FireWall.219\FireWall\bin\Debug\DevExpress.Printing.v15.1.Core.xml
+F:\QQ-DOWNLOAD\905838939\FileRecv\FireWall.219\FireWall\bin\Debug\DevExpress.Xpf.Charts.v15.1.xml
+F:\QQ-DOWNLOAD\905838939\FileRecv\FireWall.219\FireWall\bin\Debug\DevExpress.Xpf.Core.v15.1.xml
+F:\QQ-DOWNLOAD\905838939\FileRecv\FireWall.219\FireWall\bin\Debug\DevExpress.Xpf.Gauges.v15.1.xml
+F:\QQ-DOWNLOAD\905838939\FileRecv\FireWall.219\FireWall\bin\Debug\DevExpress.Xpf.Grid.v15.1.xml
+F:\QQ-DOWNLOAD\905838939\FileRecv\FireWall.219\FireWall\bin\Debug\DevExpress.Xpf.Grid.v15.1.Core.xml
+F:\QQ-DOWNLOAD\905838939\FileRecv\FireWall.219\FireWall\bin\Debug\DevExpress.Xpf.Printing.v15.1.xml
+F:\QQ-DOWNLOAD\905838939\FileRecv\FireWall.219\FireWall\bin\Debug\System.Windows.Interactivity.xml
+F:\QQ-DOWNLOAD\905838939\FileRecv\FireWall.219\FireWall\bin\Debug\DevExpress.Xpf.Ribbon.v15.1.xml
+F:\QQ-DOWNLOAD\905838939\FileRecv\FireWall.219\FireWall\bin\Debug\DevExpress.Xpf.Docking.v15.1.xml
+F:\QQ-DOWNLOAD\905838939\FileRecv\FireWall.219\FireWall\bin\Debug\DevExpress.RichEdit.v15.1.Core.xml
+F:\QQ-DOWNLOAD\905838939\FileRecv\FireWall.219\FireWall\bin\Debug\DevExpress.Xpf.Layout.v15.1.Core.xml
+F:\QQ-DOWNLOAD\905838939\FileRecv\FireWall.219\FireWall\bin\Debug\DevExpress.Office.v15.1.Core.xml
+F:\QQ-DOWNLOAD\905838939\FileRecv\FireWall.219\FireWall\bin\Debug\de\DevExpress.Data.v15.1.resources.dll
+F:\QQ-DOWNLOAD\905838939\FileRecv\FireWall.219\FireWall\bin\Debug\es\DevExpress.Data.v15.1.resources.dll
+F:\QQ-DOWNLOAD\905838939\FileRecv\FireWall.219\FireWall\bin\Debug\ja\DevExpress.Data.v15.1.resources.dll
+F:\QQ-DOWNLOAD\905838939\FileRecv\FireWall.219\FireWall\bin\Debug\ru\DevExpress.Data.v15.1.resources.dll
+F:\QQ-DOWNLOAD\905838939\FileRecv\FireWall.219\FireWall\bin\Debug\de\DevExpress.Printing.v15.1.Core.resources.dll
+F:\QQ-DOWNLOAD\905838939\FileRecv\FireWall.219\FireWall\bin\Debug\es\DevExpress.Printing.v15.1.Core.resources.dll
+F:\QQ-DOWNLOAD\905838939\FileRecv\FireWall.219\FireWall\bin\Debug\ja\DevExpress.Printing.v15.1.Core.resources.dll
+F:\QQ-DOWNLOAD\905838939\FileRecv\FireWall.219\FireWall\bin\Debug\ru\DevExpress.Printing.v15.1.Core.resources.dll
+F:\QQ-DOWNLOAD\905838939\FileRecv\FireWall.219\FireWall\bin\Debug\de\DevExpress.Xpf.Charts.v15.1.resources.dll
+F:\QQ-DOWNLOAD\905838939\FileRecv\FireWall.219\FireWall\bin\Debug\es\DevExpress.Xpf.Charts.v15.1.resources.dll
+F:\QQ-DOWNLOAD\905838939\FileRecv\FireWall.219\FireWall\bin\Debug\ja\DevExpress.Xpf.Charts.v15.1.resources.dll
+F:\QQ-DOWNLOAD\905838939\FileRecv\FireWall.219\FireWall\bin\Debug\ru\DevExpress.Xpf.Charts.v15.1.resources.dll
+F:\QQ-DOWNLOAD\905838939\FileRecv\FireWall.219\FireWall\bin\Debug\de\DevExpress.Xpf.Core.v15.1.resources.dll
+F:\QQ-DOWNLOAD\905838939\FileRecv\FireWall.219\FireWall\bin\Debug\es\DevExpress.Xpf.Core.v15.1.resources.dll
+F:\QQ-DOWNLOAD\905838939\FileRecv\FireWall.219\FireWall\bin\Debug\ja\DevExpress.Xpf.Core.v15.1.resources.dll
+F:\QQ-DOWNLOAD\905838939\FileRecv\FireWall.219\FireWall\bin\Debug\ru\DevExpress.Xpf.Core.v15.1.resources.dll
+F:\QQ-DOWNLOAD\905838939\FileRecv\FireWall.219\FireWall\bin\Debug\de\DevExpress.Xpf.Gauges.v15.1.resources.dll
+F:\QQ-DOWNLOAD\905838939\FileRecv\FireWall.219\FireWall\bin\Debug\es\DevExpress.Xpf.Gauges.v15.1.resources.dll
+F:\QQ-DOWNLOAD\905838939\FileRecv\FireWall.219\FireWall\bin\Debug\ja\DevExpress.Xpf.Gauges.v15.1.resources.dll
+F:\QQ-DOWNLOAD\905838939\FileRecv\FireWall.219\FireWall\bin\Debug\ru\DevExpress.Xpf.Gauges.v15.1.resources.dll
+F:\QQ-DOWNLOAD\905838939\FileRecv\FireWall.219\FireWall\bin\Debug\de\DevExpress.Xpf.Grid.v15.1.Core.resources.dll
+F:\QQ-DOWNLOAD\905838939\FileRecv\FireWall.219\FireWall\bin\Debug\es\DevExpress.Xpf.Grid.v15.1.Core.resources.dll
+F:\QQ-DOWNLOAD\905838939\FileRecv\FireWall.219\FireWall\bin\Debug\ja\DevExpress.Xpf.Grid.v15.1.Core.resources.dll
+F:\QQ-DOWNLOAD\905838939\FileRecv\FireWall.219\FireWall\bin\Debug\ru\DevExpress.Xpf.Grid.v15.1.Core.resources.dll
+F:\QQ-DOWNLOAD\905838939\FileRecv\FireWall.219\FireWall\bin\Debug\de\DevExpress.Xpf.Printing.v15.1.resources.dll
+F:\QQ-DOWNLOAD\905838939\FileRecv\FireWall.219\FireWall\bin\Debug\es\DevExpress.Xpf.Printing.v15.1.resources.dll
+F:\QQ-DOWNLOAD\905838939\FileRecv\FireWall.219\FireWall\bin\Debug\ja\DevExpress.Xpf.Printing.v15.1.resources.dll
+F:\QQ-DOWNLOAD\905838939\FileRecv\FireWall.219\FireWall\bin\Debug\ru\DevExpress.Xpf.Printing.v15.1.resources.dll
+F:\QQ-DOWNLOAD\905838939\FileRecv\FireWall.219\FireWall\bin\Debug\de\System.Windows.Interactivity.resources.dll
+F:\QQ-DOWNLOAD\905838939\FileRecv\FireWall.219\FireWall\bin\Debug\en\System.Windows.Interactivity.resources.dll
+F:\QQ-DOWNLOAD\905838939\FileRecv\FireWall.219\FireWall\bin\Debug\es\System.Windows.Interactivity.resources.dll
+F:\QQ-DOWNLOAD\905838939\FileRecv\FireWall.219\FireWall\bin\Debug\fr\System.Windows.Interactivity.resources.dll
+F:\QQ-DOWNLOAD\905838939\FileRecv\FireWall.219\FireWall\bin\Debug\it\System.Windows.Interactivity.resources.dll
+F:\QQ-DOWNLOAD\905838939\FileRecv\FireWall.219\FireWall\bin\Debug\ja\System.Windows.Interactivity.resources.dll
+F:\QQ-DOWNLOAD\905838939\FileRecv\FireWall.219\FireWall\bin\Debug\ko\System.Windows.Interactivity.resources.dll
+F:\QQ-DOWNLOAD\905838939\FileRecv\FireWall.219\FireWall\bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+F:\QQ-DOWNLOAD\905838939\FileRecv\FireWall.219\FireWall\bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+F:\QQ-DOWNLOAD\905838939\FileRecv\FireWall.219\FireWall\bin\Debug\de\DevExpress.Xpf.Ribbon.v15.1.resources.dll
+F:\QQ-DOWNLOAD\905838939\FileRecv\FireWall.219\FireWall\bin\Debug\es\DevExpress.Xpf.Ribbon.v15.1.resources.dll
+F:\QQ-DOWNLOAD\905838939\FileRecv\FireWall.219\FireWall\bin\Debug\ja\DevExpress.Xpf.Ribbon.v15.1.resources.dll
+F:\QQ-DOWNLOAD\905838939\FileRecv\FireWall.219\FireWall\bin\Debug\ru\DevExpress.Xpf.Ribbon.v15.1.resources.dll
+F:\QQ-DOWNLOAD\905838939\FileRecv\FireWall.219\FireWall\bin\Debug\de\DevExpress.Xpf.DocumentViewer.v15.1.Core.resources.dll
+F:\QQ-DOWNLOAD\905838939\FileRecv\FireWall.219\FireWall\bin\Debug\es\DevExpress.Xpf.DocumentViewer.v15.1.Core.resources.dll
+F:\QQ-DOWNLOAD\905838939\FileRecv\FireWall.219\FireWall\bin\Debug\ja\DevExpress.Xpf.DocumentViewer.v15.1.Core.resources.dll
+F:\QQ-DOWNLOAD\905838939\FileRecv\FireWall.219\FireWall\bin\Debug\ru\DevExpress.Xpf.DocumentViewer.v15.1.Core.resources.dll
+F:\QQ-DOWNLOAD\905838939\FileRecv\FireWall.219\FireWall\bin\Debug\de\DevExpress.Xpf.Docking.v15.1.resources.dll
+F:\QQ-DOWNLOAD\905838939\FileRecv\FireWall.219\FireWall\bin\Debug\es\DevExpress.Xpf.Docking.v15.1.resources.dll
+F:\QQ-DOWNLOAD\905838939\FileRecv\FireWall.219\FireWall\bin\Debug\ja\DevExpress.Xpf.Docking.v15.1.resources.dll
+F:\QQ-DOWNLOAD\905838939\FileRecv\FireWall.219\FireWall\bin\Debug\ru\DevExpress.Xpf.Docking.v15.1.resources.dll
+F:\QQ-DOWNLOAD\905838939\FileRecv\FireWall.219\FireWall\bin\Debug\de\DevExpress.RichEdit.v15.1.Core.resources.dll
+F:\QQ-DOWNLOAD\905838939\FileRecv\FireWall.219\FireWall\bin\Debug\es\DevExpress.RichEdit.v15.1.Core.resources.dll
+F:\QQ-DOWNLOAD\905838939\FileRecv\FireWall.219\FireWall\bin\Debug\ja\DevExpress.RichEdit.v15.1.Core.resources.dll
+F:\QQ-DOWNLOAD\905838939\FileRecv\FireWall.219\FireWall\bin\Debug\ru\DevExpress.RichEdit.v15.1.Core.resources.dll
+F:\QQ-DOWNLOAD\905838939\FileRecv\FireWall.219\FireWall\bin\Debug\de\DevExpress.Office.v15.1.Core.resources.dll
+F:\QQ-DOWNLOAD\905838939\FileRecv\FireWall.219\FireWall\bin\Debug\es\DevExpress.Office.v15.1.Core.resources.dll
+F:\QQ-DOWNLOAD\905838939\FileRecv\FireWall.219\FireWall\bin\Debug\ja\DevExpress.Office.v15.1.Core.resources.dll
+F:\QQ-DOWNLOAD\905838939\FileRecv\FireWall.219\FireWall\bin\Debug\ru\DevExpress.Office.v15.1.Core.resources.dll
+F:\QQ-DOWNLOAD\905838939\FileRecv\FireWall.219\FireWall\obj\Debug\FireWall.csprojResolveAssemblyReference.cache
+F:\QQ-DOWNLOAD\905838939\FileRecv\FireWall.219\FireWall\obj\Debug\Page\StatisticsControl.g.cs
+F:\QQ-DOWNLOAD\905838939\FileRecv\FireWall.219\FireWall\obj\Debug\Window\AddUser.g.cs
+F:\QQ-DOWNLOAD\905838939\FileRecv\FireWall.219\FireWall\obj\Debug\Window\DataBaseSettingWindow.g.cs
+F:\QQ-DOWNLOAD\905838939\FileRecv\FireWall.219\FireWall\obj\Debug\Window\FireWallConfigurationApply.g.cs
+F:\QQ-DOWNLOAD\905838939\FileRecv\FireWall.219\FireWall\obj\Debug\Window\FireWallConfigurationDetail.g.cs
+F:\QQ-DOWNLOAD\905838939\FileRecv\FireWall.219\FireWall\obj\Debug\Page\LogControl.g.cs
+F:\QQ-DOWNLOAD\905838939\FileRecv\FireWall.219\FireWall\obj\Debug\Window\LoginWindow.g.cs
+F:\QQ-DOWNLOAD\905838939\FileRecv\FireWall.219\FireWall\obj\Debug\Page\MainContentControl.g.cs
+F:\QQ-DOWNLOAD\905838939\FileRecv\FireWall.219\FireWall\obj\Debug\Window\MainWindow.g.cs
+F:\QQ-DOWNLOAD\905838939\FileRecv\FireWall.219\FireWall\obj\Debug\Page\RealTimeData.g.cs
+F:\QQ-DOWNLOAD\905838939\FileRecv\FireWall.219\FireWall\obj\Debug\Window\RenameWindow.g.cs
+F:\QQ-DOWNLOAD\905838939\FileRecv\FireWall.219\FireWall\obj\Debug\Window\SetPasswordWindow.g.cs
+F:\QQ-DOWNLOAD\905838939\FileRecv\FireWall.219\FireWall\obj\Debug\Page\SystemSettingControl.g.cs
+F:\QQ-DOWNLOAD\905838939\FileRecv\FireWall.219\FireWall\obj\Debug\Page\UserManagementControl.g.cs
+F:\QQ-DOWNLOAD\905838939\FileRecv\FireWall.219\FireWall\obj\Debug\Window\UserMessageBox.g.cs
+F:\QQ-DOWNLOAD\905838939\FileRecv\FireWall.219\FireWall\obj\Debug\App.g.cs
+F:\QQ-DOWNLOAD\905838939\FileRecv\FireWall.219\FireWall\obj\Debug\GeneratedInternalTypeHelper.g.cs
+F:\QQ-DOWNLOAD\905838939\FileRecv\FireWall.219\FireWall\obj\Debug\FireWall_MarkupCompile.cache
+F:\QQ-DOWNLOAD\905838939\FileRecv\FireWall.219\FireWall\obj\Debug\FireWall_MarkupCompile.lref
+F:\QQ-DOWNLOAD\905838939\FileRecv\FireWall.219\FireWall\obj\Debug\App.baml
+F:\QQ-DOWNLOAD\905838939\FileRecv\FireWall.219\FireWall\obj\Debug\Page\StatisticsControl.baml
+F:\QQ-DOWNLOAD\905838939\FileRecv\FireWall.219\FireWall\obj\Debug\Window\AddUser.baml
+F:\QQ-DOWNLOAD\905838939\FileRecv\FireWall.219\FireWall\obj\Debug\Window\DataBaseSettingWindow.baml
+F:\QQ-DOWNLOAD\905838939\FileRecv\FireWall.219\FireWall\obj\Debug\Window\FireWallConfigurationApply.baml
+F:\QQ-DOWNLOAD\905838939\FileRecv\FireWall.219\FireWall\obj\Debug\Window\FireWallConfigurationDetail.baml
+F:\QQ-DOWNLOAD\905838939\FileRecv\FireWall.219\FireWall\obj\Debug\Page\LogControl.baml
+F:\QQ-DOWNLOAD\905838939\FileRecv\FireWall.219\FireWall\obj\Debug\Window\LoginWindow.baml
+F:\QQ-DOWNLOAD\905838939\FileRecv\FireWall.219\FireWall\obj\Debug\Page\MainContentControl.baml
+F:\QQ-DOWNLOAD\905838939\FileRecv\FireWall.219\FireWall\obj\Debug\Window\MainWindow.baml
+F:\QQ-DOWNLOAD\905838939\FileRecv\FireWall.219\FireWall\obj\Debug\Page\RealTimeData.baml
+F:\QQ-DOWNLOAD\905838939\FileRecv\FireWall.219\FireWall\obj\Debug\Window\RenameWindow.baml
+F:\QQ-DOWNLOAD\905838939\FileRecv\FireWall.219\FireWall\obj\Debug\Window\SetPasswordWindow.baml
+F:\QQ-DOWNLOAD\905838939\FileRecv\FireWall.219\FireWall\obj\Debug\styles\ProgressbarStyle.baml
+F:\QQ-DOWNLOAD\905838939\FileRecv\FireWall.219\FireWall\obj\Debug\styles\Simple Styles.baml
+F:\QQ-DOWNLOAD\905838939\FileRecv\FireWall.219\FireWall\obj\Debug\styles\DataGridStyle.baml
+F:\QQ-DOWNLOAD\905838939\FileRecv\FireWall.219\FireWall\obj\Debug\Page\SystemSettingControl.baml
+F:\QQ-DOWNLOAD\905838939\FileRecv\FireWall.219\FireWall\obj\Debug\Themes\Generic.baml
+F:\QQ-DOWNLOAD\905838939\FileRecv\FireWall.219\FireWall\obj\Debug\Page\UserManagementControl.baml
+F:\QQ-DOWNLOAD\905838939\FileRecv\FireWall.219\FireWall\obj\Debug\Window\UserMessageBox.baml
+F:\QQ-DOWNLOAD\905838939\FileRecv\FireWall.219\FireWall\obj\Debug\FireWall.g.resources
+F:\QQ-DOWNLOAD\905838939\FileRecv\FireWall.219\FireWall\obj\Debug\FireWall.Properties.Resources.resources
+F:\QQ-DOWNLOAD\905838939\FileRecv\FireWall.219\FireWall\obj\Debug\FireWall.csproj.GenerateResource.Cache
+F:\QQ-DOWNLOAD\905838939\FileRecv\FireWall.219\FireWall\obj\Debug\FireWall.exe.licenses
+C:\Users\74791\Desktop\FireWall.219\FireWall\bin\Debug\FireWall.exe.config
+C:\Users\74791\Desktop\FireWall.219\FireWall\obj\Debug\FireWall.exe
+C:\Users\74791\Desktop\FireWall.219\FireWall\obj\Debug\FireWall.pdb
+C:\Users\74791\Desktop\FireWall.219\FireWall\bin\Debug\FireWall.exe
+C:\Users\74791\Desktop\FireWall.219\FireWall\bin\Debug\FireWall.pdb
+C:\Users\74791\Desktop\FireWall.219\FireWall\bin\Debug\DevExpress.Charts.v15.1.Core.dll
+C:\Users\74791\Desktop\FireWall.219\FireWall\bin\Debug\DevExpress.Data.v15.1.dll
+C:\Users\74791\Desktop\FireWall.219\FireWall\bin\Debug\DevExpress.Mvvm.v15.1.dll
+C:\Users\74791\Desktop\FireWall.219\FireWall\bin\Debug\DevExpress.Printing.v15.1.Core.dll
+C:\Users\74791\Desktop\FireWall.219\FireWall\bin\Debug\DevExpress.Xpf.Charts.v15.1.dll
+C:\Users\74791\Desktop\FireWall.219\FireWall\bin\Debug\DevExpress.Xpf.Core.v15.1.dll
+C:\Users\74791\Desktop\FireWall.219\FireWall\bin\Debug\DevExpress.Xpf.Gauges.v15.1.dll
+C:\Users\74791\Desktop\FireWall.219\FireWall\bin\Debug\DevExpress.Xpf.Grid.v15.1.Core.dll
+C:\Users\74791\Desktop\FireWall.219\FireWall\bin\Debug\DevExpress.Xpf.Grid.v15.1.dll
+C:\Users\74791\Desktop\FireWall.219\FireWall\bin\Debug\DevExpress.Xpf.Printing.v15.1.dll
+C:\Users\74791\Desktop\FireWall.219\FireWall\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\74791\Desktop\FireWall.219\FireWall\bin\Debug\DevExpress.Xpf.Ribbon.v15.1.dll
+C:\Users\74791\Desktop\FireWall.219\FireWall\bin\Debug\DevExpress.Xpf.DocumentViewer.v15.1.Core.dll
+C:\Users\74791\Desktop\FireWall.219\FireWall\bin\Debug\DevExpress.Xpf.Docking.v15.1.dll
+C:\Users\74791\Desktop\FireWall.219\FireWall\bin\Debug\DevExpress.RichEdit.v15.1.Core.dll
+C:\Users\74791\Desktop\FireWall.219\FireWall\bin\Debug\DevExpress.Xpf.Layout.v15.1.Core.dll
+C:\Users\74791\Desktop\FireWall.219\FireWall\bin\Debug\DevExpress.Office.v15.1.Core.dll
+C:\Users\74791\Desktop\FireWall.219\FireWall\bin\Debug\DevExpress.Data.v15.1.xml
+C:\Users\74791\Desktop\FireWall.219\FireWall\bin\Debug\DevExpress.Mvvm.v15.1.xml
+C:\Users\74791\Desktop\FireWall.219\FireWall\bin\Debug\DevExpress.Printing.v15.1.Core.xml
+C:\Users\74791\Desktop\FireWall.219\FireWall\bin\Debug\DevExpress.Xpf.Charts.v15.1.xml
+C:\Users\74791\Desktop\FireWall.219\FireWall\bin\Debug\DevExpress.Xpf.Core.v15.1.xml
+C:\Users\74791\Desktop\FireWall.219\FireWall\bin\Debug\DevExpress.Xpf.Gauges.v15.1.xml
+C:\Users\74791\Desktop\FireWall.219\FireWall\bin\Debug\DevExpress.Xpf.Grid.v15.1.xml
+C:\Users\74791\Desktop\FireWall.219\FireWall\bin\Debug\DevExpress.Xpf.Grid.v15.1.Core.xml
+C:\Users\74791\Desktop\FireWall.219\FireWall\bin\Debug\DevExpress.Xpf.Printing.v15.1.xml
+C:\Users\74791\Desktop\FireWall.219\FireWall\bin\Debug\System.Windows.Interactivity.xml
+C:\Users\74791\Desktop\FireWall.219\FireWall\bin\Debug\DevExpress.Xpf.Ribbon.v15.1.xml
+C:\Users\74791\Desktop\FireWall.219\FireWall\bin\Debug\DevExpress.Xpf.Docking.v15.1.xml
+C:\Users\74791\Desktop\FireWall.219\FireWall\bin\Debug\DevExpress.RichEdit.v15.1.Core.xml
+C:\Users\74791\Desktop\FireWall.219\FireWall\bin\Debug\DevExpress.Xpf.Layout.v15.1.Core.xml
+C:\Users\74791\Desktop\FireWall.219\FireWall\bin\Debug\DevExpress.Office.v15.1.Core.xml
+C:\Users\74791\Desktop\FireWall.219\FireWall\bin\Debug\de\DevExpress.Data.v15.1.resources.dll
+C:\Users\74791\Desktop\FireWall.219\FireWall\bin\Debug\es\DevExpress.Data.v15.1.resources.dll
+C:\Users\74791\Desktop\FireWall.219\FireWall\bin\Debug\ja\DevExpress.Data.v15.1.resources.dll
+C:\Users\74791\Desktop\FireWall.219\FireWall\bin\Debug\ru\DevExpress.Data.v15.1.resources.dll
+C:\Users\74791\Desktop\FireWall.219\FireWall\bin\Debug\de\DevExpress.Printing.v15.1.Core.resources.dll
+C:\Users\74791\Desktop\FireWall.219\FireWall\bin\Debug\es\DevExpress.Printing.v15.1.Core.resources.dll
+C:\Users\74791\Desktop\FireWall.219\FireWall\bin\Debug\ja\DevExpress.Printing.v15.1.Core.resources.dll
+C:\Users\74791\Desktop\FireWall.219\FireWall\bin\Debug\ru\DevExpress.Printing.v15.1.Core.resources.dll
+C:\Users\74791\Desktop\FireWall.219\FireWall\bin\Debug\de\DevExpress.Xpf.Charts.v15.1.resources.dll
+C:\Users\74791\Desktop\FireWall.219\FireWall\bin\Debug\es\DevExpress.Xpf.Charts.v15.1.resources.dll
+C:\Users\74791\Desktop\FireWall.219\FireWall\bin\Debug\ja\DevExpress.Xpf.Charts.v15.1.resources.dll
+C:\Users\74791\Desktop\FireWall.219\FireWall\bin\Debug\ru\DevExpress.Xpf.Charts.v15.1.resources.dll
+C:\Users\74791\Desktop\FireWall.219\FireWall\bin\Debug\de\DevExpress.Xpf.Core.v15.1.resources.dll
+C:\Users\74791\Desktop\FireWall.219\FireWall\bin\Debug\es\DevExpress.Xpf.Core.v15.1.resources.dll
+C:\Users\74791\Desktop\FireWall.219\FireWall\bin\Debug\ja\DevExpress.Xpf.Core.v15.1.resources.dll
+C:\Users\74791\Desktop\FireWall.219\FireWall\bin\Debug\ru\DevExpress.Xpf.Core.v15.1.resources.dll
+C:\Users\74791\Desktop\FireWall.219\FireWall\bin\Debug\de\DevExpress.Xpf.Gauges.v15.1.resources.dll
+C:\Users\74791\Desktop\FireWall.219\FireWall\bin\Debug\es\DevExpress.Xpf.Gauges.v15.1.resources.dll
+C:\Users\74791\Desktop\FireWall.219\FireWall\bin\Debug\ja\DevExpress.Xpf.Gauges.v15.1.resources.dll
+C:\Users\74791\Desktop\FireWall.219\FireWall\bin\Debug\ru\DevExpress.Xpf.Gauges.v15.1.resources.dll
+C:\Users\74791\Desktop\FireWall.219\FireWall\bin\Debug\de\DevExpress.Xpf.Grid.v15.1.Core.resources.dll
+C:\Users\74791\Desktop\FireWall.219\FireWall\bin\Debug\es\DevExpress.Xpf.Grid.v15.1.Core.resources.dll
+C:\Users\74791\Desktop\FireWall.219\FireWall\bin\Debug\ja\DevExpress.Xpf.Grid.v15.1.Core.resources.dll
+C:\Users\74791\Desktop\FireWall.219\FireWall\bin\Debug\ru\DevExpress.Xpf.Grid.v15.1.Core.resources.dll
+C:\Users\74791\Desktop\FireWall.219\FireWall\bin\Debug\de\DevExpress.Xpf.Printing.v15.1.resources.dll
+C:\Users\74791\Desktop\FireWall.219\FireWall\bin\Debug\es\DevExpress.Xpf.Printing.v15.1.resources.dll
+C:\Users\74791\Desktop\FireWall.219\FireWall\bin\Debug\ja\DevExpress.Xpf.Printing.v15.1.resources.dll
+C:\Users\74791\Desktop\FireWall.219\FireWall\bin\Debug\ru\DevExpress.Xpf.Printing.v15.1.resources.dll
+C:\Users\74791\Desktop\FireWall.219\FireWall\bin\Debug\de\System.Windows.Interactivity.resources.dll
+C:\Users\74791\Desktop\FireWall.219\FireWall\bin\Debug\en\System.Windows.Interactivity.resources.dll
+C:\Users\74791\Desktop\FireWall.219\FireWall\bin\Debug\es\System.Windows.Interactivity.resources.dll
+C:\Users\74791\Desktop\FireWall.219\FireWall\bin\Debug\fr\System.Windows.Interactivity.resources.dll
+C:\Users\74791\Desktop\FireWall.219\FireWall\bin\Debug\it\System.Windows.Interactivity.resources.dll
+C:\Users\74791\Desktop\FireWall.219\FireWall\bin\Debug\ja\System.Windows.Interactivity.resources.dll
+C:\Users\74791\Desktop\FireWall.219\FireWall\bin\Debug\ko\System.Windows.Interactivity.resources.dll
+C:\Users\74791\Desktop\FireWall.219\FireWall\bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+C:\Users\74791\Desktop\FireWall.219\FireWall\bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+C:\Users\74791\Desktop\FireWall.219\FireWall\bin\Debug\de\DevExpress.Xpf.Ribbon.v15.1.resources.dll
+C:\Users\74791\Desktop\FireWall.219\FireWall\bin\Debug\es\DevExpress.Xpf.Ribbon.v15.1.resources.dll
+C:\Users\74791\Desktop\FireWall.219\FireWall\bin\Debug\ja\DevExpress.Xpf.Ribbon.v15.1.resources.dll
+C:\Users\74791\Desktop\FireWall.219\FireWall\bin\Debug\ru\DevExpress.Xpf.Ribbon.v15.1.resources.dll
+C:\Users\74791\Desktop\FireWall.219\FireWall\bin\Debug\de\DevExpress.Xpf.DocumentViewer.v15.1.Core.resources.dll
+C:\Users\74791\Desktop\FireWall.219\FireWall\bin\Debug\es\DevExpress.Xpf.DocumentViewer.v15.1.Core.resources.dll
+C:\Users\74791\Desktop\FireWall.219\FireWall\bin\Debug\ja\DevExpress.Xpf.DocumentViewer.v15.1.Core.resources.dll
+C:\Users\74791\Desktop\FireWall.219\FireWall\bin\Debug\ru\DevExpress.Xpf.DocumentViewer.v15.1.Core.resources.dll
+C:\Users\74791\Desktop\FireWall.219\FireWall\bin\Debug\de\DevExpress.Xpf.Docking.v15.1.resources.dll
+C:\Users\74791\Desktop\FireWall.219\FireWall\bin\Debug\es\DevExpress.Xpf.Docking.v15.1.resources.dll
+C:\Users\74791\Desktop\FireWall.219\FireWall\bin\Debug\ja\DevExpress.Xpf.Docking.v15.1.resources.dll
+C:\Users\74791\Desktop\FireWall.219\FireWall\bin\Debug\ru\DevExpress.Xpf.Docking.v15.1.resources.dll
+C:\Users\74791\Desktop\FireWall.219\FireWall\bin\Debug\de\DevExpress.RichEdit.v15.1.Core.resources.dll
+C:\Users\74791\Desktop\FireWall.219\FireWall\bin\Debug\es\DevExpress.RichEdit.v15.1.Core.resources.dll
+C:\Users\74791\Desktop\FireWall.219\FireWall\bin\Debug\ja\DevExpress.RichEdit.v15.1.Core.resources.dll
+C:\Users\74791\Desktop\FireWall.219\FireWall\bin\Debug\ru\DevExpress.RichEdit.v15.1.Core.resources.dll
+C:\Users\74791\Desktop\FireWall.219\FireWall\bin\Debug\de\DevExpress.Office.v15.1.Core.resources.dll
+C:\Users\74791\Desktop\FireWall.219\FireWall\bin\Debug\es\DevExpress.Office.v15.1.Core.resources.dll
+C:\Users\74791\Desktop\FireWall.219\FireWall\bin\Debug\ja\DevExpress.Office.v15.1.Core.resources.dll
+C:\Users\74791\Desktop\FireWall.219\FireWall\bin\Debug\ru\DevExpress.Office.v15.1.Core.resources.dll
+C:\Users\74791\Desktop\FireWall.219\FireWall\obj\Debug\FireWall.csprojResolveAssemblyReference.cache
+C:\Users\74791\Desktop\FireWall.219\FireWall\obj\Debug\Page\StatisticsControl.g.cs
+C:\Users\74791\Desktop\FireWall.219\FireWall\obj\Debug\Window\AddUser.g.cs
+C:\Users\74791\Desktop\FireWall.219\FireWall\obj\Debug\Window\DataBaseSettingWindow.g.cs
+C:\Users\74791\Desktop\FireWall.219\FireWall\obj\Debug\Window\FireWallConfigurationApply.g.cs
+C:\Users\74791\Desktop\FireWall.219\FireWall\obj\Debug\Window\FireWallConfigurationDetail.g.cs
+C:\Users\74791\Desktop\FireWall.219\FireWall\obj\Debug\Page\LogControl.g.cs
+C:\Users\74791\Desktop\FireWall.219\FireWall\obj\Debug\Window\LoginWindow.g.cs
+C:\Users\74791\Desktop\FireWall.219\FireWall\obj\Debug\Page\MainContentControl.g.cs
+C:\Users\74791\Desktop\FireWall.219\FireWall\obj\Debug\Window\MainWindow.g.cs
+C:\Users\74791\Desktop\FireWall.219\FireWall\obj\Debug\Page\RealTimeData.g.cs
+C:\Users\74791\Desktop\FireWall.219\FireWall\obj\Debug\Window\RenameWindow.g.cs
+C:\Users\74791\Desktop\FireWall.219\FireWall\obj\Debug\Window\SetPasswordWindow.g.cs
+C:\Users\74791\Desktop\FireWall.219\FireWall\obj\Debug\Page\SystemSettingControl.g.cs
+C:\Users\74791\Desktop\FireWall.219\FireWall\obj\Debug\Page\UserManagementControl.g.cs
+C:\Users\74791\Desktop\FireWall.219\FireWall\obj\Debug\Window\UserMessageBox.g.cs
+C:\Users\74791\Desktop\FireWall.219\FireWall\obj\Debug\App.g.cs
+C:\Users\74791\Desktop\FireWall.219\FireWall\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\74791\Desktop\FireWall.219\FireWall\obj\Debug\FireWall_MarkupCompile.cache
+C:\Users\74791\Desktop\FireWall.219\FireWall\obj\Debug\FireWall_MarkupCompile.lref
+C:\Users\74791\Desktop\FireWall.219\FireWall\obj\Debug\App.baml
+C:\Users\74791\Desktop\FireWall.219\FireWall\obj\Debug\Page\StatisticsControl.baml
+C:\Users\74791\Desktop\FireWall.219\FireWall\obj\Debug\Window\AddUser.baml
+C:\Users\74791\Desktop\FireWall.219\FireWall\obj\Debug\Window\DataBaseSettingWindow.baml
+C:\Users\74791\Desktop\FireWall.219\FireWall\obj\Debug\Window\FireWallConfigurationApply.baml
+C:\Users\74791\Desktop\FireWall.219\FireWall\obj\Debug\Window\FireWallConfigurationDetail.baml
+C:\Users\74791\Desktop\FireWall.219\FireWall\obj\Debug\Page\LogControl.baml
+C:\Users\74791\Desktop\FireWall.219\FireWall\obj\Debug\Window\LoginWindow.baml
+C:\Users\74791\Desktop\FireWall.219\FireWall\obj\Debug\Page\MainContentControl.baml
+C:\Users\74791\Desktop\FireWall.219\FireWall\obj\Debug\Window\MainWindow.baml
+C:\Users\74791\Desktop\FireWall.219\FireWall\obj\Debug\Page\RealTimeData.baml
+C:\Users\74791\Desktop\FireWall.219\FireWall\obj\Debug\Window\RenameWindow.baml
+C:\Users\74791\Desktop\FireWall.219\FireWall\obj\Debug\Window\SetPasswordWindow.baml
+C:\Users\74791\Desktop\FireWall.219\FireWall\obj\Debug\styles\ProgressbarStyle.baml
+C:\Users\74791\Desktop\FireWall.219\FireWall\obj\Debug\styles\Simple Styles.baml
+C:\Users\74791\Desktop\FireWall.219\FireWall\obj\Debug\styles\DataGridStyle.baml
+C:\Users\74791\Desktop\FireWall.219\FireWall\obj\Debug\Page\SystemSettingControl.baml
+C:\Users\74791\Desktop\FireWall.219\FireWall\obj\Debug\Themes\Generic.baml
+C:\Users\74791\Desktop\FireWall.219\FireWall\obj\Debug\Page\UserManagementControl.baml
+C:\Users\74791\Desktop\FireWall.219\FireWall\obj\Debug\Window\UserMessageBox.baml
+C:\Users\74791\Desktop\FireWall.219\FireWall\obj\Debug\FireWall.g.resources
+C:\Users\74791\Desktop\FireWall.219\FireWall\obj\Debug\FireWall.Properties.Resources.resources
+C:\Users\74791\Desktop\FireWall.219\FireWall\obj\Debug\FireWall.csproj.GenerateResource.Cache
+C:\Users\74791\Desktop\FireWall.219\FireWall\obj\Debug\FireWall.exe.licenses
+C:\Users\74791\Desktop\FireWall.219\FireWall\obj\Debug\Window\PRTConfigurationDetail.g.cs
+C:\Users\74791\Desktop\FireWall.219\FireWall\obj\Debug\Window\PRTConfigurationDetail.baml
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\bin\Debug\FireWall.exe.config
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\obj\Debug\FireWall.exe
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\obj\Debug\FireWall.pdb
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\bin\Debug\FireWall.exe
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\bin\Debug\FireWall.pdb
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\bin\Debug\DevExpress.Charts.v15.1.Core.dll
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\bin\Debug\DevExpress.Data.v15.1.dll
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\bin\Debug\DevExpress.Mvvm.v15.1.dll
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\bin\Debug\DevExpress.Printing.v15.1.Core.dll
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\bin\Debug\DevExpress.Xpf.Charts.v15.1.dll
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\bin\Debug\DevExpress.Xpf.Core.v15.1.dll
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\bin\Debug\DevExpress.Xpf.Gauges.v15.1.dll
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\bin\Debug\DevExpress.Xpf.Grid.v15.1.Core.dll
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\bin\Debug\DevExpress.Xpf.Grid.v15.1.dll
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\bin\Debug\DevExpress.Xpf.Printing.v15.1.dll
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\bin\Debug\DevExpress.Xpf.Ribbon.v15.1.dll
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\bin\Debug\DevExpress.Xpf.DocumentViewer.v15.1.Core.dll
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\bin\Debug\DevExpress.Xpf.Docking.v15.1.dll
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\bin\Debug\DevExpress.RichEdit.v15.1.Core.dll
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\bin\Debug\DevExpress.Xpf.Layout.v15.1.Core.dll
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\bin\Debug\DevExpress.Office.v15.1.Core.dll
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\bin\Debug\DevExpress.Data.v15.1.xml
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\bin\Debug\DevExpress.Mvvm.v15.1.xml
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\bin\Debug\DevExpress.Printing.v15.1.Core.xml
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\bin\Debug\DevExpress.Xpf.Charts.v15.1.xml
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\bin\Debug\DevExpress.Xpf.Core.v15.1.xml
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\bin\Debug\DevExpress.Xpf.Gauges.v15.1.xml
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\bin\Debug\DevExpress.Xpf.Grid.v15.1.xml
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\bin\Debug\DevExpress.Xpf.Grid.v15.1.Core.xml
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\bin\Debug\DevExpress.Xpf.Printing.v15.1.xml
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\bin\Debug\System.Windows.Interactivity.xml
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\bin\Debug\DevExpress.Xpf.Ribbon.v15.1.xml
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\bin\Debug\DevExpress.Xpf.Docking.v15.1.xml
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\bin\Debug\DevExpress.RichEdit.v15.1.Core.xml
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\bin\Debug\DevExpress.Xpf.Layout.v15.1.Core.xml
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\bin\Debug\DevExpress.Office.v15.1.Core.xml
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\bin\Debug\de\DevExpress.Data.v15.1.resources.dll
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\bin\Debug\es\DevExpress.Data.v15.1.resources.dll
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\bin\Debug\ja\DevExpress.Data.v15.1.resources.dll
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\bin\Debug\ru\DevExpress.Data.v15.1.resources.dll
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\bin\Debug\de\DevExpress.Printing.v15.1.Core.resources.dll
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\bin\Debug\es\DevExpress.Printing.v15.1.Core.resources.dll
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\bin\Debug\ja\DevExpress.Printing.v15.1.Core.resources.dll
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\bin\Debug\ru\DevExpress.Printing.v15.1.Core.resources.dll
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\bin\Debug\de\DevExpress.Xpf.Charts.v15.1.resources.dll
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\bin\Debug\es\DevExpress.Xpf.Charts.v15.1.resources.dll
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\bin\Debug\ja\DevExpress.Xpf.Charts.v15.1.resources.dll
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\bin\Debug\ru\DevExpress.Xpf.Charts.v15.1.resources.dll
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\bin\Debug\de\DevExpress.Xpf.Core.v15.1.resources.dll
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\bin\Debug\es\DevExpress.Xpf.Core.v15.1.resources.dll
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\bin\Debug\ja\DevExpress.Xpf.Core.v15.1.resources.dll
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\bin\Debug\ru\DevExpress.Xpf.Core.v15.1.resources.dll
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\bin\Debug\de\DevExpress.Xpf.Gauges.v15.1.resources.dll
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\bin\Debug\es\DevExpress.Xpf.Gauges.v15.1.resources.dll
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\bin\Debug\ja\DevExpress.Xpf.Gauges.v15.1.resources.dll
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\bin\Debug\ru\DevExpress.Xpf.Gauges.v15.1.resources.dll
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\bin\Debug\de\DevExpress.Xpf.Grid.v15.1.Core.resources.dll
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\bin\Debug\es\DevExpress.Xpf.Grid.v15.1.Core.resources.dll
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\bin\Debug\ja\DevExpress.Xpf.Grid.v15.1.Core.resources.dll
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\bin\Debug\ru\DevExpress.Xpf.Grid.v15.1.Core.resources.dll
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\bin\Debug\de\DevExpress.Xpf.Printing.v15.1.resources.dll
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\bin\Debug\es\DevExpress.Xpf.Printing.v15.1.resources.dll
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\bin\Debug\ja\DevExpress.Xpf.Printing.v15.1.resources.dll
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\bin\Debug\ru\DevExpress.Xpf.Printing.v15.1.resources.dll
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\bin\Debug\de\System.Windows.Interactivity.resources.dll
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\bin\Debug\en\System.Windows.Interactivity.resources.dll
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\bin\Debug\es\System.Windows.Interactivity.resources.dll
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\bin\Debug\fr\System.Windows.Interactivity.resources.dll
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\bin\Debug\it\System.Windows.Interactivity.resources.dll
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\bin\Debug\ja\System.Windows.Interactivity.resources.dll
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\bin\Debug\ko\System.Windows.Interactivity.resources.dll
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\bin\Debug\de\DevExpress.Xpf.Ribbon.v15.1.resources.dll
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\bin\Debug\es\DevExpress.Xpf.Ribbon.v15.1.resources.dll
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\bin\Debug\ja\DevExpress.Xpf.Ribbon.v15.1.resources.dll
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\bin\Debug\ru\DevExpress.Xpf.Ribbon.v15.1.resources.dll
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\bin\Debug\de\DevExpress.Xpf.DocumentViewer.v15.1.Core.resources.dll
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\bin\Debug\es\DevExpress.Xpf.DocumentViewer.v15.1.Core.resources.dll
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\bin\Debug\ja\DevExpress.Xpf.DocumentViewer.v15.1.Core.resources.dll
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\bin\Debug\ru\DevExpress.Xpf.DocumentViewer.v15.1.Core.resources.dll
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\bin\Debug\de\DevExpress.Xpf.Docking.v15.1.resources.dll
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\bin\Debug\es\DevExpress.Xpf.Docking.v15.1.resources.dll
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\bin\Debug\ja\DevExpress.Xpf.Docking.v15.1.resources.dll
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\bin\Debug\ru\DevExpress.Xpf.Docking.v15.1.resources.dll
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\bin\Debug\de\DevExpress.RichEdit.v15.1.Core.resources.dll
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\bin\Debug\es\DevExpress.RichEdit.v15.1.Core.resources.dll
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\bin\Debug\ja\DevExpress.RichEdit.v15.1.Core.resources.dll
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\bin\Debug\ru\DevExpress.RichEdit.v15.1.Core.resources.dll
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\bin\Debug\de\DevExpress.Office.v15.1.Core.resources.dll
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\bin\Debug\es\DevExpress.Office.v15.1.Core.resources.dll
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\bin\Debug\ja\DevExpress.Office.v15.1.Core.resources.dll
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\bin\Debug\ru\DevExpress.Office.v15.1.Core.resources.dll
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\obj\Debug\Page\StatisticsControl.g.cs
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\obj\Debug\Window\PRTConfigurationDetail.g.cs
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\obj\Debug\Window\AddUser.g.cs
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\obj\Debug\Window\DataBaseSettingWindow.g.cs
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\obj\Debug\Window\FireWallConfigurationApply.g.cs
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\obj\Debug\Window\FireWallConfigurationDetail.g.cs
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\obj\Debug\Page\LogControl.g.cs
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\obj\Debug\Window\LoginWindow.g.cs
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\obj\Debug\Page\MainContentControl.g.cs
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\obj\Debug\Window\MainWindow.g.cs
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\obj\Debug\Page\RealTimeData.g.cs
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\obj\Debug\Window\RenameWindow.g.cs
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\obj\Debug\Window\SetPasswordWindow.g.cs
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\obj\Debug\Page\SystemSettingControl.g.cs
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\obj\Debug\Page\UserManagementControl.g.cs
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\obj\Debug\Window\UserMessageBox.g.cs
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\obj\Debug\App.g.cs
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\obj\Debug\FireWall_MarkupCompile.cache
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\obj\Debug\FireWall_MarkupCompile.lref
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\obj\Debug\App.baml
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\obj\Debug\Page\StatisticsControl.baml
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\obj\Debug\Window\PRTConfigurationDetail.baml
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\obj\Debug\Window\AddUser.baml
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\obj\Debug\Window\DataBaseSettingWindow.baml
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\obj\Debug\Window\FireWallConfigurationApply.baml
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\obj\Debug\Window\FireWallConfigurationDetail.baml
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\obj\Debug\Page\LogControl.baml
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\obj\Debug\Window\LoginWindow.baml
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\obj\Debug\Page\MainContentControl.baml
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\obj\Debug\Window\MainWindow.baml
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\obj\Debug\Page\RealTimeData.baml
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\obj\Debug\Window\RenameWindow.baml
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\obj\Debug\Window\SetPasswordWindow.baml
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\obj\Debug\styles\ProgressbarStyle.baml
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\obj\Debug\styles\Simple Styles.baml
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\obj\Debug\styles\DataGridStyle.baml
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\obj\Debug\Page\SystemSettingControl.baml
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\obj\Debug\Themes\Generic.baml
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\obj\Debug\Page\UserManagementControl.baml
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\obj\Debug\Window\UserMessageBox.baml
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\obj\Debug\FireWall.g.resources
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\obj\Debug\FireWall.Properties.Resources.resources
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\obj\Debug\FireWall.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\obj\Debug\FireWall.exe.licenses
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\obj\Debug\Page\ConfigFW.g.cs
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\obj\Debug\Page\ConfigFW.baml
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\obj\Debug\Window\STDConfigurationDetail.g.cs
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\obj\Debug\Window\STDConfigurationDetail.baml
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\obj\Debug\Window\CNCConfigurationDetail.g.cs
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\obj\Debug\Window\CNCConfigurationDetail.baml
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\obj\Debug\Window\WHLConfigurationDetail.g.cs
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\obj\Debug\Window\WHLConfigurationDetail.baml
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\obj\Debug\Window\NATConfigurationDetail.g.cs
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\obj\Debug\Window\NATConfigurationDetail.baml
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\obj\Debug\Window\ResetIPWindow.g.cs
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\obj\Debug\Window\ResetIPWindow.baml
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\obj\Debug\Window\NATConfigurationApply.g.cs
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\obj\Debug\Window\NATConfigurationApply.baml
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\obj\Debug\Window\WHLConfigurationApply.g.cs
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\obj\Debug\Window\WHLConfigurationApply.baml
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\obj\Debug\Window\APCConfigurationApply.g.cs
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\obj\Debug\Window\APCConfigurationApply.baml
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\obj\Debug\Window\PRTConfigurationApply.g.cs
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\obj\Debug\Window\PRTConfigurationApply.baml
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\obj\Debug\Window\CNCConfigurationApply.g.cs
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\obj\Debug\Window\CNCConfigurationApply.baml
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\obj\Debug\Window\STDConfigurationApply.g.cs
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\obj\Debug\Window\STDConfigurationApply.baml
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\obj\Debug\FireWall.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\bin\Debug\FireWall.exe.config
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\obj\Debug\FireWall.exe
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\obj\Debug\FireWall.pdb
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\bin\Debug\FireWall.exe
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\bin\Debug\FireWall.pdb
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\bin\Debug\DevExpress.Charts.v15.1.Core.dll
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\bin\Debug\DevExpress.Data.v15.1.dll
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\bin\Debug\DevExpress.Mvvm.v15.1.dll
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\bin\Debug\DevExpress.Printing.v15.1.Core.dll
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\bin\Debug\DevExpress.Xpf.Charts.v15.1.dll
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\bin\Debug\DevExpress.Xpf.Core.v15.1.dll
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\bin\Debug\DevExpress.Xpf.Gauges.v15.1.dll
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\bin\Debug\DevExpress.Xpf.Grid.v15.1.Core.dll
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\bin\Debug\DevExpress.Xpf.Grid.v15.1.dll
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\bin\Debug\DevExpress.Xpf.Printing.v15.1.dll
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\bin\Debug\DevExpress.Xpf.Ribbon.v15.1.dll
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\bin\Debug\DevExpress.Xpf.DocumentViewer.v15.1.Core.dll
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\bin\Debug\DevExpress.Xpf.Docking.v15.1.dll
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\bin\Debug\DevExpress.RichEdit.v15.1.Core.dll
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\bin\Debug\DevExpress.Xpf.Layout.v15.1.Core.dll
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\bin\Debug\DevExpress.Office.v15.1.Core.dll
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\bin\Debug\DevExpress.Data.v15.1.xml
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\bin\Debug\DevExpress.Mvvm.v15.1.xml
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\bin\Debug\DevExpress.Printing.v15.1.Core.xml
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\bin\Debug\DevExpress.Xpf.Charts.v15.1.xml
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\bin\Debug\DevExpress.Xpf.Core.v15.1.xml
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\bin\Debug\DevExpress.Xpf.Gauges.v15.1.xml
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\bin\Debug\DevExpress.Xpf.Grid.v15.1.xml
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\bin\Debug\DevExpress.Xpf.Grid.v15.1.Core.xml
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\bin\Debug\DevExpress.Xpf.Printing.v15.1.xml
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\bin\Debug\System.Windows.Interactivity.xml
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\bin\Debug\DevExpress.Xpf.Ribbon.v15.1.xml
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\bin\Debug\DevExpress.Xpf.Docking.v15.1.xml
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\bin\Debug\DevExpress.RichEdit.v15.1.Core.xml
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\bin\Debug\DevExpress.Xpf.Layout.v15.1.Core.xml
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\bin\Debug\DevExpress.Office.v15.1.Core.xml
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\bin\Debug\de\DevExpress.Data.v15.1.resources.dll
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\bin\Debug\es\DevExpress.Data.v15.1.resources.dll
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\bin\Debug\ja\DevExpress.Data.v15.1.resources.dll
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\bin\Debug\ru\DevExpress.Data.v15.1.resources.dll
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\bin\Debug\de\DevExpress.Printing.v15.1.Core.resources.dll
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\bin\Debug\es\DevExpress.Printing.v15.1.Core.resources.dll
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\bin\Debug\ja\DevExpress.Printing.v15.1.Core.resources.dll
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\bin\Debug\ru\DevExpress.Printing.v15.1.Core.resources.dll
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\bin\Debug\de\DevExpress.Xpf.Charts.v15.1.resources.dll
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\bin\Debug\es\DevExpress.Xpf.Charts.v15.1.resources.dll
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\bin\Debug\ja\DevExpress.Xpf.Charts.v15.1.resources.dll
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\bin\Debug\ru\DevExpress.Xpf.Charts.v15.1.resources.dll
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\bin\Debug\de\DevExpress.Xpf.Core.v15.1.resources.dll
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\bin\Debug\es\DevExpress.Xpf.Core.v15.1.resources.dll
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\bin\Debug\ja\DevExpress.Xpf.Core.v15.1.resources.dll
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\bin\Debug\ru\DevExpress.Xpf.Core.v15.1.resources.dll
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\bin\Debug\de\DevExpress.Xpf.Gauges.v15.1.resources.dll
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\bin\Debug\es\DevExpress.Xpf.Gauges.v15.1.resources.dll
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\bin\Debug\ja\DevExpress.Xpf.Gauges.v15.1.resources.dll
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\bin\Debug\ru\DevExpress.Xpf.Gauges.v15.1.resources.dll
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\bin\Debug\de\DevExpress.Xpf.Grid.v15.1.Core.resources.dll
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\bin\Debug\es\DevExpress.Xpf.Grid.v15.1.Core.resources.dll
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\bin\Debug\ja\DevExpress.Xpf.Grid.v15.1.Core.resources.dll
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\bin\Debug\ru\DevExpress.Xpf.Grid.v15.1.Core.resources.dll
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\bin\Debug\de\DevExpress.Xpf.Printing.v15.1.resources.dll
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\bin\Debug\es\DevExpress.Xpf.Printing.v15.1.resources.dll
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\bin\Debug\ja\DevExpress.Xpf.Printing.v15.1.resources.dll
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\bin\Debug\ru\DevExpress.Xpf.Printing.v15.1.resources.dll
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\bin\Debug\de\System.Windows.Interactivity.resources.dll
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\bin\Debug\en\System.Windows.Interactivity.resources.dll
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\bin\Debug\es\System.Windows.Interactivity.resources.dll
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\bin\Debug\fr\System.Windows.Interactivity.resources.dll
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\bin\Debug\it\System.Windows.Interactivity.resources.dll
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\bin\Debug\ja\System.Windows.Interactivity.resources.dll
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\bin\Debug\ko\System.Windows.Interactivity.resources.dll
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\bin\Debug\de\DevExpress.Xpf.Ribbon.v15.1.resources.dll
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\bin\Debug\es\DevExpress.Xpf.Ribbon.v15.1.resources.dll
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\bin\Debug\ja\DevExpress.Xpf.Ribbon.v15.1.resources.dll
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\bin\Debug\ru\DevExpress.Xpf.Ribbon.v15.1.resources.dll
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\bin\Debug\de\DevExpress.Xpf.DocumentViewer.v15.1.Core.resources.dll
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\bin\Debug\es\DevExpress.Xpf.DocumentViewer.v15.1.Core.resources.dll
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\bin\Debug\ja\DevExpress.Xpf.DocumentViewer.v15.1.Core.resources.dll
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\bin\Debug\ru\DevExpress.Xpf.DocumentViewer.v15.1.Core.resources.dll
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\bin\Debug\de\DevExpress.Xpf.Docking.v15.1.resources.dll
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\bin\Debug\es\DevExpress.Xpf.Docking.v15.1.resources.dll
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\bin\Debug\ja\DevExpress.Xpf.Docking.v15.1.resources.dll
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\bin\Debug\ru\DevExpress.Xpf.Docking.v15.1.resources.dll
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\bin\Debug\de\DevExpress.RichEdit.v15.1.Core.resources.dll
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\bin\Debug\es\DevExpress.RichEdit.v15.1.Core.resources.dll
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\bin\Debug\ja\DevExpress.RichEdit.v15.1.Core.resources.dll
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\bin\Debug\ru\DevExpress.RichEdit.v15.1.Core.resources.dll
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\bin\Debug\de\DevExpress.Office.v15.1.Core.resources.dll
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\bin\Debug\es\DevExpress.Office.v15.1.Core.resources.dll
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\bin\Debug\ja\DevExpress.Office.v15.1.Core.resources.dll
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\bin\Debug\ru\DevExpress.Office.v15.1.Core.resources.dll
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\obj\Debug\FireWall.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\obj\Debug\Window\STDConfigurationApply.g.cs
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\obj\Debug\Window\CNCConfigurationApply.g.cs
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\obj\Debug\Window\PRTConfigurationApply.g.cs
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\obj\Debug\Window\APCConfigurationApply.g.cs
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\obj\Debug\Window\WHLConfigurationApply.g.cs
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\obj\Debug\Window\NATConfigurationApply.g.cs
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\obj\Debug\Window\NATConfigurationDetail.g.cs
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\obj\Debug\Window\ResetIPWindow.g.cs
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\obj\Debug\Window\WHLConfigurationDetail.g.cs
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\obj\Debug\Window\CNCConfigurationDetail.g.cs
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\obj\Debug\Page\ConfigFW.g.cs
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\obj\Debug\Page\StatisticsControl.g.cs
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\obj\Debug\Window\STDConfigurationDetail.g.cs
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\obj\Debug\Window\PRTConfigurationDetail.g.cs
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\obj\Debug\Window\AddUser.g.cs
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\obj\Debug\Window\DataBaseSettingWindow.g.cs
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\obj\Debug\Window\FireWallConfigurationApply.g.cs
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\obj\Debug\Window\FireWallConfigurationDetail.g.cs
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\obj\Debug\Page\LogControl.g.cs
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\obj\Debug\Window\LoginWindow.g.cs
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\obj\Debug\Page\MainContentControl.g.cs
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\obj\Debug\Window\MainWindow.g.cs
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\obj\Debug\Page\RealTimeData.g.cs
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\obj\Debug\Window\RenameWindow.g.cs
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\obj\Debug\Window\SetPasswordWindow.g.cs
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\obj\Debug\Page\SystemSettingControl.g.cs
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\obj\Debug\Page\UserManagementControl.g.cs
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\obj\Debug\Window\UserMessageBox.g.cs
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\obj\Debug\App.g.cs
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\obj\Debug\FireWall_MarkupCompile.cache
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\obj\Debug\FireWall_MarkupCompile.lref
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\obj\Debug\App.baml
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\obj\Debug\Window\STDConfigurationApply.baml
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\obj\Debug\Window\CNCConfigurationApply.baml
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\obj\Debug\Window\PRTConfigurationApply.baml
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\obj\Debug\Window\APCConfigurationApply.baml
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\obj\Debug\Window\WHLConfigurationApply.baml
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\obj\Debug\Window\NATConfigurationApply.baml
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\obj\Debug\Window\NATConfigurationDetail.baml
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\obj\Debug\Window\ResetIPWindow.baml
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\obj\Debug\Window\WHLConfigurationDetail.baml
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\obj\Debug\Window\CNCConfigurationDetail.baml
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\obj\Debug\Page\ConfigFW.baml
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\obj\Debug\Page\StatisticsControl.baml
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\obj\Debug\Window\STDConfigurationDetail.baml
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\obj\Debug\Window\PRTConfigurationDetail.baml
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\obj\Debug\Window\AddUser.baml
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\obj\Debug\Window\DataBaseSettingWindow.baml
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\obj\Debug\Window\FireWallConfigurationApply.baml
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\obj\Debug\Window\FireWallConfigurationDetail.baml
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\obj\Debug\Page\LogControl.baml
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\obj\Debug\Window\LoginWindow.baml
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\obj\Debug\Page\MainContentControl.baml
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\obj\Debug\Window\MainWindow.baml
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\obj\Debug\Page\RealTimeData.baml
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\obj\Debug\Window\RenameWindow.baml
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\obj\Debug\Window\SetPasswordWindow.baml
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\obj\Debug\styles\ProgressbarStyle.baml
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\obj\Debug\styles\Simple Styles.baml
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\obj\Debug\styles\DataGridStyle.baml
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\obj\Debug\Page\SystemSettingControl.baml
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\obj\Debug\Themes\Generic.baml
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\obj\Debug\Page\UserManagementControl.baml
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\obj\Debug\Window\UserMessageBox.baml
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\obj\Debug\FireWall.g.resources
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\obj\Debug\FireWall.Properties.Resources.resources
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\obj\Debug\FireWall.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\workplace\防火墙项目\FireWall.219\FireWall\FireWall\obj\Debug\FireWall.exe.licenses

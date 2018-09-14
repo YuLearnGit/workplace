@@ -1,0 +1,1 @@
+/usr/bin/c++    -O3 -Wall -std=c++11    CMakeFiles/ecs.dir/predict.cpp.o CMakeFiles/ecs.dir/get_data.cpp.o CMakeFiles/ecs.dir/ecs.cpp.o CMakeFiles/ecs.dir/io.cpp.o  -o /home/lc/mygit/huawei/sdk-gcc/bin/ecs -rdynamic 

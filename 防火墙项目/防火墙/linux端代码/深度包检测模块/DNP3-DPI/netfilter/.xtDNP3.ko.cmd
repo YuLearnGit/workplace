@@ -1,0 +1,1 @@
+cmd_/home/DNP3-DPI/netfilter/xtDNP3.ko := ld -r -m elf_i386 -T /usr/src/linux-headers-3.13.0-117-generic/scripts/module-common.lds --build-id  -o /home/DNP3-DPI/netfilter/xtDNP3.ko /home/DNP3-DPI/netfilter/xtDNP3.o /home/DNP3-DPI/netfilter/xtDNP3.mod.o

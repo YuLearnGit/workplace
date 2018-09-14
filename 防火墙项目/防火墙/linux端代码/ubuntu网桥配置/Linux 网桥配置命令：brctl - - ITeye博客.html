@@ -1,0 +1,892 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0037)http://fp-moon.iteye.com/blog/1468650 -->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh-CN" dir="ltr"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <title>Linux 网桥配置命令：brctl -  - ITeye博客</title>
+    <meta name="description" content="   Linux网关模式下将有线LAN和无线LAN共享网段实现局域网内互联:  思路其实很简单：就是将虚拟出一个bridge口，将对应的有线LAN和无线LAN都绑定在这个虚拟bridge口上，并给这个bridge口分配一个地址，其他子网微机配置网关为bridge口的地址便可以了。当然，因为是设备是网关模式，路由和nat也是必须的了。如果设备本身便是网桥模式，那么路由和nat便可以省掉了。       ...">
+    <meta name="keywords" content="linux brctl Linux 网桥配置命令：brctl">
+    <link rel="shortcut icon" href="http://fp-moon.iteye.com/images/favicon.ico" type="image/x-icon">
+    <link rel="search" type="application/opensearchdescription+xml" href="http://fp-moon.iteye.com/open_search.xml" title="ITeye">
+    <link href="http://fp-moon.iteye.com/rss" rel="alternate" title="" type="application/rss+xml">
+    <link href="./Linux 网桥配置命令：brctl - - ITeye博客_files/blog.css" media="screen" rel="stylesheet" type="text/css">
+<link href="./Linux 网桥配置命令：brctl - - ITeye博客_files/blue.css" media="screen" rel="stylesheet" type="text/css">
+    <script type="text/javascript" async="" src="./Linux 网桥配置命令：brctl - - ITeye博客_files/ecym"></script><script src="./Linux 网桥配置命令：brctl - - ITeye博客_files/ca-pub-8990951720398508.js"></script><script type="text/javascript" async="" src="./Linux 网桥配置命令：brctl - - ITeye博客_files/ecym(1)"></script><script src="./Linux 网桥配置命令：brctl - - ITeye博客_files/hm.js"></script><script src="./Linux 网桥配置命令：brctl - - ITeye博客_files/application.js" type="text/javascript"></script>    
+    <script>
+    var _hmt = _hmt || [];
+    (function() {
+        var hm = document.createElement("script");
+        hm.src = "//hm.baidu.com/hm.js?e19a8b00cf63f716d774540875007664";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+</script>
+
+
+      <link href="./Linux 网桥配置命令：brctl - - ITeye博客_files/SyntaxHighlighter.css" media="screen" rel="stylesheet" type="text/css">
+  <script src="./Linux 网桥配置命令：brctl - - ITeye博客_files/shCoreCommon.js" type="text/javascript"></script>
+<script src="./Linux 网桥配置命令：brctl - - ITeye博客_files/hotkey.js" type="text/javascript"></script>
+  <script src="./Linux 网桥配置命令：brctl - - ITeye博客_files/code_favorites.js" type="text/javascript"></script>
+<script src="./Linux 网桥配置命令：brctl - - ITeye博客_files/weiboshare.js" type="text/javascript"></script>
+
+    
+  </head>
+  <body><div id="BAIDU_DUP_fp_wrapper" style="position: absolute; left: -1px; bottom: -1px; z-index: 0; width: 0px; height: 0px; overflow: hidden; visibility: hidden; display: none;"><iframe id="BAIDU_DUP_fp_iframe" src="./Linux 网桥配置命令：brctl - - ITeye博客_files/o.html" style="width: 0px; height: 0px; visibility: hidden; display: none;"></iframe></div>
+    <div id="header">
+	      <div id="blog_site_nav">
+  <a href="http://www.iteye.com/" class="homepage">首页</a>
+  <a href="http://www.iteye.com/news">资讯</a>
+  <a href="http://www.iteye.com/magazines">精华</a>
+  <a href="http://www.iteye.com/forums">论坛</a>
+  <a href="http://www.iteye.com/ask">问答</a>
+  <a href="http://www.iteye.com/blogs">博客</a>
+  <a href="http://www.iteye.com/blogs/subjects">专栏</a>
+  <a href="http://www.iteye.com/groups">群组</a>
+  <a href="http://fp-moon.iteye.com/blog/1468650#" onclick="return false;" id="msna"><u>更多</u> <small>▼</small></a>
+  <div class="quick_menu" style="display:none;">
+    <a target="_blank" href="http://job.iteye.com/iteye">知识库</a>
+    <a href="http://www.iteye.com/search">搜索</a>
+  </div>
+</div>
+
+	      <div id="user_nav">
+  <span style="color:red;">因系统升级，暂停注册。稍后将全面支持使用CSDN帐号进行注册及登录</span>
+  
+      <a href="http://fp-moon.iteye.com/login" class="welcome" title="登录">您还未登录 !</a>
+    <a href="http://fp-moon.iteye.com/login">登录</a>
+  </div>
+
+	    
+    </div>
+
+    <div id="page">
+        <div id="branding" class="clearfix" style="overflow: hidden;background: none;padding:0 0 2px;">
+          <script type="text/javascript">
+            /*Iteye博客内页顶部通栏-960*90，创建于 2016-08-01*/
+            var cpro_id = "u2720131";
+          </script>
+          <script type="text/javascript" src="./Linux 网桥配置命令：brctl - - ITeye博客_files/c.js"></script><div id="BAIDU_SSP__wrapper_u2720131_0"><iframe id="iframeu2720131_0" src="./Linux 网桥配置命令：brctl - - ITeye博客_files/ecym.html" width="960" height="90" align="center,center" vspace="0" hspace="0" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" style="border:0;vertical-align:bottom;margin:0;width:960px;height:90px" allowtransparency="true"></iframe></div>
+        </div>
+      <div id="branding" class="clearfix">
+        <div id="blog_name">
+          <h1><a href="http://fp-moon.iteye.com/">fp-moon</a></h1>
+        </div>
+        <div id="fd"></div>
+        <div id="blog_navbar">
+          <ul>
+            <li class="blog_navbar_for"><a href="http://fp-moon.iteye.com/"><strong>博客</strong></a></li>
+            <li><a href="http://fp-moon.iteye.com/weibo">微博</a></li>
+            <li><a href="http://fp-moon.iteye.com/album">相册</a></li>
+            <li><a href="http://fp-moon.iteye.com/link">收藏</a></li>
+            <li><a href="http://fp-moon.iteye.com/blog/guest_book">留言</a></li>
+            <li><a href="http://fp-moon.iteye.com/blog/profile">关于我</a></li>
+          </ul>
+    
+          <div class="search">
+            <form action="http://fp-moon.iteye.com/blog/search" method="get">
+              <input class="search_text" id="query" name="query" style="margin-left: 10px;width: 110px;" type="text" value="">
+              <input class="submit_search" type="submit" value="">
+            </form>
+          </div> 
+          <div id="fd"></div>         
+        </div>
+      </div>
+      
+      <div id="content" class="clearfix">
+        <div id="main">
+          
+
+
+
+          
+
+
+<div class="h-entry" style="display:none">
+  <a href="http://fp-moon.iteye.com/" class="p-author" target="_blank">fp_moon</a>
+</div>
+
+
+<div class="blog_main">
+  <div class="blog_title">
+    <h3>
+      <a href="http://fp-moon.iteye.com/blog/1468650">Linux 网桥配置命令：brctl</a>
+      <em class="actions">      </em>
+    </h3>
+    <ul class="blog_categories"><strong>博客分类：</strong> <li><a href="http://fp-moon.iteye.com/category/207533">linux命令</a></li> </ul>
+        <div class="news_tag"><a href="http://www.iteye.com/blogs/tag/linux%20brctl">linux brctl</a>&nbsp;</div>
+    	  
+    	
+    	
+  		
+      </div>
+
+  <div id="blog_content" class="blog_content">
+    <p>
+</p>
+<p class="MsoNormal" style="text-align: left;">Linux网关模式下将有线LAN和无线LAN共享网段实现局域网内互联:</p>
+<p class="MsoNormal" style="text-align: left;"><a name="1"><span style="">思路其实很简单：就是将虚拟出一个<span>bridge</span>口，将对应的有线<span>LAN</span>和无线<span>LAN</span>都绑定在这个虚拟<span>bridge</span>口上，并给这个<span>bridge</span>口分配一个地址，其他子网微机配置网关为<span>bridge</span>口的地址便可以了。当然，因为是设备是网关模式，路由和<span>nat</span>也是必须的了。如果设备本身便是网桥模式，那么路由和<span>nat</span>便可以省掉了。<span></span></span></a></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">&nbsp;&nbsp;&nbsp; brctl addbr bridge</span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">&nbsp;&nbsp;&nbsp; brctl addif bridge eth0</span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">&nbsp;&nbsp;&nbsp; brctl addif bridge ath0</span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">&nbsp;&nbsp;&nbsp; ifconfig eth0&nbsp; 0.0.0.0</span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">&nbsp;&nbsp;&nbsp; ifconfig bridge 10.0.0.1
+netmask 255.255.255.0 up</span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">&nbsp;&nbsp;&nbsp; </span><span style="">添加<span>iptables -t nat -A POSTROUTING -o eth1
+-j SNAT --to 192.168.2.173</span></span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">&nbsp;&nbsp;&nbsp; </span><span style="">将有线和无线都设置为<span>10.0.0</span><span>.*</span>网段，即可通过网上邻居进行访问<span></span></span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">&nbsp;</span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">当然了，要是<span>Linux</span>可以工作在网桥模式，必须安装网桥工具<span>bridge-utils</span>，运行命令：<span></span></span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">yum install bridge-utils</span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">或者下载<span>bridge-utils-1.4.tar.gz</span>进行安装，步骤如下：<span></span></span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">编译安装<span>bridge-utils</span></span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">（<span>1</span>）进入到<span>/usr/src
+</span>目录下，下载<span>bridge-utils-1.4.tar.gz </span>：<span></span></span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">#cd /usr/src </span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">#wget
+http://launchpad.net/bridgeutils/ </span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">main/1.4/+download/bridge-utils-
+</span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">1.4.tar.gz</span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">（<span>2</span>）解压缩：<span></span></span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">#tar zxvf
+bridge-utils-1.4.tar.gz</span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">进入<span>bridge-utils-1.4</span>目录：<span></span></span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">&nbsp;</span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">#cd bridge-utils-1.4</span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">（<span>3</span>）编译安装：<span></span></span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">#autoconf</span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">生成<span>configure</span>文件：<span></span></span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">#./configure </span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">#make </span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">#make install</span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">编译安装完成。最后将命令<span>brctl</span>复制到<span>/sbin</span>下：<span></span></span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">#cp/usr/local/sbin/brctl/sbin</span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">&nbsp;</span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">=========================================================================</span></p>
+<p class="MsoNormal" style="text-align: left;"><span style=""></span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">&nbsp;</span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">下面是参考的一片文章：<span></span></span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">&nbsp;</span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">有五台主机。其中一台主机装有<span>linux </span>，安装了网桥模块，而且有四块物理网卡，分别连接同一网段的其他主机。我们希望其成为一<span></span></span></p>
+<p class="MsoNormal" style="text-align: left;"><span style=""></span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">个网桥，为其他四台主机<span>(IP</span>分别为<span>192.168.1.2 </span>，<span>192.168.1.3</span>，<span>192.168.1.4</span>，<span>192.168.1.5) </span>之间转发数据包。同时，为了方便管<span></span></span></p>
+<p class="MsoNormal" style="text-align: left;"><span style=""></span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">理，希望网桥能够有一个<span>IP</span>（<span>192.168.1.1</span>），那样管理员就可以在<span>192.168.1.0/24</span>网段内的主机上<span>telnet</span>到网桥，对其进行配置，<span></span></span></p>
+<p class="MsoNormal" style="text-align: left;"><span style=""></span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">实现远程管理。<span></span></span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">前一节中提到，网桥在同一个逻辑网段转发数据包。针对上面的拓扑，这个逻辑网段就是<span>192.168.1.0/24</span>网段。我们为这个逻辑网段一个名称，<span>br0</span>。首先需要配置这样一个逻辑网段。<span></span></span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">&nbsp;</span></p>
+<p class="MsoNormal" style="text-align: left;"><span style=""># brctl addbr br0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (</span><span style="">建立一个逻辑网段，名称为<span>br0)</span></span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">实际上，我们可以把逻辑网段<span>192.168.1.0/24</span>看作使一个<span>VLAN </span>，而<span>br0</span>则是这个<span>VLAN</span>的名称。<span></span></span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">&nbsp;</span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">建立一个逻辑网段之后，我们还需要为这个网段分配特定的端口。在<span>Linux</span>中，一个端口实际上就是一个物理网卡。而每个物理网卡<span></span></span></p>
+<p class="MsoNormal" style="text-align: left;"><span style=""></span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">的名称则分别为<span>eth0</span>，<span>eth1</span>，<span>eth2</span>，<span>eth3</span>。我们需要把每个网卡一一和<span>br0</span>这个网段联系起来，作为<span>br0</span>中的一个端口。<span></span></span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">&nbsp;</span></p>
+<p class="MsoNormal" style="text-align: left;"><span style=""># brctl addif br0 eth0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (</span><span style="">让<span>eth0</span>成为<span>br0</span>的一个端口<span>)</span></span></p>
+<p class="MsoNormal" style="text-align: left;"><span style=""># brctl addif br0 eth1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (</span><span style="">让<span>eth1</span>成为<span>br0</span>的一个端口<span>)</span></span></p>
+<p class="MsoNormal" style="text-align: left;"><span style=""># brctl addif br0 eth0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (</span><span style="">让<span>eth2</span>成为<span>br0</span>的一个端口<span>)</span></span></p>
+<p class="MsoNormal" style="text-align: left;"><span style=""># brctl addif br0 eth3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (</span><span style="">让<span>eth3</span>成为<span>br0</span>的一个端口<span>)</span></span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">&nbsp;</span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">网桥的每个物理网卡作为一个端口，运行于混杂模式，而且是在链路层工作，所以就不需要<span>IP</span>了。<span></span></span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">&nbsp;</span></p>
+<p class="MsoNormal" style="text-align: left;"><span style=""># ifconfig eth0 0.0.0.0</span></p>
+<p class="MsoNormal" style="text-align: left;"><span style=""># ifconfig eth1 0.0.0.0</span></p>
+<p class="MsoNormal" style="text-align: left;"><span style=""># ifconfig eth2 0.0.0.0</span></p>
+<p class="MsoNormal" style="text-align: left;"><span style=""># ifconfig eth3 0.0.0.0</span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">&nbsp;</span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">然后给<span>br0</span>的虚拟网卡配置<span>IP</span>：<span>192.168.1.1</span>。那样就能远程管理网桥。<span></span></span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">&nbsp;</span></p>
+<p class="MsoNormal" style="text-align: left;"><span style=""># ifconfig br0 192.168.1.1</span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">&nbsp;</span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">给<span>br0</span>配置了<span>IP</span>之后，网桥就能够工作了。<span>192.168.1.0/24</span>网段内的主机都可以<span>telnet</span>到网桥上对其进行配置。<span></span></span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">&nbsp;</span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">以上配置的是一个逻辑网段，实际上<span>Linux</span>网桥也能配置成多个逻辑网段<span>(</span>相当于交换机中划分多个<span>VLAN)</span>。<span></span></span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">&nbsp;</span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">&nbsp;</span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">&nbsp;</span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">另外一篇有助理解的文章：<span>http://www.2cto.com/os/201202/118320.html</span></span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">=====================================================================</span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">[root@xenserver ~]# brctl
+--help</span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">Usage: brctl [commands]</span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">commands:</span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; addbr&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;bridge&gt;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; add bridge</span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; delbr&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;bridge&gt;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; delete bridge</span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; addif&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;bridge&gt; &lt;device&gt;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; add interface to bridge</span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; delif&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;bridge&gt; &lt;device&gt;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; delete interface from bridge</span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; setageing&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;bridge&gt; &lt;time&gt;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; set ageing time</span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; setbridgeprio&nbsp;&nbsp; &lt;bridge&gt; &lt;prio&gt;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; set bridge priority</span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; setfd&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;bridge&gt; &lt;time&gt;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;set bridge forward delay</span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; sethello&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;bridge&gt; &lt;time&gt;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; set hello time</span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; setmaxage&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;bridge&gt; &lt;time&gt;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; set max message age</span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; setpathcost&nbsp;&nbsp;&nbsp;&nbsp; &lt;bridge&gt; &lt;port&gt;
+&lt;cost&gt;&nbsp; set path cost</span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; setportprio&nbsp;&nbsp;&nbsp;&nbsp; &lt;bridge&gt; &lt;port&gt;
+&lt;prio&gt;&nbsp; set port priority</span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; show&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; show a list
+of bridges</span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; showmacs&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;bridge&gt;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; show a list of mac addrs</span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; showstp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;bridge&gt;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; show bridge stp info</span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; stp&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;bridge&gt;
+{on|off}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; turn stp on/off</span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">&nbsp;</span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">====================================================================</span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; addbr bridge</span><span style="">的名称<span>&nbsp;
+#</span>添加<span>bridge</span>；<span></span></span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; delbr bridge</span><span style="">的名称<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; #</span>删除<span>bridge</span>；<span></span></span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; addif bridge</span><span style="">的名称<span>device</span>的名称<span>#</span>添加接口到<span>bridge</span>；<span></span></span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;delif bridge</span><span style="">的名称<span>device</span>的名称<span>#</span>从<span>bridge</span>中删除接口<span></span></span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; setageing bridge</span><span style="">的名称时间<span>&nbsp;&nbsp;&nbsp;&nbsp; #</span>设置老化时间，即生存周期<span></span></span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; setbridgeprio bridge</span><span style="">的名称 优先级<span>#</span>设置<span>bridge</span>的优先级<span></span></span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; setfd bridge</span><span style="">的名称时间<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; #</span>设置<span>bridge</span>转发延迟时间<span></span></span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; sethello bridge</span><span style="">的名称时间<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; #</span>设置<span>hello</span>时间<span></span></span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; setmaxage bridge</span><span style="">的名称时间<span>&nbsp;&nbsp;&nbsp;&nbsp; #</span>设置消息的最大生命周期<span></span></span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; setpathcost bridge</span><span style="">的名称 端口 权重<span>#</span>设置路径的权值<span></span></span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; setportprio bridge</span><span style="">的名称 端口 优先级<span>#</span>设置端口的优先级<span></span></span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; show&nbsp;&nbsp;&nbsp;&nbsp;
+#</span><span style="">显示<span>bridge</span>列表<span></span></span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; showmacs bridge</span><span style="">的名称<span>&nbsp;
+#</span>显示<span>MAC</span>地址<span></span></span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; showstp&nbsp;
+bridge</span><span style="">的名称<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; #</span>显示<span>bridge</span>的<span>stp</span>信息<span></span></span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; stp bridge</span><span style="">的名称<span>{on|off}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; #</span>开<span>/</span>关<span>stp</span></span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">&nbsp;</span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">设置<span>linux</span>让网桥运行<span>&nbsp;&nbsp;&nbsp; </span>配置网桥<span></span></span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">1.</span><span style="">我们需要让<span>linux</span>知道网桥，首先告诉它，我们想要一个虚拟的以太网桥接口：（这将在主机<span>bridge</span>上执行，不清楚的看看测试场景）<span></span></span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">root@bridge:~&gt; brctl addbr
+br0</span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">2.</span><span style="">其次，我们不需要<span>STP(</span>生成树协议<span>)</span>等。因为我们只有一个路由器，是绝对不可能形成一个环的。我们可以关闭这个功能。（这样也可以减少网络环境的数据包污染）：<span></span></span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">root@bridge:~&gt; brctl stp
+br0 off</span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">3.</span><span style="">经过这些准备工作后，我们终于可以做一些立竿见影的事了。我们添加两个（或更多）以太网物理接口，意思是：我们将他们附加到刚生成的逻辑（虚拟）网桥接口<span>br0</span>上。<span></span></span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">root@bridge:~&gt; brctl addif
+br0 eth0</span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">root@bridge:~&gt; brctl addif
+br0 eth1</span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">4.</span><span style="">现在，原来我们的两个以太网物理接口变成了网桥上的两个逻辑端口。那两个物理接口过去存在，未来也不会消失。要不信的话，去看看好了。<span>.</span>现在他们成了逻辑网桥设备的一部分了，所以不再需要<span>IP</span>地址。下面我们将这些<span>IP</span>地址释放掉<span></span></span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">root@bridge:~&gt; ifconfig
+eth0 down</span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">root@bridge:~&gt; ifconfig
+eth1 down</span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">root@bridge:~&gt; ifconfig
+eth0 0.0.0.0 up</span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">root@bridge:~&gt; ifconfig
+eth1 0.0.0.0 up</span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">&nbsp;</span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">好了！我们现在有了一个任何<span>IP</span>地址都没有的<span>box w/o</span>了。好了，这下如果你想通过<span>TP</span>配置你的防火墙或路由器的话，你就只能通过本地的控制端口了。你不会告诉我你的机器上连串行端口都没有吧？<span></span></span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">注：上面红色部分其实是可选的，在试验中，我发现，就算不把原有的网卡地址释放掉，网桥也能工作！但是，为了更规范，或者说<span></span></span></p>
+<p class="MsoNormal" style="text-align: left;"><span style=""></span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">为了避免有什幺莫名其妙的问题，最好还是按要求做，执行这四步吧！<span></span></span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">&nbsp;</span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">5.</span><span style="">最后，启用网桥<span>root@bridge:~&gt; ifconfig br0
+up</span></span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">可选：<span>&nbsp;&nbsp;&nbsp;
+</span>我们给这个新的桥接口分配一个<span>IP</span>地址<span></span></span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">root@bridge:~&gt; ifconfig br0
+10.0.3.129</span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">或者把最后这两步合成一步：<span></span></span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">root@bridge:~&gt; ifconfig br0
+10.0.3.129 up</span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">就是多一个<span>up!</span></span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">&nbsp;</span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">这下我们做完了 。<span></span></span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">&nbsp;</span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">关闭网桥命令<span></span></span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">&nbsp;</span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">&nbsp;&nbsp;&nbsp;&nbsp; brctl delif ena eth1;</span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">&nbsp;&nbsp;&nbsp;&nbsp; brctl delif ena eth0;</span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">&nbsp;&nbsp;&nbsp;&nbsp; ifconfig ena down;</span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">&nbsp;&nbsp;&nbsp;&nbsp; brctl delbr ena;</span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">&nbsp;</span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">&nbsp;</span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">摘自<span> zjl_1026_2001</span>的专栏<span></span></span></p>
+<p class="MsoNormal" style="text-align: left;"><strong><span style="">&nbsp;</span></strong></p>
+<p class="MsoNormal" style="text-align: left;"><strong><span style="">什么是网桥</span></strong><strong><span style=""></span></strong></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">网桥是一种在链路层实现中继，对帧进行转发的技术，根据<span>MAC</span>分区块，可隔离碰撞，将网络的多个网段在数据链路层连接起来的网络设备。<span></span></span></p>
+<p class="MsoNormal" style="text-align: left;"><a name="2"><strong><span style="">Linux </span></strong></a><strong><span style="">网桥配置命令：<span>brctl</span></span></strong><strong><span style=""></span></strong></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">在<span>Linux</span>中配置网络一般使用<span> brctl </span>命令，使用此命令首先要安装：<span>bridge-utils</span>软件包。<span></span></span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">[inbi@debian~]#apt-get install bridge-utils</span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">[inbi@debian~]#modprobe bridge</span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">[inbi@debian~]#echo
+"1"&gt;/proc/sys/net/ipv4/ip_forward</span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">#</span><span style="">安装<span>bridge-utils</span>软件包，并加载<span>bridge</span>模块和开启内核转发。<span></span></span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">[inbi@debian~]#brctl</span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">#</span><span style="">直接输入<span>brctl</span>命令将显示帮助信息！<span></span></span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">Usage: brctl [commands]</span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">commands:</span></p>
+<table class="MsoNormalTable" cellpadding="0" style="width: 80.0%;" width="80%" border="0">
+<tbody><tr>
+<td style="padding: .75pt .75pt .75pt .75pt;">
+<p class="MsoNormal" style="text-align: left;"><span style="">addbr</span></p>
+</td>
+<td style="padding: .75pt .75pt .75pt .75pt;">
+<p class="MsoNormal" style="text-align: left;"><span style="">&lt;bridge&gt;</span></p>
+</td>
+<td style="padding: .75pt .75pt .75pt .75pt;">
+<p class="MsoNormal" style="text-align: left;"><span style="">add bridge</span></p>
+</td>
+</tr>
+<tr>
+<td style="padding: .75pt .75pt .75pt .75pt;">
+<p class="MsoNormal" style="text-align: left;"><span style="">delbr</span></p>
+</td>
+<td style="padding: .75pt .75pt .75pt .75pt;">
+<p class="MsoNormal" style="text-align: left;"><span style="">&lt;bridge&gt;</span></p>
+</td>
+<td style="padding: .75pt .75pt .75pt .75pt;">
+<p class="MsoNormal" style="text-align: left;"><span style="">delete bridge</span></p>
+</td>
+</tr>
+<tr>
+<td style="padding: .75pt .75pt .75pt .75pt;">
+<p class="MsoNormal" style="text-align: left;"><span style="">addif</span></p>
+</td>
+<td style="padding: .75pt .75pt .75pt .75pt;">
+<p class="MsoNormal" style="text-align: left;"><span style="">&lt;bridge&gt; &lt;device&gt;</span></p>
+</td>
+<td style="padding: .75pt .75pt .75pt .75pt;">
+<p class="MsoNormal" style="text-align: left;"><span style="">add interface to bridge</span></p>
+</td>
+</tr>
+<tr>
+<td style="padding: .75pt .75pt .75pt .75pt;">
+<p class="MsoNormal" style="text-align: left;"><span style="">delif</span></p>
+</td>
+<td style="padding: .75pt .75pt .75pt .75pt;">
+<p class="MsoNormal" style="text-align: left;"><span style="">&lt;bridge&gt; &lt;device&gt;</span></p>
+</td>
+<td style="padding: .75pt .75pt .75pt .75pt;">
+<p class="MsoNormal" style="text-align: left;"><span style="">delete interface from bridge</span></p>
+</td>
+</tr>
+<tr>
+<td style="padding: .75pt .75pt .75pt .75pt;">
+<p class="MsoNormal" style="text-align: left;"><span style="">setageing</span></p>
+</td>
+<td style="padding: .75pt .75pt .75pt .75pt;">
+<p class="MsoNormal" style="text-align: left;"><span style="">&lt;bridge&gt; &lt;time&gt;</span></p>
+</td>
+<td style="padding: .75pt .75pt .75pt .75pt;">
+<p class="MsoNormal" style="text-align: left;"><span style="">set ageing time</span></p>
+</td>
+</tr>
+<tr>
+<td style="padding: .75pt .75pt .75pt .75pt;">
+<p class="MsoNormal" style="text-align: left;"><span style="">setbridgeprio</span></p>
+</td>
+<td style="padding: .75pt .75pt .75pt .75pt;">
+<p class="MsoNormal" style="text-align: left;"><span style="">&lt;bridge&gt; &lt;prio&gt;</span></p>
+</td>
+<td style="padding: .75pt .75pt .75pt .75pt;">
+<p class="MsoNormal" style="text-align: left;"><span style="">set bridge priority</span></p>
+</td>
+</tr>
+<tr>
+<td style="padding: .75pt .75pt .75pt .75pt;">
+<p class="MsoNormal" style="text-align: left;"><span style="">setfd</span></p>
+</td>
+<td style="padding: .75pt .75pt .75pt .75pt;">
+<p class="MsoNormal" style="text-align: left;"><span style="">&lt;bridge&gt; &lt;time&gt;</span></p>
+</td>
+<td style="padding: .75pt .75pt .75pt .75pt;">
+<p class="MsoNormal" style="text-align: left;"><span style="">set bridge forward delay</span></p>
+</td>
+</tr>
+<tr>
+<td style="padding: .75pt .75pt .75pt .75pt;">
+<p class="MsoNormal" style="text-align: left;"><span style="">sethello</span></p>
+</td>
+<td style="padding: .75pt .75pt .75pt .75pt;">
+<p class="MsoNormal" style="text-align: left;"><span style="">&lt;bridge&gt; &lt;time&gt;</span></p>
+</td>
+<td style="padding: .75pt .75pt .75pt .75pt;">
+<p class="MsoNormal" style="text-align: left;"><span style="">set hello time</span></p>
+</td>
+</tr>
+<tr>
+<td style="padding: .75pt .75pt .75pt .75pt;">
+<p class="MsoNormal" style="text-align: left;"><span style="">setmaxage</span></p>
+</td>
+<td style="padding: .75pt .75pt .75pt .75pt;">
+<p class="MsoNormal" style="text-align: left;"><span style="">&lt;bridge&gt; &lt;time&gt;</span></p>
+</td>
+<td style="padding: .75pt .75pt .75pt .75pt;">
+<p class="MsoNormal" style="text-align: left;"><span style="">set max message age</span></p>
+</td>
+</tr>
+<tr>
+<td style="padding: .75pt .75pt .75pt .75pt;">
+<p class="MsoNormal" style="text-align: left;"><span style="">setpathcost</span></p>
+</td>
+<td style="padding: .75pt .75pt .75pt .75pt;">
+<p class="MsoNormal" style="text-align: left;"><span style="">&lt;bridge&gt; &lt;port&gt; &lt;cost&gt;</span></p>
+</td>
+<td style="padding: .75pt .75pt .75pt .75pt;">
+<p class="MsoNormal" style="text-align: left;"><span style="">set path cost</span></p>
+</td>
+</tr>
+<tr>
+<td style="padding: .75pt .75pt .75pt .75pt;">
+<p class="MsoNormal" style="text-align: left;"><span style="">setportprio</span></p>
+</td>
+<td style="padding: .75pt .75pt .75pt .75pt;">
+<p class="MsoNormal" style="text-align: left;"><span style="">&lt;bridge&gt; &lt;port&gt; &lt;prio&gt;</span></p>
+</td>
+<td style="padding: .75pt .75pt .75pt .75pt;">
+<p class="MsoNormal" style="text-align: left;"><span style="">set port priority</span></p>
+</td>
+</tr>
+<tr>
+<td style="padding: .75pt .75pt .75pt .75pt;">
+<p class="MsoNormal" style="text-align: left;"><span style="">show</span></p>
+</td>
+<td style="padding: .75pt .75pt .75pt .75pt;">
+<p class="MsoNormal" style="text-align: left;"><span style="">&nbsp;</span></p>
+</td>
+<td style="padding: .75pt .75pt .75pt .75pt;">
+<p class="MsoNormal" style="text-align: left;"><span style="">show a list of bridges</span></p>
+</td>
+</tr>
+<tr>
+<td style="padding: .75pt .75pt .75pt .75pt;">
+<p class="MsoNormal" style="text-align: left;"><span style="">showmacs</span></p>
+</td>
+<td style="padding: .75pt .75pt .75pt .75pt;">
+<p class="MsoNormal" style="text-align: left;"><span style="">&lt;bridge&gt;</span></p>
+</td>
+<td style="padding: .75pt .75pt .75pt .75pt;">
+<p class="MsoNormal" style="text-align: left;"><span style="">show a list of mac addrs</span></p>
+</td>
+</tr>
+<tr>
+<td style="padding: .75pt .75pt .75pt .75pt;">
+<p class="MsoNormal" style="text-align: left;"><span style="">showstp</span></p>
+</td>
+<td style="padding: .75pt .75pt .75pt .75pt;">
+<p class="MsoNormal" style="text-align: left;"><span style="">&lt;bridge&gt;</span></p>
+</td>
+<td style="padding: .75pt .75pt .75pt .75pt;">
+<p class="MsoNormal" style="text-align: left;"><span style="">show bridge stp info</span></p>
+</td>
+</tr>
+<tr>
+<td style="padding: .75pt .75pt .75pt .75pt;">
+<p class="MsoNormal" style="text-align: left;"><span style="">stp</span></p>
+</td>
+<td style="padding: .75pt .75pt .75pt .75pt;">
+<p class="MsoNormal" style="text-align: left;"><span style="">&lt;bridge&gt; {on|off}</span></p>
+</td>
+<td style="padding: .75pt .75pt .75pt .75pt;">
+<p class="MsoNormal" style="text-align: left;"><span style="">turn stp on/off</span></p>
+</td>
+</tr>
+</tbody></table>
+<p class="MsoNormal" style="text-align: left;"><span style="">&nbsp;</span></p>
+<p class="MsoNormal" style="text-align: left;"><a name="21"><strong><span style="">增加网桥</span></strong></a><strong><span style=""></span></strong></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">&nbsp;</span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">[inbi@debian~]#brctl addbr br0</span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">#</span><span style="">增加一个网桥<span></span></span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">[inbi@debian~]#ifconfig eth0 0.0.0.0
+promisc</span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">[inbi@debian~]#ifconfig eth1 0.0.0.0
+promisc</span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">[inbi@debian~]#brctl addif br0 eth0 eth1</span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">#</span><span style="">将两块已有的网卡添加到网桥，此时这两个网卡工作于混杂模式，所以不需要<span>IP</span>了，因为网桥是工作在链路层的。<span></span></span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">[inbi@debian~]#brctl show</span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">#</span><span style="">查看已有网桥<span></span></span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">&nbsp;</span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">你也可以为<span> br0 </span>设置一个<span>IP</span>，已访问这台机器。<span></span></span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">[inbi@debian~]#ifconfig br0 10.10.1.1
+netmask 255.255.0.0 up</span></p>
+<p class="MsoNormal" style="text-align: left;"><a name="22"><strong><span style="">删除网桥</span></strong></a><strong><span style=""></span></strong></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">[inbi@debian~]#brctl delif br0 eth0 eth1</span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">#</span><span style="">增加网桥中的接口</span><span style=""></span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">[inbi@debian~]#brctl delbr br0</span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">#</span><span style="">删除网桥<span></span></span></p>
+<p class="MsoNormal" style="text-align: left;"><a name="23"><strong><span style="">关闭生成树</span></strong></a><strong><span style=""></span></strong></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">&nbsp;</span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">[inbi@debian~]#brctl stp br0 off</span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">#</span><span style="">关闭生成树协议，减少数据包污染，因为我这里只有一个路由器哦！<span></span></span></p>
+<p class="MsoNormal" style="text-align: left;"><a name="3"><strong><span style="">配置桥开机激活</span></strong></a><strong><span style=""></span></strong></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">&nbsp;</span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">[inbi@debian~]#echo "modprobe
+bridge"&gt;&gt;/etc/rc.local</span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">#</span><span style="">开机加载<span> bridge </span>模块，或者<span>echo "bridge"&gt;&gt;/etc/modules</span></span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">[inbi@debian~]#cp /etc/network/interfaces
+/etc/network/interfaces.default</span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">#</span><span style="">备份下，方便以后使用啊！<span></span></span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">[inbi@debian~]#vim /etc/network/interfaces</span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">auto lo eth0 eth1 br0</span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">iface lo inet loopback</span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">iface br0 inet static</span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">&nbsp;&nbsp;&nbsp; address 10.10.10.1</span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">&nbsp;&nbsp;&nbsp; netmask
+255.255.0.0</span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">&nbsp;&nbsp;&nbsp; gateway 10.10.10.254</span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">&nbsp;&nbsp;&nbsp; pre-up ip link
+set eth0 promisc on</span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">&nbsp;&nbsp;&nbsp; pre-up ip link
+set eth1 promisc on</span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">&nbsp;&nbsp;&nbsp; pre-up echo
+"1"&gt;/proc/sys/net/ipv4/ip_forward</span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">&nbsp;&nbsp;&nbsp; bridge_ports
+eth0 eth1</span></p>
+<p class="MsoNormal" style="text-align: left;"><span style="">#</span><span style="">配置<span>eth0 eth1 br0</span>开机启动，<span>eth0</span>，<span>eth1</span>未设置<span>IP</span>信息，在启动<span>br0</span>网卡时，开启了<span>eth0</span>，<span>eth1</span>的混杂模式，并桥接了它们。<span></span></span></p>
+<p class="MsoNormal"><span>&nbsp;</span></p>
+
+  </div>
+
+  
+
+  
+      <script type="text/javascript"><!--
+      google_ad_client = "ca-pub-8990951720398508";
+      /* iteye博客内页Banner-728*90 */
+      google_ad_slot = "8267689356/1918544322";
+      google_ad_width = 728;
+      google_ad_height = 90;
+      //-->
+      </script>
+      <script type="text/javascript" src="./Linux 网桥配置命令：brctl - - ITeye博客_files/show_ads.js">
+      </script><ins id="aswift_0_expand" style="display:inline-table;border:none;height:90px;margin:0;padding:0;position:relative;visibility:visible;width:728px;background-color:transparent"><ins id="aswift_0_anchor" style="display:block;border:none;height:90px;margin:0;padding:0;position:relative;visibility:visible;width:728px;background-color:transparent"><iframe width="728" height="90" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allowfullscreen="true" onload="var i=this.id,s=window.google_iframe_oncopy,H=s&amp;&amp;s.handlers,h=H&amp;&amp;H[i],w=this.contentWindow,d;try{d=w.document}catch(e){}if(h&amp;&amp;d&amp;&amp;(!d.body||!d.body.firstChild)){if(h.call){setTimeout(h,0)}else if(h.match){try{h=s.upd(h,i)}catch(e){}w.location.replace(h)}}" id="aswift_0" name="aswift_0" style="left:0;position:absolute;top:0;width:728px;height:90px;" src="./Linux 网桥配置命令：brctl - - ITeye博客_files/saved_resource.html"></iframe></ins></ins>
+  
+
+  <div id="bottoms" class="clearfix">
+    
+    <div id="share_weibo">分享到：
+      <a data-type="sina" href="javascript:;" title="分享到新浪微博"><img src="./Linux 网桥配置命令：brctl - - ITeye博客_files/sina.jpg"></a>
+      <a data-type="qq" href="javascript:;" title="分享到腾讯微博"><img src="./Linux 网桥配置命令：brctl - - ITeye博客_files/tec.jpg"></a>
+    </div>
+  </div>
+
+  <div class="blog_nav">
+    <div class="pre_next">
+      <a href="http://fp-moon.iteye.com/blog/1470139" class="next" title="js去字符串中的空格函数">js去字符串中的空格函数</a>
+      |
+      <a href="http://fp-moon.iteye.com/blog/1465195" class="pre" title="使用套接字 ioctl 命令">使用套接字 ioctl 命令</a>
+    </div>
+  </div>
+  <div class="blog_bottom">
+    <ul>
+      <li>2012-03-29 11:16</li>
+      <li>浏览 93308</li>
+      <li><a href="http://fp-moon.iteye.com/blog/1468650#comments">评论(0)</a></li>
+      
+      
+      <li>分类:<a href="http://www.iteye.com/blogs/category/os">操作系统</a></li>      
+      <li class="last"><a href="http://www.iteye.com/wiki/blog/1468650" target="_blank" class="more">相关推荐</a></li>
+    </ul>    
+  </div>
+  
+		    
+		
+<div class="boutique-curr-box blog_comment">
+	  <div class="boutique-curr clearfix">
+	    <h5 class="h3titles">参考知识库</h5>
+	    
+	    <dl class="dlnewlist">
+	    
+          <dd><a target="_blank" href="http://lib.csdn.net/base/android"><img src="./Linux 网桥配置命令：brctl - - ITeye博客_files/1455589744328_328.jpg" width="58" height="58" alt=""></a></dd>
+          <dt>
+              <a target="_blank" href="http://lib.csdn.net/base/android" classs="title">Android知识库</a>
+              <span>
+                 <em>36010</em>&nbsp;&nbsp;关注 <i>|</i> <em>3137</em>&nbsp;&nbsp;收录                  
+              </span>
+          </dt>
+      
+	    </dl>
+	    
+	    <dl class="dlnewlist">
+	    
+          <dd><a target="_blank" href="http://lib.csdn.net/base/react"><img src="./Linux 网桥配置命令：brctl - - ITeye博客_files/1465887837340_340.jpg" width="58" height="58" alt=""></a></dd>
+          <dt>
+              <a target="_blank" href="http://lib.csdn.net/base/react" classs="title">React知识库</a>
+              <span>
+                 <em>3026</em>&nbsp;&nbsp;关注 <i>|</i> <em>393</em>&nbsp;&nbsp;收录                  
+              </span>
+          </dt>
+      
+	    </dl>
+	    
+	    <dl class="dlnewlist">
+	    
+          <dd><a target="_blank" href="http://lib.csdn.net/base/ai"><img src="./Linux 网桥配置命令：brctl - - ITeye博客_files/1479972981201_201.jpg" width="58" height="58" alt=""></a></dd>
+          <dt>
+              <a target="_blank" href="http://lib.csdn.net/base/ai" classs="title">人工智能基础知识库</a>
+              <span>
+                 <em>14882</em>&nbsp;&nbsp;关注 <i>|</i> <em>208</em>&nbsp;&nbsp;收录                  
+              </span>
+          </dt>
+      
+	    </dl>
+	    
+	    <dl class="dlnewlist">
+	    
+          <dd><a target="_blank" href="http://lib.csdn.net/base/java"><img src="./Linux 网桥配置命令：brctl - - ITeye博客_files/1453701371636_636.jpg" width="58" height="58" alt=""></a></dd>
+          <dt>
+              <a target="_blank" href="http://lib.csdn.net/base/java" classs="title">Java 知识库</a>
+              <span>
+                 <em>30693</em>&nbsp;&nbsp;关注 <i>|</i> <em>3747</em>&nbsp;&nbsp;收录                  
+              </span>
+          </dt>
+      
+	    </dl>
+	    
+	  </div>
+</div>
+ 		
+      
+  <div class="blog_comment">
+    <h5>评论</h5>
+    <a id="comments" name="comments"></a>
+    
+    
+    
+  </div>
+
+  <div class="blog_comment">
+    <h5>发表评论</h5>
+            <p style="text-align:center; margin-top:30px;margin-bottom:0px;"><a href="http://fp-moon.iteye.com/login" style="background-color:white;"> <img src="./Linux 网桥配置命令：brctl - - ITeye博客_files/login_icon.png" style="vertical-align:middle; margin-right: 10px;"></a><a href="http://fp-moon.iteye.com/login">  您还没有登录,请您登录后再发表评论 </a></p>
+      </div>
+</div>
+
+
+<script type="text/javascript">
+  dp.SyntaxHighlighter.HighlightAll('code', true, true);
+
+  $$('#main .blog_content pre[name=code]').each(function(pre, index){ // blog content
+    var post_id = 1468650;
+    var location = window.location;
+    source_url = location.protocol + "//" + location.host + location.pathname + location.search;
+    pre.writeAttribute('codeable_id', post_id);
+    pre.writeAttribute('codeable_type', "Blog");
+    pre.writeAttribute('source_url', source_url);
+    pre.writeAttribute('pre_index', index);
+    pre.writeAttribute('title', 'Linux 网桥配置命令：brctl');
+  });
+
+  fix_image_size($$('div.blog_content img'), 700);
+
+  function processComment() {
+    $$('#main .blog_comment > div').each(function(comment){// comment
+      var post_id = comment.id.substr(2);
+      $$("#"+comment.id+" pre[name=code]").each(function(pre, index){
+        var location = window.location;
+        source_url = location.protocol + "//" + location.host + location.pathname + location.search;
+        source_url += "#" + comment.id;
+        pre.writeAttribute('codeable_id', post_id);
+        pre.writeAttribute('codeable_type', "BlogComment");
+        pre.writeAttribute('source_url', source_url);
+        pre.writeAttribute('pre_index', index);
+        pre.writeAttribute('title', 'Linux 网桥配置命令：brctl');
+      });
+    });
+  }
+
+  function quote_comment(id) {
+    new Ajax.Request('/editor/quote', {
+      parameters: {'id':id, 'type':'BlogComment'},
+      onSuccess:function(response){editor.bbcode_editor.textarea.insertAfterSelection(response.responseText);
+        Element.scrollTo(editor.bbcode_editor.textarea.element);}
+    });
+  }
+
+  code_favorites_init();
+  processComment();
+  new WeiboShare({share_buttons: $('share_weibo'), img_scope: $('blog_content')});
+</script>
+
+
+
+
+        </div>
+
+        <div id="local">
+          <div class="local_top"></div>
+          <div id="blog_owner">
+  <div id="blog_owner_logo"><a href="http://fp-moon.iteye.com/"><img alt="fp_moon的博客" class="logo" src="./Linux 网桥配置命令：brctl - - ITeye博客_files/0a146dc8-79d7-3021-a491-027db02d3be2.png" title="fp_moon的博客: " width=""></a></div>
+  <div id="blog_owner_name">fp_moon</div>
+</div>
+
+          <div id="blog_actions">
+            <ul>
+              <li>浏览: 666898 次</li>
+              <li>性别: <img alt="Icon_minigender_1" src="./Linux 网桥配置命令：brctl - - ITeye博客_files/icon_minigender_1.gif" title="男"></li>
+              <li>来自: 深圳</li>
+              <li><img src="./Linux 网桥配置命令：brctl - - ITeye博客_files/offline.gif"></li>
+              
+            </ul>
+          </div>
+          <div id="user_visits" class="clearfix">
+            <h5>最近访客 <span style="font-weight:normal;font-size:12px;padding-left:30px;"><a href="http://fp-moon.iteye.com/blog/user_visits">更多访客&gt;&gt;</a></span></h5>
+            
+              <div class="user_visit">
+                <div class="logo"><a href="http://dancingalone.iteye.com/" target="_blank"><img alt="dancingalone的博客" class="logo" src="./Linux 网桥配置命令：brctl - - ITeye博客_files/user-logo-thumb.gif" title="dancingalone的博客: dancingalone" width="48px"></a></div>
+                <div class="left"><a href="http://dancingalone.iteye.com/" target="_blank" title="dancingalone">dancingalone</a></div>
+              </div>
+            
+              <div class="user_visit">
+                <div class="logo"><a href="http://bfmjatje.iteye.com/" target="_blank"><img alt="bfmjatje的博客" class="logo" src="./Linux 网桥配置命令：brctl - - ITeye博客_files/user-logo-thumb.gif" title="bfmjatje的博客: " width="48px"></a></div>
+                <div class="left"><a href="http://bfmjatje.iteye.com/" target="_blank" title="bfmjatje">bfmjatje</a></div>
+              </div>
+            
+              <div class="user_visit">
+                <div class="logo"><a href="http://zzh1989829.iteye.com/" target="_blank"><img alt="zzh1989829的博客" class="logo" src="./Linux 网桥配置命令：brctl - - ITeye博客_files/user-logo-thumb.gif" title="zzh1989829的博客: " width="48px"></a></div>
+                <div class="left"><a href="http://zzh1989829.iteye.com/" target="_blank" title="zzh1989829">zzh1989829</a></div>
+              </div>
+            
+              <div class="user_visit">
+                <div class="logo"><a href="http://xiayh04.iteye.com/" target="_blank"><img alt="xiayh04的博客" class="logo" src="./Linux 网桥配置命令：brctl - - ITeye博客_files/user-logo-thumb.gif" title="xiayh04的博客: java论坛" width="48px"></a></div>
+                <div class="left"><a href="http://xiayh04.iteye.com/" target="_blank" title="xiayh04">xiayh04</a></div>
+              </div>
+            
+          </div>
+
+          
+
+                      <div id="blog_menu">
+              <h5>文章分类</h5>
+              <ul>
+                <li><a href="http://fp-moon.iteye.com/">全部博客 (189)</a></li>
+                
+                  <li><a href="http://fp-moon.iteye.com/category/190074">防火墙 (5)</a></li>
+                
+                  <li><a href="http://fp-moon.iteye.com/category/190140">linux内存 (2)</a></li>
+                
+                  <li><a href="http://fp-moon.iteye.com/category/192766">shell编程 (3)</a></li>
+                
+                  <li><a href="http://fp-moon.iteye.com/category/207533">linux命令 (14)</a></li>
+                
+                  <li><a href="http://fp-moon.iteye.com/category/208237">linux编程 (42)</a></li>
+                
+                  <li><a href="http://fp-moon.iteye.com/category/213699">linux route命令 (2)</a></li>
+                
+                  <li><a href="http://fp-moon.iteye.com/category/213719">linux route (4)</a></li>
+                
+                  <li><a href="http://fp-moon.iteye.com/category/214417">javascript (5)</a></li>
+                
+                  <li><a href="http://fp-moon.iteye.com/category/246508">DHCP (3)</a></li>
+                
+                  <li><a href="http://fp-moon.iteye.com/category/301615">wifi (1)</a></li>
+                
+                  <li><a href="http://fp-moon.iteye.com/category/339060">C语言 (1)</a></li>
+                
+              </ul>
+            </div>
+            <div id="month_blogs">
+              <h5>社区版块</h5>
+              <ul>
+                <li><a href="http://fp-moon.iteye.com/blog/news">我的资讯</a> (0)</li>
+                <li>
+                  <a href="http://fp-moon.iteye.com/blog/post">我的论坛</a> (0)
+                </li>
+                <li><a href="http://fp-moon.iteye.com/blog/answered_problems">我的问答</a> (0)</li>
+              </ul>
+            </div>
+            <div id="month_blogs">
+              <h5>存档分类</h5>
+              <ul>
+                
+                  <li><a href="http://fp-moon.iteye.com/blog/monthblog/2015-05">2015-05</a> (1)</li>
+                
+                  <li><a href="http://fp-moon.iteye.com/blog/monthblog/2014-06">2014-06</a> (2)</li>
+                
+                  <li><a href="http://fp-moon.iteye.com/blog/monthblog/2014-05">2014-05</a> (2)</li>
+                
+                <li><a href="http://fp-moon.iteye.com/blog/monthblog_more">更多存档...</a></li>
+              </ul>
+            </div>
+            
+            
+
+            <div id="guest_books">
+              <h5>最新评论</h5>
+              <ul>
+                
+                <li>
+                  <a href="http://custjcy.iteye.com/" target="_blank" title="custjcy">custjcy</a>： 
+                  不错，赞一个。尤其是这个，在查找指定目录下，列出所有包含某个字 ...<br>
+                  <a href="http://fp-moon.iteye.com/blog/1767829#bc2396746">shell命令的批量修改文件内容</a>
+                </li>
+                
+                <li>
+                  <a href="http://qw173795180.iteye.com/" target="_blank" title="qw173795180">qw173795180</a>： 
+                  你好，请问Start这个参数怎么使用不了？<br>
+                  <a href="http://fp-moon.iteye.com/blog/1568071#bc2362135">视频播放flv player的使用  </a>
+                </li>
+                
+                <li>
+                  <a href="http://cheeruplc.iteye.com/" target="_blank" title="cheeruplc">cheeruplc</a>： 
+                  &nbsp; xml进行修改之后 刷新请求 不执行 看了你的博文解决&nbsp;  ...<br>
+                  <a href="http://fp-moon.iteye.com/blog/1189767#bc2344853">同一页面无法多次使用XmlHttp发起Ajax请求的真实原因--l转</a>
+                </li>
+                
+                <li>
+                  <a href="http://dongbiying.iteye.com/" target="_blank" title="dongbiying">dongbiying</a>： 
+                   没有想到还有map的概念 <br>
+                  <a href="http://fp-moon.iteye.com/blog/1186924#bc2308692">js数组的操作及数组与字符串的相互转化</a>
+                </li>
+                
+                <li>
+                  <a href="http://wangtuda.iteye.com/" target="_blank" title="wangtuda">wangtuda</a>： 
+                  打酱油的~<br>
+                  <a href="http://fp-moon.iteye.com/blog/1004419#bc2299457">js中随机排序</a>
+                </li>
+                
+              </ul>
+            </div>
+
+            <div class="local_bottom"></div>
+          
+        </div>
+        <div style="margin-top: 10px;float: left;clear: left;">
+          <script type="text/javascript">
+            /*iteye博客内页左侧Button-200*200，创建于2016-08-01*/
+            var cpro_id = "u2720202";
+          </script>
+          <script type="text/javascript" src="./Linux 网桥配置命令：brctl - - ITeye博客_files/c.js"></script><div id="BAIDU_SSP__wrapper_u2720202_0"><iframe id="iframeu2720202_0" src="./Linux 网桥配置命令：brctl - - ITeye博客_files/ecym(2).html" width="200" height="200" align="center,center" vspace="0" hspace="0" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" style="border:0;vertical-align:bottom;margin:0;width:200px;height:200px" allowtransparency="true"></iframe></div>
+				</div>
+      </div>    
+
+      <div id="footer" class="clearfix">
+        <div id="copyright">
+          <hr>
+          声明：ITeye文章版权属于作者，受法律保护。没有作者书面许可不得转载。若作者同意转载，必须以超链接形式标明文章原始出处和作者。<br>
+          © 2003-2017 ITeye.com.   All rights reserved.  [ 京ICP证110151号  京公网安备110105010620 ]
+        </div>
+        <div style="position: fixed;bottom:0px;right:0px;line-height:0px;z-index:1000;">
+          <script type="text/javascript"><!--
+          google_ad_client = "ca-pub-8990951720398508";
+          /* iteye博客内页弹窗-300*250 */
+          google_ad_slot = "8267689356/5752063962";
+          google_ad_width = 300;
+          google_ad_height = 250;
+          //-->
+          </script>
+          <script type="text/javascript" src="./Linux 网桥配置命令：brctl - - ITeye博客_files/show_ads.js">
+          </script><ins id="aswift_1_expand" style="display:inline-table;border:none;height:250px;margin:0;padding:0;position:relative;visibility:visible;width:300px;background-color:transparent"><ins id="aswift_1_anchor" style="display:block;border:none;height:250px;margin:0;padding:0;position:relative;visibility:visible;width:300px;background-color:transparent"><iframe width="300" height="250" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allowfullscreen="true" onload="var i=this.id,s=window.google_iframe_oncopy,H=s&amp;&amp;s.handlers,h=H&amp;&amp;H[i],w=this.contentWindow,d;try{d=w.document}catch(e){}if(h&amp;&amp;d&amp;&amp;(!d.body||!d.body.firstChild)){if(h.call){setTimeout(h,0)}else if(h.match){try{h=s.upd(h,i)}catch(e){}w.location.replace(h)}}" id="aswift_1" name="aswift_1" style="left:0;position:absolute;top:0;width:300px;height:250px;" src="./Linux 网桥配置命令：brctl - - ITeye博客_files/saved_resource(1).html"></iframe></ins></ins>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript">
+  document.write("<img src='http://stat.iteye.com/?url="+ encodeURIComponent(document.location.href) + "&referrer=" + encodeURIComponent(document.referrer) + "&user_id=' width='0' height='0' />");
+</script><img src="./Linux 网桥配置命令：brctl - - ITeye博客_files/saved_resource" width="0" height="0">
+
+<script src="./Linux 网桥配置命令：brctl - - ITeye博客_files/tracking.js" type="text/javascript"></script>
+
+    
+    
+    <script language="javascript" type="text/javascript" src="./Linux 网桥配置命令：brctl - - ITeye博客_files/async_new.js"></script>
+<script src="./Linux 网桥配置命令：brctl - - ITeye博客_files/jquery-1.11.1.min.js" type="text/javascript"></script>
+<script type="text/javascript">var $csdn_iteye_jq = jQuery.noConflict();// 解决jq与prototype.js命名空间冲突的问题</script>
+<script src="./Linux 网桥配置命令：brctl - - ITeye博客_files/tracking(1).js" type="text/javascript"></script>
+    
+	    
+	    <script src="./Linux 网桥配置命令：brctl - - ITeye博客_files/web-storage-cache.min.js" type="text/javascript"></script>
+	    <script src="./Linux 网桥配置命令：brctl - - ITeye博客_files/replace.min.js" type="text/javascript"></script>
+    
+    
+  
+
+</body></html>

@@ -1,0 +1,17 @@
+225
+flavor1 45
+flavor8 53
+flavor2 61
+flavor4 21
+flavor5 45
+
+General 9
+General-1 flavor1 1 flavor2 1 flavor5 1 flavor8 13
+General-2 flavor1 1 flavor2 1 flavor5 1 flavor8 13
+General-3 flavor1 1 flavor2 1 flavor5 1 flavor8 13
+General-4 flavor1 1 flavor2 1 flavor5 1 flavor8 13
+General-5 flavor1 1 flavor2 1 flavor5 25 flavor8 1
+General-6 flavor1 1 flavor2 23 flavor5 16
+General-7 flavor1 1 flavor2 33 flavor4 11
+General-8 flavor1 36 flavor4 10
+General-9 flavor1 2

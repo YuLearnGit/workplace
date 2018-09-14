@@ -1,0 +1,11 @@
+服务器账号信息：
+账号：root
+密码：henghenghaha
+
+112服务器：
+宽带账号：0283387039592
+密码：12345678
+
+112路由器网页管理登陆地址：192.16.10.100   账号：admin   密码：zhinengzhizao
+无线名称:ZNZZ_2.4G  ZNZZ_5G 
+密码：henghenghaha

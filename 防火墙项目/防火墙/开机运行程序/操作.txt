@@ -1,0 +1,11 @@
+将防火墙设置成开机automatic login
+
+
+1、在/home目录下编译linux-src-C++(与debug版本的区别是注释了输出部分)；
+2、将autoIndustrial.sh和IndustrialFirewall.sh放到/home 目录下；
+2、修改脚本文件执行权限chmod +x /home/IndustrialFirewall.sh(两个都要改)
+2、修改/etc/profile，添加开机执行autoIndustrial.sh脚本（123）为用户密码
+
+3、Ubuntu系统设置中设置自动登录
+
+注：编译目录可更改，但IndustrialFirewall.sh脚本中要对应

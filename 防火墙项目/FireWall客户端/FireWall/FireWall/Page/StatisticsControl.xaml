@@ -1,0 +1,116 @@
+﻿<UserControl x:Class="FireWall.StatisticsControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:dxe="http://schemas.devexpress.com/winfx/2008/xaml/editors" 
+             xmlns:dxsch="http://schemas.devexpress.com/winfx/2008/xaml/scheduler"
+             xmlns:dxca="http://schemas.devexpress.com/winfx/2008/xaml/carousel" 
+             xmlns:dxga="http://schemas.devexpress.com/winfx/2008/xaml/gauges"
+             xmlns:local="clr-namespace:FireWall"
+             xmlns:dxg="http://schemas.devexpress.com/winfx/2008/xaml/grid"
+             xmlns:dxc="http://schemas.devexpress.com/winfx/2008/xaml/charts" 
+             mc:Ignorable="d" 
+             d:DesignHeight="620" d:DesignWidth="1280" Loaded="Window_Loaded">
+    <Border BorderBrush="Silver" BorderThickness="1">
+        <Grid>
+            <DockPanel>
+                <WrapPanel DockPanel.Dock="Top">
+                    <Grid Height="30" Margin="50,20,0,0">
+                        <Label Content="统计月份" FontSize="14" HorizontalAlignment="Left" Height="30" Margin="0,0,0,0" VerticalAlignment="Top" Width="60" Foreground="Black" Padding="0" VerticalContentAlignment="Center"/>
+                        <dxe:DateEdit x:Name="QueryDate" HorizontalAlignment="Left" Margin="80,0,0,0" VerticalAlignment="Top" Width="130" Height="30" Mask="y" MaskUseAsDisplayFormat="True" IsTextEditable="False" PopupOpened="clear"/>
+                    </Grid>
+                    <Grid Height="30" Margin="50,20,0,0">
+                        <Label Content="防火墙MAC" FontSize="14" HorizontalAlignment="Left" Height="30" Margin="0,0,0,0" VerticalAlignment="Top" Width="80" Foreground="Black" Padding="0" VerticalContentAlignment="Center"/>
+                        <dxe:ComboBoxEdit x:Name="FwName" ShowSizeGrip="False" IsTextEditable="False" ShowCustomItems="{Binding IsChecked, ElementName=CheckedShowCustomItems}" HorizontalAlignment="Left" Height="30" VerticalAlignment="Top" Width="150" Margin="100,0,0,0" PopupOpened="clear"/>
+                    </Grid>
+                    <Grid Height="30" Margin="50,20,0,0">
+                        <Label Content="被保护设备IP" FontSize="14" HorizontalAlignment="Left" Height="30" Margin="0,0,0,0" VerticalAlignment="Top" Width="85" Foreground="Black" Padding="0" VerticalContentAlignment="Center"/>
+                        <dxe:ComboBoxEdit x:Name="ProtectedIP" ShowSizeGrip="False" IsTextEditable="False" ShowCustomItems="{Binding IsChecked, ElementName=CheckedShowCustomItems}" HorizontalAlignment="Left" Height="30" VerticalAlignment="Top" Width="130" Margin="105,0,0,0" PopupOpened="clear"/>
+                    </Grid>
+                    <Grid Height="30" Margin="50,20,0,0">
+                        <Label Content="处理状态" FontSize="14" HorizontalAlignment="Left" Height="30" Margin="0,0,0,0" VerticalAlignment="Top" Width="60" Foreground="Black" Padding="0" VerticalContentAlignment="Center"/>
+                        <dxe:ComboBoxEdit x:Name="StateName" ShowSizeGrip="False" IsTextEditable="False" ShowCustomItems="{Binding IsChecked, ElementName=CheckedShowCustomItems}" Height="30" VerticalAlignment="Top" Margin="80,0,0,0" Width="120" PopupOpened="clear"/>
+                    </Grid>
+                    <Grid Height="30" Margin="200,20,0,0">
+                        <Button x:Name="Querybutton" Content="统计" FontSize="14" Margin="0,0,0,0" VerticalAlignment="Top" Height="30" Style="{DynamicResource MainButtonStyle}" Background="{DynamicResource buttongroundbrush}" Foreground="Black" Click="Querybutton_Click" HorizontalAlignment="Left" Width="75"/>
+                        <Button x:Name="Exportbutton" Content="导出" FontSize="14" Margin="100,0,0,0" Style="{DynamicResource MainButtonStyle}" Background="{DynamicResource buttongroundbrush}" Foreground="Black" Click="Exportbutton_Click" Height="30" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="75"/>
+                    </Grid>
+                </WrapPanel>
+                <dxg:GridControl Name="StatisData" AutoGenerateColumns="KeepOld" EnableSmartColumnsGeneration="True" ShowBorder="False" AllowLiveDataShaping="False" SelectionMode="Row" Margin="30,50,20,40" HorizontalAlignment="Left" Width="270" >
+                    <dxg:GridControl.View>
+                        <dxg:TableView Name="view" AllowPerPixelScrolling="False" NavigationStyle="Row" ShowTotalSummary="True" AllowEditing="False" EvenRowBackground="#C7EDCC" UseEvenRowBackground="True" ShowGroupPanel="False" RowDoubleClick="RowDoubleClick"/>
+                    </dxg:GridControl.View>
+                </dxg:GridControl>
+                <Grid>
+                    <Button x:Name="Returnbutton" Content="返回" FontSize="14" Margin="216,10,0,0" VerticalAlignment="Top" Height="30" Style="{DynamicResource MainButtonStyle}" Background="{DynamicResource buttongroundbrush}" Foreground="Black" Click="Returnbutton_Click" HorizontalAlignment="Left" Width="75"/>
+                    <dxe:CheckEdit x:Name="ShowLine" Content="折线" FontSize="14" HorizontalAlignment="Left" Height="30" Margin="350,10,0,0" VerticalAlignment="Top" Width="80" Foreground="Black" IsChecked="True" Checked="ShowLine_Checked" Unchecked="ShowLine_Unchecked"/>
+                    <dxe:CheckEdit x:Name="ShowBar" Content="柱状图" FontSize="14" HorizontalAlignment="Left" Height="30" Margin="450,10,0,0" VerticalAlignment="Top" Width="80" Foreground="Black" IsChecked="True" Checked="ShowBar_Checked" Unchecked="ShowBar_Unchecked"/>
+                    <dxc:ChartControl Name="IPchartControl" BorderThickness="0" CrosshairEnabled="True" Background="{x:Null}" BorderBrush="#FF5379AE" AnimationMode="OnLoad" Margin="0,50,30,10" Visibility="Visible">
+                        <dxc:ChartControl.Legend>
+                            <dxc:Legend/>
+                        </dxc:ChartControl.Legend>
+                        <dxc:SimpleDiagram2D>
+                            <dxc:PieSeries2D x:Name="pie" HoleRadiusPercent="0" SweepDirection="Counterclockwise"  Rotation="{Binding ElementName=DoRotation,Path=Value}" >
+                                <dxc:PieSeries2D.Label>
+                                    <dxc:SeriesLabel ConnectorVisible="False"  Indent="10"  RenderMode="RectangleConnectedToCenter" TextPattern="{}{A}, {VP:P0}"/>
+                                </dxc:PieSeries2D.Label>
+                            </dxc:PieSeries2D>
+                        </dxc:SimpleDiagram2D>
+                    </dxc:ChartControl>
+                    <dxc:ChartControl Name="DatechartControl" BorderThickness="0" CrosshairEnabled="True" Background="{x:Null}" BorderBrush="#FF5379AE" AnimationMode="OnLoad" Margin="0,50,30,10" Visibility="Collapsed">
+                        <dxc:ChartControl.CrosshairOptions>
+                            <dxc:CrosshairOptions GroupHeaderPattern="{}{A}"/>
+                        </dxc:ChartControl.CrosshairOptions>
+                        <dxc:ChartControl.Diagram>
+                            <dxc:XYDiagram2D>
+                                <dxc:XYDiagram2D.AxisY>
+                                    <dxc:AxisY2D Visible="True" MinorCount="5" Brush="#FF0A0A9B" GridLinesVisible="True" GridLinesMinorVisible="True">
+                                        <dxc:AxisY2D.NumericScaleOptions>
+                                            <dxc:ContinuousNumericScaleOptions/>
+                                        </dxc:AxisY2D.NumericScaleOptions>
+                                        <dxc:AxisY2D.WholeRange>
+                                            <dxc:Range MinValue="0" dxc:AxisY2D.AlwaysShowZeroLevel="False" SideMarginsValue="0" MaxValue="auto" />
+                                        </dxc:AxisY2D.WholeRange>
+                                        <dxc:AxisY2D.Label>
+                                            <dxc:AxisLabel FontSize="14" Staggered="False" Foreground="{DynamicResource FontBrush}" />
+                                        </dxc:AxisY2D.Label>
+                                    </dxc:AxisY2D>
+                                </dxc:XYDiagram2D.AxisY>
+                                <dxc:XYDiagram2D.AxisX>
+                                    <dxc:AxisX2D Visible="True" GridLinesVisible="True" TickmarksVisible="True" Brush="#FF0A0A9B">
+                                        <dxc:AxisX2D.WholeRange>
+                                            <dxc:Range dxc:AxisY2D.AlwaysShowZeroLevel="False" SideMarginsValue="1" AutoSideMargins="False"/>
+                                        </dxc:AxisX2D.WholeRange>
+                                        <dxc:AxisX2D.Label>
+                                            <dxc:AxisLabel FontSize="12" Foreground="{DynamicResource FontBrush}" />
+                                        </dxc:AxisX2D.Label>
+                                    </dxc:AxisX2D>
+                                </dxc:XYDiagram2D.AxisX>
+                                <dxc:XYDiagram2D.Series >
+                                    <dxc:BarSideBySideSeries2D x:Name="barSeries" DisplayName="柱形" ArgumentDataMember="Key" ValueDataMember="Value" CrosshairLabelPattern="{}{V}次" Brush="#FFAFD2FE">
+                                        <dxc:BarSideBySideSeries2D.Label>
+                                            <dxc:SeriesLabel ResolveOverlappingMode="Default" Visible="False" />
+                                        </dxc:BarSideBySideSeries2D.Label>
+                                    </dxc:BarSideBySideSeries2D>
+                                    <dxc:LineSeries2D x:Name="line" DisplayName="折线" ArgumentDataMember="Key" ValueDataMember="Value" CrosshairLabelPattern="{}{V}次" Brush="Red">
+                                        <dxc:LineSeries2D.Label>
+                                            <dxc:SeriesLabel ConnectorVisible="False" ResolveOverlappingMode="Default" Indent="0" Visible="False" />
+                                        </dxc:LineSeries2D.Label>
+                                    </dxc:LineSeries2D>
+                                </dxc:XYDiagram2D.Series>
+                            </dxc:XYDiagram2D>
+                        </dxc:ChartControl.Diagram>
+                        <dxc:ChartControl.Legend>
+                            <dxc:Legend Foreground="{DynamicResource FontBrush}" >
+                                <dxc:Legend.Background>
+                                    <SolidColorBrush Color="#FFD9D4FF" Opacity="0.1"/>
+                                </dxc:Legend.Background>
+                            </dxc:Legend>
+                        </dxc:ChartControl.Legend>
+                    </dxc:ChartControl>
+                </Grid>
+            </DockPanel>
+        </Grid>
+    </Border>
+</UserControl>

@@ -1,0 +1,24 @@
+﻿<UserControl x:Class="FireWall.UserManagementControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:FireWall"
+              xmlns:dxg="http://schemas.devexpress.com/winfx/2008/xaml/grid" xmlns:dxe="http://schemas.devexpress.com/winfx/2008/xaml/editors" 
+             mc:Ignorable="d" 
+             d:DesignHeight="620" d:DesignWidth="1280">
+    <Border BorderBrush="Silver" BorderThickness="1">
+        <Grid>
+            <Button x:Name="AddUserButton" Content="添加用户" HorizontalAlignment="Left" Margin="50,15,0,0" Style="{DynamicResource MainButtonStyle}" Background="{DynamicResource buttongroundbrush}" Foreground="{DynamicResource FontBrush}" VerticalAlignment="Top" Width="80" Click="AddUserButton_Click" Height="30" FontSize="14"/>
+            <Button x:Name="DeleteButton" Content="删除用户" HorizontalAlignment="Left" Margin="200,15,0,0" Style="{DynamicResource MainButtonStyle}" Background="{DynamicResource buttongroundbrush}" Foreground="{DynamicResource FontBrush}" VerticalAlignment="Top" Width="80" Click="DeleteButton_Click" Height="30" FontSize="14"/>
+            <Button x:Name="ChangePasswordButton" Content="修改密码" HorizontalAlignment="Left" Margin="350,15,0,0" Style="{DynamicResource MainButtonStyle}" Background="{DynamicResource buttongroundbrush}" Foreground="{DynamicResource FontBrush}" VerticalAlignment="Top" Width="80" Click="ChangePasswordButton_Click" Height="30" FontSize="14"/>
+            <Button x:Name="ChangeRoleButton" Content="更改权限" HorizontalAlignment="Left" Margin="500,15,0,0" Style="{DynamicResource MainButtonStyle}" VerticalAlignment="Top" Width="80" Background="{DynamicResource buttongroundbrush}" Foreground="{DynamicResource FontBrush}" Click="ChangeRoleButton_Click" Height="30" FontSize="14"/>
+            <Button x:Name="RefreshButton" Content="刷  新" HorizontalAlignment="Right" Margin="0,15,10,0" Style="{DynamicResource MainButtonStyle}" VerticalAlignment="Top" Width="80" Click="RefreshButton_Click" Background="{DynamicResource buttongroundbrush}" Foreground="{DynamicResource FontBrush}" Height="30" FontSize="14"/>
+            <dxg:GridControl x:Name="UserData" AutoGenerateColumns="AddNew" Margin="0,61,0,0" ShowBorder="False" AllowLiveDataShaping="True" SelectionMode="Row">
+                <dxg:GridControl.View>
+                    <dxg:TableView AllowPerPixelScrolling="True" NavigationStyle="Row" ShowTotalSummary="True" AllowEditing="False" EvenRowBackground="#C7EDCC" UseEvenRowBackground="True" ShowGroupPanel="False" />
+                </dxg:GridControl.View>
+            </dxg:GridControl>
+        </Grid>
+    </Border>
+</UserControl>

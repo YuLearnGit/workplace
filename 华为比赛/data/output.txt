@@ -1,0 +1,18 @@
+225
+flavor1 45
+flavor2 61
+flavor4 21
+flavor5 45
+flavor8 53
+
+General 0
+
+Large-Memory 6
+Large-Memory-1 flavor8 9 flavor5 8 flavor4 2 flavor2 11 flavor1 7
+Large-Memory-2 flavor8 9 flavor5 8 flavor4 3 flavor2 10 flavor1 7
+Large-Memory-3 flavor8 9 flavor5 7 flavor4 4 flavor2 10 flavor1 7
+Large-Memory-4 flavor8 9 flavor5 7 flavor4 4 flavor2 10 flavor1 8
+Large-Memory-5 flavor8 9 flavor5 7 flavor4 4 flavor2 10 flavor1 8
+Large-Memory-6 flavor8 8 flavor5 8 flavor4 4 flavor2 10 flavor1 8
+
+High-Performance 0

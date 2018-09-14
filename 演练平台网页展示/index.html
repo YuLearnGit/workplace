@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<META HTTP-EQUIV="Pragma" CONTENT="no-cache">
+		<META HTTP-EQUIV="Cache-Control" CONTENT="no-cache">
+		<META HTTP-EQUIV="Expires" CONTENT="0">
+		<script src="js/jquery-1.10.2.js"></script>
+		<!--<script src="js/jquery-3.2.0.js"></script>-->
+		<script type="text/javascript" src="js/jquery.easing.min.js"></script>
+		<script src="js/jQueryRotate.js"></script>
+		<script type="text/javascript" src="js/SelfAdaption.js"></script>
+		<script src="js/echarts.min.js"></script>
+		<script src="js/body.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/body.css" />
+	</head>
+
+	<body>
+		<div style="overflow: hidden;" id="body">
+			<span id="fan" style="border:1px solid red;">
+				<img src="img/blade.png" id="img_blade"/>
+				<img src="img/rod.png" id="img_rod"/>
+			</span>
+			<span id="computer">
+				<img src="img/computer.png" id="img_computer"/>
+			</span>
+			<span id="wall">
+				<img src="img/wall.png" id="img_wall"/>
+			</span>
+			<span id="plc">
+				<img src="img/PLC.png" id="img_plc"/>
+			</span>
+			<span id="virus">
+				<img src="img/virus.png" id="img_virus"/>
+			</span>
+			<span id="led">
+				<img src="img/led2.png" id="img_led"/>
+			</span>
+			<span id="button">
+				<input type="button" class="btn" id="btn_start" value="启动动画" onclick="start()"/>
+				<input type="button" class="btn" id="btn_attack" value="第三方攻击" onclick="attack()" />
+				<input type="button" class="btn" id="btn_defense" value="开启防御" onclick="defense()" />
+			</span>
+		</div>
+		<div id="line1"></div>
+		<div id="line2"></div>
+		<div id="canvasDiv">
+			<canvas id="canvas1"></canvas>
+			<p id="font_computer">电脑</p>
+			<canvas id="canvas2"></canvas>
+			<p id="font_wall">防火墙</p>
+			<canvas id="canvas3"></canvas>
+			<p id="font_plc">PLC</p>
+			<canvas id="canvas4"></canvas>
+			<p id="font_virus">病毒</p>
+			<canvas id="canvas5"></canvas>
+			<p id="font_fan">风机</p>
+			<canvas id="canvas6"></canvas>
+			<p id="font_led">LED</p>
+		</div>
+		<script type="text/javascript">
+			//设置两个charts和一个canvas的div自适应布局
+			var chartContainer1 = document.getElementById('line1');
+			var chartContainer2 = document.getElementById('line2');
+			var resizeContainer = function() {
+				chartContainer1.style.width = window.innerWidth * 0.995 + 'px';
+				chartContainer1.style.height = window.innerWidth * 0.45 + 'px';
+				chartContainer2.style.width = window.innerWidth * 0.995 + 'px';
+				chartContainer2.style.height = window.innerWidth * 0.45 + 'px';
+			};
+			resizeContainer();
+			window.onresize = function() {
+				//重置容器高宽
+				resizeContainer();
+				myChart1.resize();
+				myChart2.resize();
+
+			};
+			//窗口加载事件
+			window.onload = function() {
+				hideWall();
+				hideVirus();
+				startStaticCircle();
+			}
+
+			// 基于准备好的dom，初始化echarts实例
+			var myChart1 = echarts.init(chartContainer1);
+			var myChart2 = echarts.init(chartContainer2);
+			// 使用刚指定的配置项和数据显示图表。
+			myChart1.setOption(option11);
+
+			//获取启动、攻击、防御三个按钮以及图片节点
+			var ele_btn_start = document.getElementById("btn_start");
+			var ele_btn_attack = document.getElementById("btn_attack");
+			var ele_btn_defense = document.getElementById("btn_defense");
+			var ele_img_computer = document.getElementById('img_computer');
+			//			var ele_img_wall = document.getElementById('img_wall');
+			var ele_img_plc = document.getElementById('img_plc');
+			//			var ele_img_virus = document.getElementById('img_virus');
+			var ele_img_blade = document.getElementById('img_blade');
+			var ele_img_led = document.getElementById('img_led');
+			var ele_font_wall = document.getElementById('font_wall');
+			var ele_font_virus = document.getElementById('font_virus');
+			//获取canvas
+			var ele_canvas1 = document.getElementById('canvas1');
+			var ele_canvas2 = document.getElementById('canvas2');
+			var ele_canvas3 = document.getElementById('canvas3');
+			var ele_canvas4 = document.getElementById('canvas4');
+			var ele_canvas5 = document.getElementById('canvas5');
+			var ele_canvas6 = document.getElementById('canvas6');
+			var context1 = ele_canvas1.getContext("2d");
+			var context2 = ele_canvas2.getContext("2d");
+			var context3 = ele_canvas3.getContext("2d");
+			var context4 = ele_canvas4.getContext("2d");
+			var context5 = ele_canvas5.getContext("2d");
+			var context6 = ele_canvas6.getContext("2d");
+			var radius1 = 0,
+				radius2 = 0,
+				radius3 = 0,
+				radius4 = 0,
+				radius5 = 0,
+				radius6 = 0;
+
+			function startStaticCircle() {
+				clearInterval(timer_c1);
+				clearInterval(timer_c2);
+				clearInterval(timer_c3);
+				clearInterval(timer_c4);
+				clearInterval(timer_c5);
+				clearInterval(timer_c6);
+				drawStaticCircle(context1);
+				drawStaticCircle(context2);
+				drawStaticCircle(context3);
+				drawStaticCircle(context4);
+				drawStaticCircle(context5);
+				drawStaticCircle(context6);
+			}
+
+			function drawStaticCircle(context) {
+				context.beginPath();
+				context.arc(140, 50, 5, 0, 2 * Math.PI);
+				context.lineWidth = 10;
+				context.strokeStyle = '#00ffff';
+				context.stroke();
+			}
+
+			var timer_c1, timer_c2, timer_c3, timer_c4, timer_c5, timer_c6;
+			//画动态圆
+			function startDynamicCircle() {
+				//在主canvas1上画新圆
+				timer_c1 = setInterval(function() {
+					radius1 = drawCircle(context1, radius1);
+				}, 50);
+				//在主canvas2上画新圆
+				timer_c2 = setInterval(function() {
+					radius2 = drawCircle(context2, radius2);
+				}, 50);
+				//在主canvas3上画新圆
+				timer_c3 = setInterval(function() {
+					radius3 = drawCircle(context3, radius3);
+				}, 50);
+				//在主canvas4上画新圆
+				timer_c4 = setInterval(function() {
+					radius4 = drawCircle(context4, radius4);
+				}, 50);
+				//在主canvas5上画新圆
+				timer_c5 = setInterval(function() {
+					radius5 = drawCircle(context5, radius5);
+				}, 50);
+				//在主canvas6上画新圆
+				timer_c6 = setInterval(function() {
+					radius6 = drawCircle(context6, radius6);
+				}, 50);
+			}
+			//画圆
+			function drawCircle(con, radius) {
+				con.beginPath();
+				render(radius, con);
+				con.arc(140, 50, radius, 0, Math.PI * 2);
+
+				con.closePath();
+
+				con.lineWidth = 1;
+				con.strokeStyle = '#00ffff';
+
+				con.stroke();
+				radius += 0.5; //每帧半径增加0.5
+
+				if(radius > 10) {
+					radius = 4;
+				}
+				return radius;
+			}
+
+			function render(x, con) {
+				//默认值为source-over,覆盖原图上面，效果像z-index:999
+				var prev = con.globalCompositeOperation; //只显示canvas上原图像的重叠部分
+				con.globalCompositeOperation = 'destination-in'; //设置主canvas的绘制透明度，圆圈中间的浅黄色部分
+				con.globalAlpha = 0.95; //这一步目的是将canvas上的图像变的透明
+				con.fillRect(0, 0, 40 * x, 40 * x); //在原图像上重叠新图像
+				con.globalCompositeOperation = prev; //下面代用的drawcricle方法，圆圈覆盖在正方形上
+
+			};
+
+			//启动事件
+			function start() {
+				if(ele_btn_attack.value == "第三方攻击" && ele_btn_defense.value == "开启防御") {
+					//未开启第三方攻击也未开启防御
+					if(ele_btn_start.value == "启动动画") {
+						startDynamicCircle();
+						fanNormal();
+						ledOn();
+						myChart1.setOption(option12);
+						$("#btn_start").attr("value", "停止动画");
+						$("#btn_start").css("background", "#64A5E1");
+					} else {
+						startStaticCircle();
+						fanStop();
+						ledOff();
+						myChart1.setOption(option11);
+						$("#btn_start").attr("value", "启动动画");
+						$("#btn_start").css("background", "grey");
+
+					}
+				} else {
+					//开启攻击或开启防御，此时动画已开启
+					startStaticCircle();
+					fanStop();
+					ledOff();
+					hideVirus();
+					hideWall();
+					myChart1.setOption(option11);
+					myChart2.setOption(option22);
+					$("#btn_start").attr("value", "启动动画");
+					$("#btn_attack").attr("value", "第三方攻击");
+					$("#btn_defense").attr("value", "开启防御");
+					$("#btn_start").css("background", "grey");
+					$("#btn_attack").css("background", "grey");
+					$("#btn_defense").css("background", "grey");
+				}
+			}
+
+			//开启攻击事件
+			function attack() {
+				if(ele_btn_start.value == "停止动画") {
+					//开启动画
+					if(ele_btn_defense.value == "开启防御") {
+						//未开启防御
+						if(ele_btn_attack.value == "第三方攻击") {
+							fanAbnormal();
+							ledBad();
+							showVirus();
+							virusAttack();
+							myChart2.setOption(option21);
+							ele_btn_attack.value = "停止攻击";
+							ele_btn_attack.style.background = "#64A5E1";
+						} else {
+							fanNormal();
+							ledOn();
+							virusStop();
+							myChart2.setOption(option22);
+							ele_btn_attack.value = "第三方攻击";
+							ele_btn_attack.style.background = "grey";
+						}
+					} else {
+						//开启防御
+						if(ele_btn_attack.value == "第三方攻击") {
+							showVirus();
+							virusAttack();
+							myChart2.setOption(option21);
+							myChart2.setOption(option23);
+							ele_btn_attack.value = "停止攻击";
+							ele_btn_attack.style.background = "#64A5E1";
+						} else {
+							virusStop();
+							myChart2.setOption(option22);
+							ele_btn_attack.value = "第三方攻击";
+							ele_btn_attack.style.background = "grey";
+						}
+					}
+				} else {
+					//未开启动画
+					alert("未开启动画");
+				}
+			}
+
+			//开启防御事件
+			function defense() {
+				if(ele_btn_start.value == "停止动画") {
+					//开启动画
+					if(ele_btn_attack.value == "第三方攻击") {
+						//未开启第三方攻击
+						if(ele_btn_defense.value == "开启防御") {
+							showWall();
+							myChart1.setOption(option13);
+							ele_btn_defense.value = "停止防御";
+							ele_btn_defense.style.background = "#64A5E1";
+
+						} else {
+							hideWall();
+							myChart1.setOption(option12);
+							ele_btn_defense.value = "开启防御";
+							ele_btn_defense.style.background = "grey";
+
+						}
+					} else {
+						//开启第三方攻击
+						if(ele_btn_defense.value == "开启防御") {
+							showWall();
+							fanNormal();
+							ledOn();
+							myChart1.setOption(option13);
+							myChart2.setOption(option23);
+							ele_btn_defense.value = "停止防御";
+							ele_btn_defense.style.background = "#64A5E1";
+
+						} else {
+							hideWall();
+							fanAbnormal();
+							ledBad();
+							myChart1.setOption(option12);
+							myChart2.setOption(option21);
+							ele_btn_defense.value = "开启防御";
+							ele_btn_defense.style.background = "grey";
+						}
+					}
+				} else {
+					//未开启动画
+					alert("未开启动画");
+				}
+			}
+
+			//显示防火墙
+			function showWall() {
+				$("#img_wall").css("visibility", "visible");
+				$("#canvas2").css("visibility", "visible");
+				$("#font_wall").css("visibility", "visible");
+
+			}
+			//隐藏防火墙
+			function hideWall() {
+				$("#img_wall").css("visibility", "hidden");
+				$("#canvas2").css("visibility", "hidden");
+				$("#font_wall").css("visibility", "hidden");
+			}
+
+			//显示病毒
+			function showVirus() {
+				$("#img_virus").css("visibility", "visible");
+				$("#canvas4").css("visibility", "visible");
+				$("#font_virus").css("visibility", "visible");
+			}
+			//隐藏病毒
+			function hideVirus() {
+				$("#img_virus").css("visibility", "hidden");
+				$("#canvas4").css("visibility", "hidden");
+				$("#font_virus").css("visibility", "hidden");
+			}
+
+			var timer4; //病毒旋转定时器
+			function virusAttack() {
+				clearInterval(timer4);
+				var angle = 0;
+				timer4 = setInterval(function() {
+					angle += 5;
+					$("#img_virus").rotate(angle);
+				}, 10);
+			}
+
+			function virusStop() {
+				clearInterval(timer4);
+
+			}
+
+			var timer1, timer2; //风机旋转定时器
+			//风机停止
+			function fanStop() {
+				clearInterval(timer1);
+				clearInterval(timer2);
+			}
+			//风机正常运转
+			function fanNormal() {
+				clearInterval(timer2);
+				var angle = 0;
+				timer1 = setInterval(function() {
+					angle += 5;
+					$("#img_blade").rotate(angle);
+				}, 10);
+			}
+			//风机异常运转
+			function fanAbnormal() {
+				clearInterval(timer1);
+				var angle = 0;
+				timer2 = setInterval(function() {
+					angle += 20;
+					$("#img_blade").rotate(angle);
+				}, 10);
+			}
+
+			var timer3; //led切换图片定时器
+			//LED亮
+			function ledOn() {
+				clearTimeout(timer3);
+				ele_img_led.src = "img/led1.png";
+			}
+			//LED异常
+			function ledBad() {
+				setTimeout("change(1)", 10);
+			}
+			//led异常循环变换图片
+			function change(n) {
+				if(n > 2) n = 1;
+				ele_img_led.src = "img/led" + n + ".png";
+				n++;
+				timer3 = setTimeout("change(" + n + ")", 10);
+			}
+			//LED灭
+			function ledOff() {
+				clearTimeout(timer3);
+				ele_img_led.src = "img/led2.png";
+			}
+		</script>
+
+		</body>
+
+</html>

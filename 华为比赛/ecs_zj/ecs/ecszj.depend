@@ -1,0 +1,1234 @@
+# depslib dependency file v1.0
+1520410080 source:e:\001-lc\项目\09比赛\2018华为软件精英挑战赛\程序\my_ecs01\ecs01\io.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	<time.h>
+	<sys/timeb.h>
+	<errno.h>
+	<unistd.h>
+	<signal.h>
+
+1520688717 source:e:\001-lc\项目\09比赛\2018华为软件精英挑战赛\程序\my_ecs01\ecs01\ecs.cpp
+	"predict.h"
+	"lib_io.h"
+	"lib_time.h"
+	"stdio.h"
+
+1520687775 e:\001-lc\项目\09比赛\2018华为软件精英挑战赛\程序\my_ecs01\ecs01\predict.h
+	"lib_io.h"
+
+1520410080 e:\001-lc\项目\09比赛\2018华为软件精英挑战赛\程序\my_ecs01\ecs01\lib\lib_io.h
+
+1520410080 e:\001-lc\项目\09比赛\2018华为软件精英挑战赛\程序\my_ecs01\ecs01\lib\lib_time.h
+
+1520688717 source:e:\001-lc\项目\09比赛\2018华为软件精英挑战赛\程序设计\my_ecs02\ecs01\ecs.cpp
+	"predict.h"
+	"lib_io.h"
+	"lib_time.h"
+	"stdio.h"
+
+1521113142 e:\001-lc\项目\09比赛\2018华为软件精英挑战赛\程序设计\my_ecs02\ecs01\predict.h
+	"lib_io.h"
+
+1520410080 e:\001-lc\项目\09比赛\2018华为软件精英挑战赛\程序设计\my_ecs02\ecs01\lib\lib_io.h
+
+1520410080 e:\001-lc\项目\09比赛\2018华为软件精英挑战赛\程序设计\my_ecs02\ecs01\lib\lib_time.h
+
+1521112718 source:e:\001-lc\项目\09比赛\2018华为软件精英挑战赛\程序设计\my_ecs02\ecs01\io.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	<time.h>
+	<sys/timeb.h>
+	<errno.h>
+	<unistd.h>
+	<signal.h>
+
+1521113599 source:e:\001-lc\项目\09比赛\2018华为软件精英挑战赛\程序设计\my_ecs02\ecs01\predict.cpp
+	"predict.h"
+	<stdio.h>
+	<stdlib.h>
+	<iostream>
+	<fstream>
+	<sstream>
+
+1520846325 source:c:\users\lc\desktop\test.cpp
+	<iostream>
+	<sstream>
+
+1521113367 e:\001-lc\项目\09比赛\2018华为软件精英挑战赛\程序设计\my_ecs02\ecs01\get_data.h
+	"lib_io.h"
+	<iostream>
+	<fstream>
+	<sstream>
+
+1521113084 source:e:\001-lc\项目\09比赛\2018华为软件精英挑战赛\程序设计\my_ecs02\ecs01\get_data.cpp
+	"get_data.h"
+	<iostream>
+	<fstream>
+	<sstream>
+
+1520688717 source:e:\001-lc\项目\09比赛\2018华为软件精英挑战赛\程序设计\my_ecs03\ecs01\ecs.cpp
+	"predict.h"
+	"lib_io.h"
+	"lib_time.h"
+	"stdio.h"
+
+1521113142 e:\001-lc\项目\09比赛\2018华为软件精英挑战赛\程序设计\my_ecs03\ecs01\predict.h
+	"lib_io.h"
+
+1520410080 e:\001-lc\项目\09比赛\2018华为软件精英挑战赛\程序设计\my_ecs03\ecs01\lib\lib_io.h
+
+1520410080 e:\001-lc\项目\09比赛\2018华为软件精英挑战赛\程序设计\my_ecs03\ecs01\lib\lib_time.h
+
+1521112718 source:e:\001-lc\项目\09比赛\2018华为软件精英挑战赛\程序设计\my_ecs03\ecs01\io.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	<time.h>
+	<sys/timeb.h>
+	<errno.h>
+	<unistd.h>
+	<signal.h>
+
+1521117680 source:e:\001-lc\项目\09比赛\2018华为软件精英挑战赛\程序设计\my_ecs03\ecs01\predict.cpp
+	"predict.h"
+	<stdio.h>
+	<stdlib.h>
+	<iostream>
+	<fstream>
+	<sstream>
+
+1520688717 source:e:\001-lc\项目\09比赛\2018华为软件精英挑战赛\程序设计\my_ecs04\ecs01\ecs.cpp
+	"predict.h"
+	"lib_io.h"
+	"lib_time.h"
+	"stdio.h"
+
+1521113142 e:\001-lc\项目\09比赛\2018华为软件精英挑战赛\程序设计\my_ecs04\ecs01\predict.h
+	"lib_io.h"
+
+1520410080 e:\001-lc\项目\09比赛\2018华为软件精英挑战赛\程序设计\my_ecs04\ecs01\lib\lib_io.h
+
+1520410080 e:\001-lc\项目\09比赛\2018华为软件精英挑战赛\程序设计\my_ecs04\ecs01\lib\lib_time.h
+
+1521112718 source:e:\001-lc\项目\09比赛\2018华为软件精英挑战赛\程序设计\my_ecs04\ecs01\io.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	<time.h>
+	<sys/timeb.h>
+	<errno.h>
+	<unistd.h>
+	<signal.h>
+
+1521255736 source:e:\001-lc\项目\09比赛\2018华为软件精英挑战赛\程序设计\my_ecs04\ecs01\get_data.cpp
+	"get_data.h"
+
+1521255734 e:\001-lc\项目\09比赛\2018华为软件精英挑战赛\程序设计\my_ecs04\ecs01\get_data.h
+	"lib_io.h"
+	<stdio.h>
+	<stdlib.h>
+	<iostream>
+	<fstream>
+	<sstream>
+
+1521429203 source:e:\001-lc\项目\09比赛\2018华为软件精英挑战赛\程序设计\my_ecs04\ecs01\predict.cpp
+	"predict.h"
+	"get_data.h"
+	<string.h>
+
+1520688717 source:c:\users\lc\desktop\sdk-gcc-master1\ecs\ecs.cpp
+	"predict.h"
+	"lib_io.h"
+	"lib_time.h"
+	"stdio.h"
+
+1521113142 c:\users\lc\desktop\sdk-gcc-master1\ecs\predict.h
+	"lib_io.h"
+
+1520409588 c:\users\lc\desktop\sdk-gcc-master1\ecs\lib\lib_io.h
+
+1520409588 c:\users\lc\desktop\sdk-gcc-master1\ecs\lib\lib_time.h
+
+1521255736 source:c:\users\lc\desktop\sdk-gcc-master1\ecs\get_data.cpp
+	"get_data.h"
+
+1521255734 c:\users\lc\desktop\sdk-gcc-master1\ecs\get_data.h
+	"lib_io.h"
+	<stdio.h>
+	<stdlib.h>
+	<iostream>
+	<fstream>
+	<sstream>
+
+1521112718 source:c:\users\lc\desktop\sdk-gcc-master1\ecs\io.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	<time.h>
+	<sys/timeb.h>
+	<errno.h>
+	<unistd.h>
+	<signal.h>
+
+1521437858 source:c:\users\lc\desktop\sdk-gcc-master1\ecs\predict.cpp
+	"predict.h"
+	"get_data.h"
+	<string.h>
+
+1520688717 source:c:\users\lc\desktop\sdk-gcc-master3\ecs\ecs.cpp
+	"predict.h"
+	"lib_io.h"
+	"lib_time.h"
+	"stdio.h"
+
+1521113142 c:\users\lc\desktop\sdk-gcc-master3\ecs\predict.h
+	"lib_io.h"
+
+1520409588 c:\users\lc\desktop\sdk-gcc-master3\ecs\lib\lib_io.h
+
+1520409588 c:\users\lc\desktop\sdk-gcc-master3\ecs\lib\lib_time.h
+
+1521255736 source:c:\users\lc\desktop\sdk-gcc-master3\ecs\get_data.cpp
+	"get_data.h"
+
+1521255734 c:\users\lc\desktop\sdk-gcc-master3\ecs\get_data.h
+	"lib_io.h"
+	<stdio.h>
+	<stdlib.h>
+	<iostream>
+	<fstream>
+	<sstream>
+
+1521112718 source:c:\users\lc\desktop\sdk-gcc-master3\ecs\io.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	<time.h>
+	<sys/timeb.h>
+	<errno.h>
+	<unistd.h>
+	<signal.h>
+
+1521452328 source:c:\users\lc\desktop\sdk-gcc-master3\ecs\predict.cpp
+	"predict.h"
+	"get_data.h"
+	<string.h>
+
+1520688717 source:e:\huawei\my_project\sdk-gcc-master5\ecs\ecs.cpp
+	"predict.h"
+	"lib_io.h"
+	"lib_time.h"
+	"stdio.h"
+
+1521113142 e:\huawei\my_project\sdk-gcc-master5\ecs\predict.h
+	"lib_io.h"
+
+1520409588 e:\huawei\my_project\sdk-gcc-master5\ecs\lib\lib_io.h
+
+1520409588 e:\huawei\my_project\sdk-gcc-master5\ecs\lib\lib_time.h
+
+1521255736 source:e:\huawei\my_project\sdk-gcc-master5\ecs\get_data.cpp
+	"get_data.h"
+
+1521255734 e:\huawei\my_project\sdk-gcc-master5\ecs\get_data.h
+	"lib_io.h"
+	<stdio.h>
+	<stdlib.h>
+	<iostream>
+	<fstream>
+	<sstream>
+
+1521112718 source:e:\huawei\my_project\sdk-gcc-master5\ecs\io.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	<time.h>
+	<sys/timeb.h>
+	<errno.h>
+	<unistd.h>
+	<signal.h>
+
+1520688717 source:e:\huawei\my_project\sdk-gcc-master6\ecs\ecs.cpp
+	"predict.h"
+	"lib_io.h"
+	"lib_time.h"
+	"stdio.h"
+
+1521113142 e:\huawei\my_project\sdk-gcc-master6\ecs\predict.h
+	"lib_io.h"
+
+1520409588 e:\huawei\my_project\sdk-gcc-master6\ecs\lib\lib_io.h
+
+1520409588 e:\huawei\my_project\sdk-gcc-master6\ecs\lib\lib_time.h
+
+1521255736 source:e:\huawei\my_project\sdk-gcc-master6\ecs\get_data.cpp
+	"get_data.h"
+
+1521255734 e:\huawei\my_project\sdk-gcc-master6\ecs\get_data.h
+	"lib_io.h"
+	<stdio.h>
+	<stdlib.h>
+	<iostream>
+	<fstream>
+	<sstream>
+
+1521112718 source:e:\huawei\my_project\sdk-gcc-master6\ecs\io.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	<time.h>
+	<sys/timeb.h>
+	<errno.h>
+	<unistd.h>
+	<signal.h>
+
+1520688717 source:e:\huawei\my_project\sdk-gcc-master12\ecs\ecs.cpp
+	"predict.h"
+	"lib_io.h"
+	"lib_time.h"
+	"stdio.h"
+
+1521113142 e:\huawei\my_project\sdk-gcc-master12\ecs\predict.h
+	"lib_io.h"
+
+1520409588 e:\huawei\my_project\sdk-gcc-master12\ecs\lib\lib_io.h
+
+1520409588 e:\huawei\my_project\sdk-gcc-master12\ecs\lib\lib_time.h
+
+1521255736 source:e:\huawei\my_project\sdk-gcc-master12\ecs\get_data.cpp
+	"get_data.h"
+
+1521515589 e:\huawei\my_project\sdk-gcc-master12\ecs\get_data.h
+	"lib_io.h"
+	<stdio.h>
+	<stdlib.h>
+	<iostream>
+	<fstream>
+	<sstream>
+
+1521112718 source:e:\huawei\my_project\sdk-gcc-master12\ecs\io.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	<time.h>
+	<sys/timeb.h>
+	<errno.h>
+	<unistd.h>
+	<signal.h>
+
+1521535714 source:e:\huawei\my_project\sdk-gcc-master12\ecs\predict.cpp
+	"predict.h"
+	"get_data.h"
+	<string.h>
+	"math.h"
+
+1520688717 source:e:\huawei\my_project\sdk-gcc-master13\ecs\ecs.cpp
+	"predict.h"
+	"lib_io.h"
+	"lib_time.h"
+	"stdio.h"
+
+1521113142 e:\huawei\my_project\sdk-gcc-master13\ecs\predict.h
+	"lib_io.h"
+
+1520409588 e:\huawei\my_project\sdk-gcc-master13\ecs\lib\lib_io.h
+
+1520409588 e:\huawei\my_project\sdk-gcc-master13\ecs\lib\lib_time.h
+
+1521255736 source:e:\huawei\my_project\sdk-gcc-master13\ecs\get_data.cpp
+	"get_data.h"
+
+1521515589 e:\huawei\my_project\sdk-gcc-master13\ecs\get_data.h
+	"lib_io.h"
+	<stdio.h>
+	<stdlib.h>
+	<iostream>
+	<fstream>
+	<sstream>
+
+1521112718 source:e:\huawei\my_project\sdk-gcc-master13\ecs\io.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	<time.h>
+	<sys/timeb.h>
+	<errno.h>
+	<unistd.h>
+	<signal.h>
+
+1521546615 source:e:\huawei\my_project\sdk-gcc-master13\ecs\predict.cpp
+	"predict.h"
+	"get_data.h"
+	<string.h>
+	"math.h"
+
+1520688717 source:e:\huawei\my_project\sdk-gcc-master14\ecs\ecs.cpp
+	"predict.h"
+	"lib_io.h"
+	"lib_time.h"
+	"stdio.h"
+
+1521113142 e:\huawei\my_project\sdk-gcc-master14\ecs\predict.h
+	"lib_io.h"
+
+1520409588 e:\huawei\my_project\sdk-gcc-master14\ecs\lib\lib_io.h
+
+1520409588 e:\huawei\my_project\sdk-gcc-master14\ecs\lib\lib_time.h
+
+1521255736 source:e:\huawei\my_project\sdk-gcc-master14\ecs\get_data.cpp
+	"get_data.h"
+
+1521515589 e:\huawei\my_project\sdk-gcc-master14\ecs\get_data.h
+	"lib_io.h"
+	<stdio.h>
+	<stdlib.h>
+	<iostream>
+	<fstream>
+	<sstream>
+
+1521112718 source:e:\huawei\my_project\sdk-gcc-master14\ecs\io.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	<time.h>
+	<sys/timeb.h>
+	<errno.h>
+	<unistd.h>
+	<signal.h>
+
+1521600917 source:e:\huawei\my_project\sdk-gcc-master14\ecs\predict.cpp
+	"predict.h"
+	"get_data.h"
+	<string.h>
+	"math.h"
+
+1520688717 source:e:\huawei\my_project\sdk-gcc-master15\ecs\ecs.cpp
+	"predict.h"
+	"lib_io.h"
+	"lib_time.h"
+	"stdio.h"
+
+1521113142 e:\huawei\my_project\sdk-gcc-master15\ecs\predict.h
+	"lib_io.h"
+
+1520409588 e:\huawei\my_project\sdk-gcc-master15\ecs\lib\lib_io.h
+
+1520409588 e:\huawei\my_project\sdk-gcc-master15\ecs\lib\lib_time.h
+
+1521255736 source:e:\huawei\my_project\sdk-gcc-master15\ecs\get_data.cpp
+	"get_data.h"
+
+1521515589 e:\huawei\my_project\sdk-gcc-master15\ecs\get_data.h
+	"lib_io.h"
+	<stdio.h>
+	<stdlib.h>
+	<iostream>
+	<fstream>
+	<sstream>
+
+1521112718 source:e:\huawei\my_project\sdk-gcc-master15\ecs\io.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	<time.h>
+	<sys/timeb.h>
+	<errno.h>
+	<unistd.h>
+	<signal.h>
+
+1521602953 source:e:\huawei\my_project\sdk-gcc-master15\ecs\predict.cpp
+	"predict.h"
+	"get_data.h"
+	<string.h>
+	"math.h"
+
+1520688717 source:e:\huawei\my_project\sdk-gcc-master16\ecs\ecs.cpp
+	"predict.h"
+	"lib_io.h"
+	"lib_time.h"
+	"stdio.h"
+
+1521113142 e:\huawei\my_project\sdk-gcc-master16\ecs\predict.h
+	"lib_io.h"
+
+1520409588 e:\huawei\my_project\sdk-gcc-master16\ecs\lib\lib_io.h
+
+1520409588 e:\huawei\my_project\sdk-gcc-master16\ecs\lib\lib_time.h
+
+1521255736 source:e:\huawei\my_project\sdk-gcc-master16\ecs\get_data.cpp
+	"get_data.h"
+
+1521515589 e:\huawei\my_project\sdk-gcc-master16\ecs\get_data.h
+	"lib_io.h"
+	<stdio.h>
+	<stdlib.h>
+	<iostream>
+	<fstream>
+	<sstream>
+
+1521112718 source:e:\huawei\my_project\sdk-gcc-master16\ecs\io.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	<time.h>
+	<sys/timeb.h>
+	<errno.h>
+	<unistd.h>
+	<signal.h>
+
+1521617968 source:e:\huawei\my_project\sdk-gcc-master16\ecs\predict.cpp
+	"predict.h"
+	"get_data.h"
+	<string.h>
+	"math.h"
+
+1520688717 source:e:\huawei\my_project\sdk-gcc-master18\ecs\ecs.cpp
+	"predict.h"
+	"lib_io.h"
+	"lib_time.h"
+	"stdio.h"
+
+1521634709 e:\huawei\my_project\sdk-gcc-master18\ecs\predict.h
+	"lib_io.h"
+
+1520409588 e:\huawei\my_project\sdk-gcc-master18\ecs\lib\lib_io.h
+
+1520409588 e:\huawei\my_project\sdk-gcc-master18\ecs\lib\lib_time.h
+
+1521255736 source:e:\huawei\my_project\sdk-gcc-master18\ecs\get_data.cpp
+	"get_data.h"
+
+1521515589 e:\huawei\my_project\sdk-gcc-master18\ecs\get_data.h
+	"lib_io.h"
+	<stdio.h>
+	<stdlib.h>
+	<iostream>
+	<fstream>
+	<sstream>
+
+1521112718 source:e:\huawei\my_project\sdk-gcc-master18\ecs\io.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	<time.h>
+	<sys/timeb.h>
+	<errno.h>
+	<unistd.h>
+	<signal.h>
+
+1521635119 source:e:\huawei\my_project\sdk-gcc-master18\ecs\dist.cpp
+	"dist.h"
+
+1521635194 e:\huawei\my_project\sdk-gcc-master18\ecs\dist.h
+	"get_data.h"
+	"forecast.h"
+	<string.h>
+	"math.h"
+
+1521635194 e:\huawei\my_project\sdk-gcc-master18\ecs\forecast.h
+	"get_data.h"
+	<string.h>
+	"math.h"
+
+1521635119 source:e:\huawei\my_project\sdk-gcc-master18\ecs\forecast.cpp
+	"forecast.h"
+
+1521634709 source:e:\huawei\my_project\sdk-gcc-master18\ecs\predict.cpp
+	"predict.h"
+	"get_data.h"
+	"forecast.h"
+	"dist.h"
+
+1520688717 source:e:\huawei\my_project\sdk-gcc-master19\ecs\ecs.cpp
+	"predict.h"
+	"lib_io.h"
+	"lib_time.h"
+	"stdio.h"
+
+1521634709 e:\huawei\my_project\sdk-gcc-master19\ecs\predict.h
+	"lib_io.h"
+
+1520409588 e:\huawei\my_project\sdk-gcc-master19\ecs\lib\lib_io.h
+
+1520409588 e:\huawei\my_project\sdk-gcc-master19\ecs\lib\lib_time.h
+
+1521636266 source:e:\huawei\my_project\sdk-gcc-master19\ecs\forecast.cpp
+	"forecast.h"
+
+1521636266 e:\huawei\my_project\sdk-gcc-master19\ecs\forecast.h
+	"get_data.h"
+	<string.h>
+	"math.h"
+
+1521635258 e:\huawei\my_project\sdk-gcc-master19\ecs\get_data.h
+	"lib_io.h"
+	<stdio.h>
+	<stdlib.h>
+	<iostream>
+	<fstream>
+	<sstream>
+
+1521255736 source:e:\huawei\my_project\sdk-gcc-master19\ecs\get_data.cpp
+	"get_data.h"
+
+1521112718 source:e:\huawei\my_project\sdk-gcc-master19\ecs\io.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	<time.h>
+	<sys/timeb.h>
+	<errno.h>
+	<unistd.h>
+	<signal.h>
+
+1521636266 source:e:\huawei\my_project\sdk-gcc-master19\ecs\predict.cpp
+	"predict.h"
+	"get_data.h"
+	"forecast.h"
+	"dist.h"
+
+1521635194 e:\huawei\my_project\sdk-gcc-master19\ecs\dist.h
+	"get_data.h"
+	"forecast.h"
+	<string.h>
+	"math.h"
+
+1521638610 source:e:\huawei\my_project\sdk-gcc-master19\ecs\dist.cpp
+	"dist.h"
+
+1521638610 source:e:\huawei\my_project\sdk-gcc-master20\ecs\dist.cpp
+	"dist.h"
+
+1521635194 e:\huawei\my_project\sdk-gcc-master20\ecs\dist.h
+	"get_data.h"
+	"forecast.h"
+	<string.h>
+	"math.h"
+
+1521635258 e:\huawei\my_project\sdk-gcc-master20\ecs\get_data.h
+	"lib_io.h"
+	<stdio.h>
+	<stdlib.h>
+	<iostream>
+	<fstream>
+	<sstream>
+
+1520409588 e:\huawei\my_project\sdk-gcc-master20\ecs\lib\lib_io.h
+
+1521636266 e:\huawei\my_project\sdk-gcc-master20\ecs\forecast.h
+	"get_data.h"
+	<string.h>
+	"math.h"
+
+1520688717 source:e:\huawei\my_project\sdk-gcc-master20\ecs\ecs.cpp
+	"predict.h"
+	"lib_io.h"
+	"lib_time.h"
+	"stdio.h"
+
+1521634709 e:\huawei\my_project\sdk-gcc-master20\ecs\predict.h
+	"lib_io.h"
+
+1520409588 e:\huawei\my_project\sdk-gcc-master20\ecs\lib\lib_time.h
+
+1521255736 source:e:\huawei\my_project\sdk-gcc-master20\ecs\get_data.cpp
+	"get_data.h"
+
+1521112718 source:e:\huawei\my_project\sdk-gcc-master20\ecs\io.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	<time.h>
+	<sys/timeb.h>
+	<errno.h>
+	<unistd.h>
+	<signal.h>
+
+1521636266 source:e:\huawei\my_project\sdk-gcc-master20\ecs\predict.cpp
+	"predict.h"
+	"get_data.h"
+	"forecast.h"
+	"dist.h"
+
+1522682818 source:e:\code\c++\sdk-gcc-master20【当前最高】\ecs\dist.cpp
+	"dist.h"
+	"HandleData.h"
+	"PlaceFlavor.h"
+	"Output.h"
+
+1522479460 e:\code\c++\sdk-gcc-master20【当前最高】\ecs\dist.h
+	"get_data.h"
+	"forecast.h"
+	<string.h>
+	"math.h"
+
+1522479460 e:\code\c++\sdk-gcc-master20【当前最高】\ecs\get_data.h
+	"lib_io.h"
+	<stdio.h>
+	<stdlib.h>
+	<iostream>
+	<fstream>
+	<sstream>
+
+1522479460 e:\code\c++\sdk-gcc-master20【当前最高】\ecs\lib\lib_io.h
+
+1522479460 e:\code\c++\sdk-gcc-master20【当前最高】\ecs\forecast.h
+	"get_data.h"
+	<string.h>
+	"math.h"
+
+1522479460 source:e:\code\c++\sdk-gcc-master20【当前最高】\ecs\ecs.cpp
+	"predict.h"
+	"lib_io.h"
+	"lib_time.h"
+	"stdio.h"
+
+1522479460 e:\code\c++\sdk-gcc-master20【当前最高】\ecs\predict.h
+	"lib_io.h"
+
+1522479460 e:\code\c++\sdk-gcc-master20【当前最高】\ecs\lib\lib_time.h
+
+1522479460 source:e:\code\c++\sdk-gcc-master20【当前最高】\ecs\forecast.cpp
+	"forecast.h"
+
+1522479460 source:e:\code\c++\sdk-gcc-master20【当前最高】\ecs\get_data.cpp
+	"get_data.h"
+
+1522479460 source:e:\code\c++\sdk-gcc-master20【当前最高】\ecs\io.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	<time.h>
+	<sys/timeb.h>
+	<errno.h>
+	<unistd.h>
+	<signal.h>
+
+1522680250 source:e:\code\c++\sdk-gcc-master20【当前最高】\ecs\predict.cpp
+	"predict.h"
+	"get_data.h"
+	"forecast.h"
+	"dist.h"
+	"PlaceFlavor.h"
+	"Output.h"
+
+1522479072 source:e:\code\c++\sdk-gcc-master20【当前最高】\ecs\handledata.cpp
+	"HandleData.h"
+
+1522680043 e:\code\c++\sdk-gcc-master20【当前最高】\ecs\handledata.h
+	<stdio.h>
+	<memory.h>
+	<stdlib.h>
+	<string>
+	"MyDateUtil.h"
+
+1522221478 e:\code\c++\sdk-gcc-master20【当前最高】\ecs\mydateutil.h
+
+1522221897 source:e:\code\c++\sdk-gcc-master20【当前最高】\ecs\mydateutil.cpp
+	"MyDateUtil.h"
+
+1522682606 e:\code\c++\sdk-gcc-master20【当前最高】\ecs\placeflavor.h
+	"memory.h"
+	"HandleData.h"
+	<list>
+	<iostream>
+
+1522683157 e:\code\c++\sdk-gcc-master20【当前最高】\ecs\output.h
+	"PlaceFlavor.h"
+
+1522479072 source:e:\code\c++\ecs_zj\ecs\handledata.cpp
+	"HandleData.h"
+
+1522731014 e:\code\c++\ecs_zj\ecs\handledata.h
+	<stdio.h>
+	<memory.h>
+	<stdlib.h>
+	<string>
+	"MyDateUtil.h"
+
+1522731094 e:\code\c++\ecs_zj\ecs\mydateutil.h
+
+1522479460 source:e:\code\c++\ecs_zj\ecs\ecs.cpp
+	"predict.h"
+	"lib_io.h"
+	"lib_time.h"
+	"stdio.h"
+
+1522683875 e:\code\c++\ecs_zj\ecs\predict.h
+	"lib_io.h"
+
+1522479460 e:\code\c++\ecs_zj\ecs\lib\lib_io.h
+
+1522479460 e:\code\c++\ecs_zj\ecs\lib\lib_time.h
+
+1522728706 source:e:\code\c++\ecs_zj\ecs\forecast.cpp
+	"forecast.h"
+
+1521801461 e:\code\c++\ecs_zj\ecs\forecast.h
+	<string.h>
+	"handle_data.h"
+
+1521801949 e:\code\c++\ecs_zj\ecs\handle_data.h
+	<iostream>
+	<string>
+	<map>
+	<vector>
+	"lib_io.h"
+
+1522683875 source:e:\code\c++\ecs_zj\ecs\get_data.cpp
+	"get_data.h"
+
+1522683875 e:\code\c++\ecs_zj\ecs\get_data.h
+	"lib_io.h"
+	<stdio.h>
+	<stdlib.h>
+	<iostream>
+	<fstream>
+	<sstream>
+
+1522479460 source:e:\code\c++\ecs_zj\ecs\io.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	<time.h>
+	<sys/timeb.h>
+	<errno.h>
+	<unistd.h>
+	<signal.h>
+
+1522683875 source:e:\code\c++\ecs_zj\ecs\mydateutil.cpp
+	"MyDateUtil.h"
+
+1521801426 source:e:\code\c++\ecs_zj\ecs\handle_data.cpp
+	<iostream>
+	<string>
+	<map>
+	<sstream>
+	<vector>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"handle_data.h"
+	"lib_io.h"
+
+1522150786 source:e:\code\c++\ecs_zj\ecs\place.cpp
+	"place.h"
+
+1521801462 e:\code\c++\ecs_zj\ecs\place.h
+	"handle_data.h"
+	"forecast.h"
+
+1522729795 source:e:\code\c++\ecs_zj\ecs\predict.cpp
+	"predict.h"
+	"handle_data.h"
+	"forecast.h"
+	"place.h"
+	<stdio.h>
+	"HandleData.h"
+	"MyDateUtil.h"
+	"PlaceFlavor.h"
+	"Output.h"
+
+1522686166 e:\code\c++\ecs_zj\ecs\placeflavor.h
+	"memory.h"
+	"HandleData.h"
+	<list>
+	<iostream>
+
+1522686226 e:\code\c++\ecs_zj\ecs\output.h
+	"PlaceFlavor.h"
+
+1522479460 source:d:\documents\tencent files\905838939\filerecv\ecs_zj\ecs\ecs.cpp
+	"predict.h"
+	"lib_io.h"
+	"lib_time.h"
+	"stdio.h"
+
+1522683875 d:\documents\tencent files\905838939\filerecv\ecs_zj\ecs\predict.h
+	"lib_io.h"
+
+1522479460 d:\documents\tencent files\905838939\filerecv\ecs_zj\ecs\lib\lib_io.h
+
+1522479460 d:\documents\tencent files\905838939\filerecv\ecs_zj\ecs\lib\lib_time.h
+
+1523278984 source:d:\documents\tencent files\905838939\filerecv\ecs_zj\ecs\forecast.cpp
+	"forecast.h"
+
+1523276445 d:\documents\tencent files\905838939\filerecv\ecs_zj\ecs\forecast.h
+	<string.h>
+	<vector>
+	"handle_data.h"
+
+1521801949 d:\documents\tencent files\905838939\filerecv\ecs_zj\ecs\handle_data.h
+	<iostream>
+	<string>
+	<map>
+	<vector>
+	"lib_io.h"
+
+1523276403 source:d:\documents\tencent files\905838939\filerecv\ecs_zj\ecs\handle_data.cpp
+	<iostream>
+	<string>
+	<map>
+	<sstream>
+	<vector>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"handle_data.h"
+	"lib_io.h"
+
+1522479072 source:d:\documents\tencent files\905838939\filerecv\ecs_zj\ecs\handledata.cpp
+	"HandleData.h"
+
+1522731014 d:\documents\tencent files\905838939\filerecv\ecs_zj\ecs\handledata.h
+	<stdio.h>
+	<memory.h>
+	<stdlib.h>
+	<string>
+	"MyDateUtil.h"
+
+1522731094 d:\documents\tencent files\905838939\filerecv\ecs_zj\ecs\mydateutil.h
+
+1522479460 source:d:\documents\tencent files\905838939\filerecv\ecs_zj\ecs\io.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	<time.h>
+	<sys/timeb.h>
+	<errno.h>
+	<unistd.h>
+	<signal.h>
+
+1522683875 source:d:\documents\tencent files\905838939\filerecv\ecs_zj\ecs\mydateutil.cpp
+	"MyDateUtil.h"
+
+1522150786 source:d:\documents\tencent files\905838939\filerecv\ecs_zj\ecs\place.cpp
+	"place.h"
+
+1521801462 d:\documents\tencent files\905838939\filerecv\ecs_zj\ecs\place.h
+	"handle_data.h"
+	"forecast.h"
+
+1523273811 source:d:\documents\tencent files\905838939\filerecv\ecs_zj\ecs\predict.cpp
+	"predict.h"
+	"handle_data.h"
+	"forecast.h"
+	"place.h"
+	<stdio.h>
+	"MyDateUtil.h"
+	"PlaceFlavor.h"
+	"Output.h"
+
+1523273892 d:\documents\tencent files\905838939\filerecv\ecs_zj\ecs\placeflavor.h
+	"memory.h"
+	"HandleData.h"
+	<list>
+	<iostream>
+
+1522686226 d:\documents\tencent files\905838939\filerecv\ecs_zj\ecs\output.h
+	"PlaceFlavor.h"
+
+1522479460 source:c:\users\administrator\desktop\ecs_zj\ecs\ecs.cpp
+	"predict.h"
+	"lib_io.h"
+	"lib_time.h"
+	"stdio.h"
+
+1522683875 c:\users\administrator\desktop\ecs_zj\ecs\predict.h
+	"lib_io.h"
+
+1523344292 c:\users\administrator\desktop\ecs_zj\ecs\lib\lib_io.h
+
+1523344283 c:\users\administrator\desktop\ecs_zj\ecs\lib\lib_time.h
+
+1523362912 source:c:\users\administrator\desktop\ecs_zj\ecs\forecast.cpp
+	"forecast.h"
+
+1523357296 c:\users\administrator\desktop\ecs_zj\ecs\forecast.h
+	<string.h>
+	<vector>
+	"handle_data.h"
+
+1521801949 c:\users\administrator\desktop\ecs_zj\ecs\handle_data.h
+	<iostream>
+	<string>
+	<map>
+	<vector>
+	"lib_io.h"
+
+1523276403 source:c:\users\administrator\desktop\ecs_zj\ecs\handle_data.cpp
+	<iostream>
+	<string>
+	<map>
+	<sstream>
+	<vector>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"handle_data.h"
+	"lib_io.h"
+
+1522479072 source:c:\users\administrator\desktop\ecs_zj\ecs\handledata.cpp
+	"HandleData.h"
+
+1522731014 c:\users\administrator\desktop\ecs_zj\ecs\handledata.h
+	<stdio.h>
+	<memory.h>
+	<stdlib.h>
+	<string>
+	"MyDateUtil.h"
+
+1522731094 c:\users\administrator\desktop\ecs_zj\ecs\mydateutil.h
+
+1523344257 source:c:\users\administrator\desktop\ecs_zj\ecs\io.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	<time.h>
+	<sys/timeb.h>
+	<errno.h>
+	<unistd.h>
+	<signal.h>
+
+1522683875 source:c:\users\administrator\desktop\ecs_zj\ecs\mydateutil.cpp
+	"MyDateUtil.h"
+
+1522150786 source:c:\users\administrator\desktop\ecs_zj\ecs\place.cpp
+	"place.h"
+
+1521801462 c:\users\administrator\desktop\ecs_zj\ecs\place.h
+	"handle_data.h"
+	"forecast.h"
+
+1523273811 source:c:\users\administrator\desktop\ecs_zj\ecs\predict.cpp
+	"predict.h"
+	"handle_data.h"
+	"forecast.h"
+	"place.h"
+	<stdio.h>
+	"MyDateUtil.h"
+	"PlaceFlavor.h"
+	"Output.h"
+
+1523273892 c:\users\administrator\desktop\ecs_zj\ecs\placeflavor.h
+	"memory.h"
+	"HandleData.h"
+	<list>
+	<iostream>
+
+1522686226 c:\users\administrator\desktop\ecs_zj\ecs\output.h
+	"PlaceFlavor.h"
+
+1522479460 source:c:\users\于仁飞\desktop\ecs_zj\ecs\ecs.cpp
+	"predict.h"
+	"lib_io.h"
+	"lib_time.h"
+	"stdio.h"
+
+1522683875 c:\users\于仁飞\desktop\ecs_zj\ecs\predict.h
+	"lib_io.h"
+
+1523344292 c:\users\于仁飞\desktop\ecs_zj\ecs\lib\lib_io.h
+
+1523344283 c:\users\于仁飞\desktop\ecs_zj\ecs\lib\lib_time.h
+
+1523675480 source:c:\users\于仁飞\desktop\ecs_zj\ecs\forecast.cpp
+	"forecast.h"
+
+1523673348 c:\users\于仁飞\desktop\ecs_zj\ecs\forecast.h
+	<string.h>
+	<vector>
+	<stdlib.h>
+	<time.h>
+	<math.h>
+	<cstdio>
+	"handle_data.h"
+
+1523673687 c:\users\于仁飞\desktop\ecs_zj\ecs\handle_data.h
+	<iostream>
+	<string>
+	<map>
+	<vector>
+	"lib_io.h"
+
+1523276403 source:c:\users\于仁飞\desktop\ecs_zj\ecs\handle_data.cpp
+	<iostream>
+	<string>
+	<map>
+	<sstream>
+	<vector>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"handle_data.h"
+	"lib_io.h"
+
+1522479072 source:c:\users\于仁飞\desktop\ecs_zj\ecs\handledata.cpp
+	"HandleData.h"
+
+1522731014 c:\users\于仁飞\desktop\ecs_zj\ecs\handledata.h
+	<stdio.h>
+	<memory.h>
+	<stdlib.h>
+	<string>
+	"MyDateUtil.h"
+
+1522731094 c:\users\于仁飞\desktop\ecs_zj\ecs\mydateutil.h
+
+1523344257 source:c:\users\于仁飞\desktop\ecs_zj\ecs\io.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	<time.h>
+	<sys/timeb.h>
+	<errno.h>
+	<unistd.h>
+	<signal.h>
+
+1522683875 source:c:\users\于仁飞\desktop\ecs_zj\ecs\mydateutil.cpp
+	"MyDateUtil.h"
+
+1522150786 source:c:\users\于仁飞\desktop\ecs_zj\ecs\place.cpp
+	"place.h"
+
+1521801462 c:\users\于仁飞\desktop\ecs_zj\ecs\place.h
+	"handle_data.h"
+	"forecast.h"
+
+1523674358 source:c:\users\于仁飞\desktop\ecs_zj\ecs\predict.cpp
+	"predict.h"
+	"handle_data.h"
+	"forecast.h"
+	<stdio.h>
+	"MyDateUtil.h"
+	"PlaceFlavor.h"
+	"Output.h"
+
+1523674925 c:\users\于仁飞\desktop\ecs_zj\ecs\placeflavor.h
+	"memory.h"
+	"HandleData.h"
+	<list>
+	<iostream>
+
+1522686226 c:\users\于仁飞\desktop\ecs_zj\ecs\output.h
+	"PlaceFlavor.h"
+
+1523616018 c:\users\于仁飞\desktop\ecs_zj\ecs\lregression.h
+	"LMatrix.h"
+
+1456729236 c:\users\于仁飞\desktop\ecs_zj\ecs\lmatrix.h
+
+1523617335 source:c:\users\于仁飞\desktop\ecs_zj\ecs\lregression.cpp
+	"LRegression.h"
+	<cmath>
+
+1522479460 source:c:\users\于仁飞\desktop\workplace\华为比赛\ecs_zj\ecs\ecs.cpp
+	"predict.h"
+	"lib_io.h"
+	"lib_time.h"
+	"stdio.h"
+
+1522683875 c:\users\于仁飞\desktop\workplace\华为比赛\ecs_zj\ecs\predict.h
+	"lib_io.h"
+
+1523344292 c:\users\于仁飞\desktop\workplace\华为比赛\ecs_zj\ecs\lib\lib_io.h
+
+1523344283 c:\users\于仁飞\desktop\workplace\华为比赛\ecs_zj\ecs\lib\lib_time.h
+
+1523276403 source:c:\users\于仁飞\desktop\workplace\华为比赛\ecs_zj\ecs\handle_data.cpp
+	<iostream>
+	<string>
+	<map>
+	<sstream>
+	<vector>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"handle_data.h"
+	"lib_io.h"
+
+1523673687 c:\users\于仁飞\desktop\workplace\华为比赛\ecs_zj\ecs\handle_data.h
+	<iostream>
+	<string>
+	<map>
+	<vector>
+	"lib_io.h"
+
+1522479072 source:c:\users\于仁飞\desktop\workplace\华为比赛\ecs_zj\ecs\handledata.cpp
+	"HandleData.h"
+
+1522731014 c:\users\于仁飞\desktop\workplace\华为比赛\ecs_zj\ecs\handledata.h
+	<stdio.h>
+	<memory.h>
+	<stdlib.h>
+	<string>
+	"MyDateUtil.h"
+
+1522731094 c:\users\于仁飞\desktop\workplace\华为比赛\ecs_zj\ecs\mydateutil.h
+
+1523344257 source:c:\users\于仁飞\desktop\workplace\华为比赛\ecs_zj\ecs\io.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	<time.h>
+	<sys/timeb.h>
+	<errno.h>
+	<unistd.h>
+	<signal.h>
+
+1522683875 source:c:\users\于仁飞\desktop\workplace\华为比赛\ecs_zj\ecs\mydateutil.cpp
+	"MyDateUtil.h"
+
+1523674358 source:c:\users\于仁飞\desktop\workplace\华为比赛\ecs_zj\ecs\predict.cpp
+	"predict.h"
+	"handle_data.h"
+	"forecast.h"
+	<stdio.h>
+	"MyDateUtil.h"
+	"PlaceFlavor.h"
+	"Output.h"
+
+1523673348 c:\users\于仁飞\desktop\workplace\华为比赛\ecs_zj\ecs\forecast.h
+	<string.h>
+	<vector>
+	<stdlib.h>
+	<time.h>
+	<math.h>
+	<cstdio>
+	"handle_data.h"
+
+1523674925 c:\users\于仁飞\desktop\workplace\华为比赛\ecs_zj\ecs\placeflavor.h
+	"memory.h"
+	"HandleData.h"
+	<list>
+	<iostream>
+
+1522686226 c:\users\于仁飞\desktop\workplace\华为比赛\ecs_zj\ecs\output.h
+	"PlaceFlavor.h"
+

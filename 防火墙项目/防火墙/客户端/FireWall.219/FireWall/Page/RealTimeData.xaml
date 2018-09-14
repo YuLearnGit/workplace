@@ -1,0 +1,84 @@
+﻿<UserControl
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:dxe="http://schemas.devexpress.com/winfx/2008/xaml/editors" 
+             xmlns:dxsch="http://schemas.devexpress.com/winfx/2008/xaml/scheduler"
+             xmlns:dxca="http://schemas.devexpress.com/winfx/2008/xaml/carousel" 
+             xmlns:dxga="http://schemas.devexpress.com/winfx/2008/xaml/gauges"
+             xmlns:local="clr-namespace:FireWall"
+             xmlns:dxg="http://schemas.devexpress.com/winfx/2008/xaml/grid" xmlns:dx="http://schemas.devexpress.com/winfx/2008/xaml/core" x:Class="FireWall.RealTimeData"
+             mc:Ignorable="d" 
+             d:DesignHeight="620" d:DesignWidth="1280"  Loaded="Window_Loaded">
+    <UserControl.Resources>
+        <!--颜色转换器-->
+        <local:ColorConverter x:Key="ColorConverter"/>
+    </UserControl.Resources>
+    <Border BorderBrush="Silver" BorderThickness="1">
+        <Grid>
+            <dxg:GridControl x:Name="RealtimeData" AutoGenerateColumns="KeepOld" Margin="50,81,50,70" ShowBorder="False" AllowLiveDataShaping="True" SelectionMode="Row">
+                <dxg:GridControl.Columns>
+                    <dxg:GridColumn FieldName="时间" HorizontalHeaderContentAlignment="Center" Width="130" Binding="{Binding time}" SortOrder="Ascending" SortIndex="0">
+                        <dxg:GridColumn.EditSettings>
+                            <dxe:SpinEditSettings DisplayFormat="yyyy-MM-dd HH:mm:ss" HorizontalContentAlignment="Center"/>
+                        </dxg:GridColumn.EditSettings>
+                    </dxg:GridColumn>
+                    <dxg:GridColumn FieldName="主机名称" HorizontalHeaderContentAlignment="Center" Width="180" Binding="{Binding hostname}">
+                        <dxg:GridColumn.EditSettings>
+                            <dxe:SpinEditSettings HorizontalContentAlignment="Center"/>
+                        </dxg:GridColumn.EditSettings>
+                    </dxg:GridColumn>
+                    <dxg:GridColumn FieldName="源IP地址" HorizontalHeaderContentAlignment="Center" Width="130" Binding="{Binding SRC}">
+                        <dxg:GridColumn.EditSettings>
+                            <dxe:SpinEditSettings HorizontalContentAlignment="Center"/>
+                        </dxg:GridColumn.EditSettings>
+                    </dxg:GridColumn>
+                    <dxg:GridColumn FieldName="目标IP地址" HorizontalHeaderContentAlignment="Center" Width="130" Binding="{Binding DST}">
+                        <dxg:GridColumn.EditSettings>
+                            <dxe:SpinEditSettings HorizontalContentAlignment="Center"/>
+                        </dxg:GridColumn.EditSettings>
+                    </dxg:GridColumn>
+                    <dxg:GridColumn FieldName="IP数据包标示" HorizontalHeaderContentAlignment="Center" Width="130" Binding="{Binding ID}">
+                        <dxg:GridColumn.EditSettings>
+                            <dxe:SpinEditSettings HorizontalContentAlignment="Center"/>
+                        </dxg:GridColumn.EditSettings>
+                    </dxg:GridColumn>
+                    <dxg:GridColumn FieldName="传输层协议类型" HorizontalHeaderContentAlignment="Center" Width="130" Binding="{Binding PROTO}">
+                        <dxg:GridColumn.EditSettings>
+                            <dxe:SpinEditSettings HorizontalContentAlignment="Center"/>
+                        </dxg:GridColumn.EditSettings>
+                    </dxg:GridColumn>
+                    <dxg:GridColumn FieldName="源端口号" HorizontalHeaderContentAlignment="Center" Width="130" Binding="{Binding SPT}">
+                        <dxg:GridColumn.EditSettings>
+                            <dxe:SpinEditSettings HorizontalContentAlignment="Center"/>
+                        </dxg:GridColumn.EditSettings>
+                    </dxg:GridColumn>
+                    <dxg:GridColumn FieldName="目标端口号" HorizontalHeaderContentAlignment="Center" Width="130" Binding="{Binding DPT}">
+                        <dxg:GridColumn.EditSettings>
+                            <dxe:SpinEditSettings HorizontalContentAlignment="Center"/>
+                        </dxg:GridColumn.EditSettings>
+                    </dxg:GridColumn>
+                    <dxg:GridColumn FieldName="处理状态" HorizontalHeaderContentAlignment="Center" Width="130" Binding="{Binding handle_result}">
+                        <dxg:GridColumn.EditSettings>
+                            <dxe:SpinEditSettings HorizontalContentAlignment="Center"/>
+                        </dxg:GridColumn.EditSettings>
+                    </dxg:GridColumn>
+                </dxg:GridControl.Columns>
+                <dxg:GridControl.View>
+                    <dxg:TableView Name="view" AllowPerPixelScrolling="True" ScrollingMode="Smart" NavigationStyle="Row" ShowTotalSummary="True" AllowEditing="False" ShowGroupPanel="False">
+                        <dxg:TableView.FormatConditions>
+                            <dxg:FormatCondition ApplyToRow="False" Expression="[处理状态] = 'drop'">
+                                <dx:Format Foreground="#FFCA5100"/>
+                            </dxg:FormatCondition>
+                        </dxg:TableView.FormatConditions>
+                    </dxg:TableView>
+                </dxg:GridControl.View>
+            </dxg:GridControl>
+            <Label Content="主机名称" FontSize="14" HorizontalAlignment="Left" Height="30" Margin="83,30,0,0" VerticalAlignment="Top" Width="59" Foreground="Black" Padding="0" VerticalContentAlignment="Center"/>
+            <dxe:ComboBoxEdit x:Name="HostName" ShowSizeGrip="False" IsTextEditable="False" ShowCustomItems="{Binding IsChecked, ElementName=CheckedShowCustomItems}" HorizontalAlignment="Left" Height="30" VerticalAlignment="Top" Width="170" Margin="165,30,0,0" SelectedIndexChanged="namechange"/>
+            <Label Content="处理状态" FontSize="14" HorizontalAlignment="Left" Height="30" Margin="398,30,0,0" VerticalAlignment="Top" Width="59" Foreground="Black" Padding="0" VerticalContentAlignment="Center"/>
+            <dxe:ComboBoxEdit x:Name="StateName" ShowSizeGrip="False" IsTextEditable="False" ShowCustomItems="{Binding IsChecked, ElementName=CheckedShowCustomItems}" HorizontalAlignment="Left" Height="30" VerticalAlignment="Top" Width="140" Margin="480,30,0,0" SelectedIndexChanged="statechange"/>
+        </Grid>
+    </Border>
+</UserControl>

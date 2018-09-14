@@ -1,0 +1,11 @@
+eclipse.preferences.version=1
+environment/project/cdt.managedbuild.toolchain.gnu.base.683201195/TERM/delimiter=\:
+environment/project/cdt.managedbuild.toolchain.gnu.base.683201195/TERM/operation=append
+environment/project/cdt.managedbuild.toolchain.gnu.base.683201195/TERM/value=xterm
+environment/project/cdt.managedbuild.toolchain.gnu.base.683201195/append=true
+environment/project/cdt.managedbuild.toolchain.gnu.base.683201195/appendContributed=true
+environment/project/org.eclipse.linuxtools.cdt.autotools.core.toolChain.129375871/TERM/delimiter=\:
+environment/project/org.eclipse.linuxtools.cdt.autotools.core.toolChain.129375871/TERM/operation=append
+environment/project/org.eclipse.linuxtools.cdt.autotools.core.toolChain.129375871/TERM/value=xterm
+environment/project/org.eclipse.linuxtools.cdt.autotools.core.toolChain.129375871/append=true
+environment/project/org.eclipse.linuxtools.cdt.autotools.core.toolChain.129375871/appendContributed=true

@@ -1,0 +1,10 @@
+auto lo br0
+iface lo inet loopback
+iface br0 inet dhcp
+pre-up ip link set eth0 promisc on
+pre-up ip link set eth1 promisc on
+pre-up ip link set eth2 promisc on
+pre-up ip link set eth3 promisc on
+pre-up echo "1">/proc/sys/net/ipv4/ip_forward
+bridge_ports eth0 eth1 eth2 eth3
+#pre-up iptables-restore < /etc/iptables.up.rules

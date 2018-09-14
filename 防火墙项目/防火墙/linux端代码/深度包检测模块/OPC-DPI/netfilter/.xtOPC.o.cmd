@@ -1,0 +1,1 @@
+cmd_/home/OPC-DPI/netfilter/xtOPC.o := ld -m elf_i386   -r -o /home/OPC-DPI/netfilter/xtOPC.o /home/OPC-DPI/netfilter/xt_OPC.o /home/OPC-DPI/netfilter/OPC_decode.o /home/OPC-DPI/netfilter/general_api.o 

@@ -1,0 +1,23 @@
+{
+  "name": "firewall-client",
+  "version": "1.0.0",
+  "description": "防火墙配置客户端",
+  "main": "main.js",
+  "scripts": {
+    "start": "main.js"
+  },
+  "keywords": [
+    "firewall-client",
+    "function",
+    "demo"
+  ],
+  "author": "于仁飞",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "~1.6.2"
+  },
+  "dependencies": {
+    "getmac": "^1.2.1",
+    "mysql": "^2.14.1"
+  }
+}

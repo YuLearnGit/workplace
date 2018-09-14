@@ -1,0 +1,49 @@
+﻿<Application x:Class="FireWall.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:FireWall"
+             StartupUri="Window/LoginWindow.xaml" >
+    <Application.Resources>
+        <ResourceDictionary>
+            <!-- 样式 -->
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="styles/Simple Styles.xaml"/>
+                <ResourceDictionary Source="styles/DataGridStyle.xaml"/>
+                <ResourceDictionary Source="styles/ProgressbarStyle.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+
+            <!-- 颜色 -->
+            <SolidColorBrush x:Key="buttongroundbrush" Color="#C62F2F"/>
+            <SolidColorBrush x:Key="backgroundbrush" Color="#C62F2F"/>
+            <SolidColorBrush x:Key="backgroundbrush1" Color="#FAFAFA"/>
+            <SolidColorBrush x:Key="borderbrush1" Color="#C62F2F"/>
+            <SolidColorBrush x:Key="FontBrush" Color="Black"/>
+            <SolidColorBrush x:Key="TextBoxBack1" Color="#FF171616" Opacity="0.5"/>
+            <SolidColorBrush x:Key="greencolor" Color="Lime"/>
+            <SolidColorBrush x:Key="greenbackground" Color="#FF00CB7D"/>
+            <SolidColorBrush x:Key="orangecolor" Color="#FFFF4300"/>
+            <SolidColorBrush x:Key="lightbluecolor" Color="Cyan"/>
+            <SolidColorBrush x:Key="black" Color="Black"/>
+            <SolidColorBrush x:Key="lightblue" Color="#FF00FFDE"/>
+            <SolidColorBrush x:Key="yellow" Color="#FFFFD800"/>
+            <SolidColorBrush x:Key="white" Color="White"/>
+            <SolidColorBrush x:Key="textboxborderbrush1" Color="#FFABADB3"/>
+            
+            <SolidColorBrush x:Key="RedLight" Color="Red"/>
+            <SolidColorBrush x:Key="GreenLight" Color="#FF17EE17"/>
+            <SolidColorBrush x:Key="TabColor" Color="#698A9D"/>
+            <!-- 图片 -->
+            <ImageBrush x:Key="HomeButtonBrush" ImageSource="image/home.png"/>
+            <ImageBrush x:Key="RealTimeDataButtonBrush" ImageSource="image/realtimedata.png"/>
+            <ImageBrush x:Key="LogButtonBrush" ImageSource="image/log.png"/>
+            <ImageBrush x:Key="StatisticsButtonBrush" ImageSource="image/statistics.png"/>
+            <ImageBrush x:Key="UserManagementButtonBrush" ImageSource="image/用户管理.png"/>
+            <ImageBrush x:Key="SystemSettingButtonBrush" ImageSource="image/系统设置.png"/>
+            <ImageBrush x:Key="CloseButtonBrush" ImageSource="image/close.png"/>
+            <ImageBrush x:Key="MaximizeButtonBrush" ImageSource="image/maximize.png"/>
+            <ImageBrush x:Key="MinimizeButtonBrush" ImageSource="image/minimize.png"/>
+            <ImageBrush x:Key="RestoreButtonBrush" ImageSource="image/restore.png"/>
+
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

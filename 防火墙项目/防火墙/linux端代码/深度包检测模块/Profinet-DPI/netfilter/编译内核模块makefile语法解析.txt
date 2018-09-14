@@ -1,0 +1,62 @@
+make -C $(LINUX_KERNEL_PATH) M=$(PWD） modules中的M选项  
+
+2013-02-05 14:27:36|  分类： Makefile解析 |  标签：makefile命令解析   |举报|字号 订阅
+    
+  下载LOFTER我的照片书  |
+新的内核模块编程中的make命令里有个M选项，如下： 
+make -C /lib/modules/$(shell uname -r)/build M=$(PWD) modules
+M=$(PWD) 意思是返回到当前目录继续读入、执行当前的Makefile。 
+请参考：
+从 2.4 到 2.6：Linux 内核可装载模块机制的改变对设备驱动的影响
+
+这个M是kbuild的东西呢，还是make本来自己就有的东西呢？ 
+按理说，它是make的一个参数，应该是make的东西，但是make的doc里又找不到， 
+如果是kbuild里的东西，它应该怎样来实现呢？
+经查证这个M是内核根目录下的Makefile中使用的变量。 
+M是makefile脚本中的一个变量（variable） 
+
+
+# Use make M=dir to specify directory of external module to build
+# Old syntax make ... SUBDIRS=$PWD is still supported
+# Setting the environment variable KBUILD_EXTMOD take precedence
+ifdef SUBDIRS
+KBUILD_EXTMOD ?= $(SUBDIRS)
+endif
+ifdef M //如果没有定义或赋值M，此处M未定义（undefined）
+
+ifeq ("$(origin M)", "command line") //如果定义了，此句用来判断M是否从命令行来
+
+KBUILD_EXTMOD := $(M)
+endif
+endif
+
+
+
+
+以下是来自：从 2.4 到 2.6：Linux 内核可装载模块机制的改变对设备驱动的影响
+
+清单3：2.6 内核模块的Makefile模板
+# Makefile2.6 
+ifneq ($(KERNELRELEASE),) 
+#kbuild syntax. dependency relationshsip of files and target modules are listed here. 
+mymodule-objs := file1.o file2.o 
+obj-m := mymodule.o  
+else 
+PWD  := $(shell pwd) 
+KVER ?= $(shell uname -r) KDIR := /lib/modules/$(KVER)/build 
+all:
+  $(MAKE) -C $(KDIR) M=$(PWD)  
+clean:
+  rm -rf .*.cmd *.o *.mod.c *.ko .tmp_versions endif 
+
+KERNELRELEASE是在内核源码的顶层Makefile中定义的一个变量，在第一次读取执行此Makefile时，KERNELRELEASE没有
+被定义， 所以make将读取执行else之后的内容。如果make的目标是clean，直接执行clean操作，然后结束。当make的
+目标为all时，-C $(KDIR) 指明跳转到内核源码目录下读取那里的Makefile；M=$(PWD) 表明然后返回到当前目录继续
+读入、执行当前的Makefile。当从内核源码目录返回时，KERNELRELEASE已被被定义，kbuild也被启动去解析kbuild语
+法的语句，make将继续读取else之前的内容。else之前的内容为kbuild语法的语句, 指明模块源码中各文件的依赖关系，
+以及要生成的目标模块名。mymodule-objs := file1.o file2.o表示mymoudule.o 由file1.o与file2.o 连接生成。
+obj-m := mymodule.o表示编译连接后将生成mymodule.o模块。
+补充一点，"$(MAKE) -C $(KDIR) M=$(PWD)"与"$(MAKE) -C $(KDIR) SUBDIRS =$(PWD)"的作用是等效的，后者是较老的
+使用方法。推荐使用M而不是SUBDIRS，前者更明确。
+通过以上比较可以看到，从Makefile编写来看，在2.6内核下，内核模块编译不必定义复杂的CFLAGS，而且模块中各文件
+依赖关系的表示简洁清晰。

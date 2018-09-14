@@ -1,0 +1,30 @@
+﻿<Window x:Class="FireWall.DataBaseSettingWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FireWall"
+        mc:Ignorable="d"
+        Title="数据库设置" Height="250" Width="350" WindowStyle="None" ResizeMode="NoResize" x:Name="main" AllowsTransparency="True" WindowStartupLocation="CenterScreen" Topmost="True">
+    <Grid Background="{DynamicResource backgroundbrush1}">
+        <Grid Name="Tip" Visibility="Visible">
+            <Label Content="提示" HorizontalAlignment="Left" Foreground="{DynamicResource FontBrush}" FontSize="17" Margin="10,5,0,210" Width="66" />
+            <Border Height="1"  BorderThickness="0,0,0,1" BorderBrush="#FFEFE2E2" Margin="0,41,0,208"/>
+            <TextBlock Text="由于你是第一次使用，请首先配置数据库信息！" Foreground="{DynamicResource FontBrush}" FontSize="16" TextWrapping="Wrap" MaxWidth="300" MaxHeight="100" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            <Button x:Name="Yes" Content="确  定" HorizontalAlignment="Right" Margin="0,0,25,20" Width="75" Style="{DynamicResource MainButtonStyle}" BorderBrush="{x:Null}" BorderThickness="0" Foreground="{DynamicResource FontBrush}" Background="{DynamicResource buttongroundbrush}" Click="Yes_Click" IsDefault="True" Height="30" VerticalAlignment="Bottom"/>
+        </Grid>
+        <Grid Name="DatabaseSettingGrid" Visibility="Collapsed" >
+            <Label Content="数据库信息" HorizontalAlignment="Left" Foreground="{DynamicResource FontBrush}" FontSize="17" Margin="10,5,0,210" Width="116" />
+            <Label Content="数据库名称" Height="30" Width="100" Margin="18,50,0,0" Foreground="{DynamicResource FontBrush}" VerticalAlignment="Top" FontSize="14" HorizontalAlignment="Left"/>
+            <Label Content="主机名或IP地址" Margin="18,85,0,0" Foreground="{DynamicResource FontBrush}" Height="30" VerticalAlignment="Top" FontSize="14" HorizontalAlignment="Left" />
+            <Label Content="用户名" Height="30" Width="100" Margin="18,120,0,0" Foreground="{DynamicResource FontBrush}" VerticalAlignment="Top" FontSize="14" HorizontalAlignment="Left"/>
+            <Label Content="密码" Width="100" Margin="18,155,0,0" Foreground="{DynamicResource FontBrush}" Height="30" VerticalAlignment="Top" FontSize="14" HorizontalAlignment="Left"/>
+            <TextBox x:Name="DataBaseBox" Width="200" Height="30" Margin="126,50,24,0" VerticalContentAlignment="Center" Foreground="Black" FontSize="14" VerticalAlignment="Top"/>
+            <TextBox x:Name="DataSourceBox" Width="200" Height="30" Margin="126,85,24,0" VerticalContentAlignment="Center" Foreground="Black" FontSize="14" VerticalAlignment="Top"/>
+            <TextBox x:Name="UserIDBox" Width="200" Height="30" Margin="126,120,24,0" VerticalContentAlignment="Center" Foreground="Black" FontSize="14" VerticalAlignment="Top"/>
+            <TextBox x:Name="PassWordBox" Width="200" Margin="126,155,24,0" VerticalContentAlignment="Center" Foreground="Black" FontSize="14" Height="30" VerticalAlignment="Top"/>
+            <Button x:Name="ClearButton" Content="清  空" Height="30" Width="75" Margin="138,200,0,20" HorizontalAlignment="Left" Background="{DynamicResource buttongroundbrush}" Click="ClearButton_Click" FontSize="14" Foreground="{DynamicResource FontBrush}"/>
+            <Button x:Name="SaveButton" Content="保  存" Height="30" Width="75" Background="{DynamicResource buttongroundbrush}" Margin="0,0,25,20" HorizontalAlignment="Right" Click="SaveButton_Click" FontSize="14" Foreground="{DynamicResource FontBrush}" VerticalAlignment="Bottom"/>
+        </Grid>
+    </Grid>
+</Window>

@@ -1,0 +1,1 @@
+/home/lc/mygit/huawei/sdk-gcc/build/CMakeFiles/ecs.dir

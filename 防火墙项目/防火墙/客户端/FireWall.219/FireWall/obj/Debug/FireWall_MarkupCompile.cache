@@ -1,0 +1,20 @@
+﻿FireWall
+
+
+winexe
+C#
+.cs
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\obj\Debug\
+FireWall
+none
+false
+DEBUG;TRACE
+C:\Users\Administrator\Desktop\FireWall.219\FireWall\App.xaml
+32917238286
+
+91-847394016
+33413262775
+Window\STDConfigurationApply.xaml;Window\CNCConfigurationApply.xaml;Window\PRTConfigurationApply.xaml;Window\APCConfigurationApply.xaml;Window\WHLConfigurationApply.xaml;Window\NATConfigurationApply.xaml;Window\NATConfigurationDetail.xaml;Window\ResetIPWindow.xaml;Window\WHLConfigurationDetail.xaml;Window\CNCConfigurationDetail.xaml;Page\ConfigFW.xaml;Page\StatisticsControl.xaml;Window\STDConfigurationDetail.xaml;Window\PRTConfigurationDetail.xaml;Window\AddUser.xaml;Window\DataBaseSettingWindow.xaml;Window\FireWallConfigurationApply.xaml;Window\FireWallConfigurationDetail.xaml;Page\LogControl.xaml;Window\LoginWindow.xaml;Page\MainContentControl.xaml;Window\MainWindow.xaml;Page\RealTimeData.xaml;Window\RenameWindow.xaml;Window\SetPasswordWindow.xaml;styles\ProgressbarStyle.xaml;styles\Simple Styles.xaml;styles\DataGridStyle.xaml;Page\SystemSettingControl.xaml;Themes\Generic.xaml;Page\UserManagementControl.xaml;Window\UserMessageBox.xaml;
+
+False
+
