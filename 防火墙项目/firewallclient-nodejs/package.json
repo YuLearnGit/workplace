@@ -14,7 +14,7 @@
   "author": "于仁飞",
   "license": "CC0-1.0",
   "devDependencies": {
-    "electron": "~1.6.2"
+    "electron": "~9.1.0"
   },
   "dependencies": {
     "getmac": "^1.2.1",
